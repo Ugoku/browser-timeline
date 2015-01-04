@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3005" height="2030">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3125" height="2030">
 	<title>Timeline of Web Browsers</title>
 	<desc>
 This timeline displays the releases of major versions of web browsers. 
@@ -526,6 +526,11 @@ V 11.5 (14th June 2014 - by Spinal83)
 V 11.6 (2nd September 2014 - by Spinal83)
 - Added Firefox 31/32, Web 3.13, iCab Mobile 8.2/8.3, Chrome 36/37, Opera 21-24, NetSurf 3.2
 
+V 12.0.1 (4th January 2015 - by Spinal83)
+- Add 2015
+- Fix latest Arachne date
+- Added Classilla 9.3.1-9.3.3, Dillo 3.0.1-3.0.4, iCab 5.5, iCab Mobile 8.5/8.6, IE Mobile 11, K-Meleon 74, Opera 25/26, Opera Mini 9, SeaMonkey 2.27-2.31, Web 3.14/3.15, Avant 15, Safari 8, Firefox 33/34, Chrome 38/39
+
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
 
@@ -533,9 +538,9 @@ The "x" value of a new version marker can be gotten as followed:
 
 (year label "x" value) + ((month number) x 10 ) - 5
 
-For example, March 2014:
-2520 + (3 * 10) - 5
-= 2545
+For example, March 2015:
+2640 + (3 * 10) - 5
+= 2665
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding branches:
 
@@ -634,6 +639,7 @@ Tips for adding branches:
 	<text x="2280">2012</text>
 	<text x="2400">2013</text>
 	<text x="2520">2014</text>
+	<text x="2640">2015</text>
 </g>
 
 <g id="www">
@@ -695,11 +701,8 @@ Tips for adding branches:
 	</a>
 
 	<!--Line Mode Browser and WorldWideWeb based on each other (later)-->
-	<path stroke="#89B" stroke-width="3px" d="M-255,100 -255,483 -255,485" marker-mid="url(#Triangle)"/>
-	<path stroke="#89B" stroke-width="3px" d="M-255,100 -255,7 -255,5" marker-mid="url(#Triangle)"/>
-	<!--Line Mode Browser and MacWWW based on/influenced each other-->
-	<path stroke="#8FF" stroke-width="3px" d="M-10,25 -10,10 -10,0" marker-mid="url(#Triangle)"/>	
-	<path stroke="#8FF" stroke-width="3px" d="M-10,25 -10,43 -10,45" marker-mid="url(#Triangle)"/>	
+	<path stroke="#89B" stroke-width="3px" d="M-255,100 -255,483" marker-end="url(#Triangle)"/>
+	<path stroke="#89B" stroke-width="3px" d="M-255,100 -255,7" marker-end="url(#Triangle)"/>
 
 	<!--Development started in November 1990 http://www.w3.org/History.html-->
 	<line stroke="#89B" x1="-255" x2="1675"/>
@@ -789,6 +792,10 @@ Tips for adding branches:
 </g>
 
 <g id="MacWWW">
+	<!--Line Mode Browser and MacWWW based on/influenced each other-->
+	<path stroke="#8FF" stroke-width="3px" d="M-10,-25 -10,-40" marker-end="url(#Triangle)"/>
+	<path stroke="#8FF" stroke-width="3px" d="M-10,-25 -10,-7" marker-end="url(#Triangle)"/>
+
 	<a xlink:href="http://en.wikipedia.org/wiki/MacWWW">
 		<text x="-45" y="0" dx="20" dy="-15" class="browser">MacWWW</text>
 	</a>
@@ -1550,7 +1557,8 @@ Tips for adding branches:
 	<circle stroke="#D0BF64" cx="1205" r="10"/>
 	<text x="1205" dy="3" class="subversion">2.3</text>
 
-	<!-- V2.4: December 2006 -->
+	<!-- V2.4: 22 December 2006 -->
+	<!-- Source: http://www.ibrowse-dev.net/news.php -->
 	<circle stroke="#D0BF64" cx="1675" r="10"/>
 	<text x="1675" dy="3" class="subversion">2.4</text>	
 </g>
@@ -1603,7 +1611,7 @@ Tips for adding branches:
 	<!-- beta? : May, 1994 -->
 	<!-- Source: http://dspace.mit.edu/bitstream/handle/1721.1/40608/36143348.pdf?sequence=1 -->
 	<circle stroke="#4080FF" cx="165" r="10"/>
-	<text x="165" y="0" dy="5" class="version">&#x03B2;</text>
+	<text x="165" y="0" dy="5" class="version">β</text>
 
 	<!-- V. 1.0 : August 24, 1994 -->
 	<!-- Source: http://dspace.mit.edu/bitstream/handle/1721.1/40608/36143348.pdf?sequence=1 -->
@@ -1627,7 +1635,7 @@ Tips for adding branches:
 	</a>
 
 	<!-- Initial release: December 22, 1996 -->
-	<line stroke="gray" x1="475" x2="2535"/>
+	<line stroke="gray" x1="475" x2="2415"/>
 
 	<!-- V. 1.0b2 December 22, 1996 -->
 	<circle stroke="gray" cx="475" r="10"/>
@@ -1650,10 +1658,10 @@ Tips for adding branches:
 	<use x="2295" stroke="gray" xlink:href="#longver"/>
 	<text x="2295" dy="3" class="subversion">1.95</text>
 
-	<!-- V. 1.97 released March 4, 2014 -->
+	<!-- V. 1.97 released March 4, 2013 -->
 	<!-- Sources: http://www.glennmcc.org/ -->
-	<use x="2535" stroke="gray" xlink:href="#longver"/>
-	<text x="2535" dy="3" class="subversion">1.97</text>
+	<use x="2415" stroke="gray" xlink:href="#longver"/>
+	<text x="2415" dy="3" class="subversion">1.97</text>
 </g>
 
 <g id="oldnetscape">
@@ -1751,7 +1759,7 @@ Tips for adding branches:
 	</a>
 
 	<!-- Firefox-based Netscape -->
-	<path stroke="teal" stroke-width="3px" d="M1485,200 1485,50 1485,25" marker-mid="url(#Triangle)"/>
+	<path stroke="teal" stroke-width="3px" d="M1485,200 1485,40" marker-end="url(#Triangle)"/>
 
 	<!-- V. 8.0: May, 2005 -->
 	<circle stroke="teal" cx="1485" cy="25" r="10"/>
@@ -1779,7 +1787,7 @@ Tips for adding branches:
 		<text x="1975" y="0" dx="20" dy="15" class="browser">Classilla</text>
 	</a>
 
-	<line stroke="red" x1="1975" x2="2405"/>
+	<line stroke="red" x1="1975" x2="2755"/>
 
 	<!-- Versions 1-8 do not exist. -->
 
@@ -1803,7 +1811,20 @@ Tips for adding branches:
 	<circle stroke="red" cx="2285" r="10"/>
 	<text x="2285" dy="3" class="subversion">9.3</text>
 
-	<!-- Latest release as of 2014-02-28: January 20, 2013 -->
+	<!-- V. 9.3.1: October 19, 2012 -->
+	<!-- Source: http://sourceforge.net/projects/classilla/files/ -->
+	<use stroke="red" x="2375" xlink:href="#longver"/>
+	<text x="2375" dy="3" class="subversion">9.3.1</text>
+
+	<!-- V. 9.3.2: January 6, 2013 -->
+	<!-- Source: http://sourceforge.net/projects/classilla/files/ -->
+	<use stroke="red" x="2405" xlink:href="#longver"/>
+	<text x="2405" dy="3" class="subversion">9.3.2</text>
+
+	<!-- V. 9.3.3: October 28, 2014 -->
+	<!-- Source: http://sourceforge.net/projects/classilla/files/ -->
+	<use stroke="red" x="2625" xlink:href="#longver"/>
+	<text x="2625" dy="3" class="subversion">9.3.3</text>
 </g>
 
 <g id="mozilla">
@@ -1968,7 +1989,7 @@ Tips for adding branches:
 		<text x="895" y="0" dx="10" dy="-12" class="browser">Galeon</text>
 	</a>
 
-	<!-- From Mozilla  -->
+	<!-- From Mozilla -->
 	<line stroke="#33485F" x1="895" y1="-150" x2="895"/>
 	<line stroke="#33485F" x1="895" x2="1885"/><!-- Galeon 2.0.7 was released on 2008-09-27 -->
 
@@ -1990,7 +2011,7 @@ Tips for adding branches:
 		<text x="945" y="0" dx="10" dy="-12" class="browser">Beonex Communicator</text>
 	</a>
 
-	<!-- From Mozilla  -->
+	<!-- From Mozilla -->
 	<!-- Started: November 2000 -->	
 	<line stroke="#D08020" x1="945" y1="-100" x2="945"/>
 	<line stroke="#D08020" x1="945" x2="1225"/>
@@ -2016,10 +2037,10 @@ Tips for adding branches:
 		<text x="1185" y="0" dx="5" dy="-13" class="browser">Epiphany</text>
 	</a>
 
-	<!-- From Galeon  -->
+	<!-- From Galeon -->
 	<!-- Started: November 2002 -->	
 	<line stroke="#207C00" x1="1185" y1="-50" x2="1185"/>
-	<line stroke="#207C00" x1="1185" x2="2605"/>
+	<line stroke="#207C00" x1="1185" x2="2755"/>
 
 	<!-- Source for releases: http://ftp.gnome.org/pub/GNOME/sources/epiphany/ -->
 
@@ -2171,6 +2192,16 @@ Tips for adding branches:
 	<!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
 	<use xlink:href="#longver" x="2595" stroke="#207C00"/>
 	<text x="2595" y="0" dy="3" class="subversion">3.13</text>
+
+	<!-- V. 3.14.0: September 24, 2014 -->
+	<!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
+	<use xlink:href="#longver" x="2605" stroke="#207C00"/>
+	<text x="2605" y="0" dy="3" class="subversion">3.14</text>
+
+	<!-- V. 3.15.1: December 7, 2014 -->
+	<!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
+	<use xlink:href="#longver" x="2635" stroke="#207C00"/>
+	<text x="2635" y="0" dy="3" class="subversion">3.15</text>
 </g>
 
 <g id="kmeleon">
@@ -2178,10 +2209,11 @@ Tips for adding branches:
 		<text x="915" y="0" dx="10" dy="-10" class="browser">K-Meleon</text>
 	</a>
 
-	<!-- From Mozilla  -->
+	<!-- From Mozilla -->
 	<line stroke="#7EAE50" x1="915" y1="80" x2="915"/>
-	<!-- No releases since December 12, 2011: end line -->
 	<line stroke="#7EAE50" x1="915" x2="2275"/>
+	<line stroke="#7EAE50" x1="2275" x2="2525" style="stroke-dasharray: 4,6"/>
+	<line stroke="#7EAE50" x1="2525" x2="2605"/>
 
 	<!-- V0.1: August 2000 -->
 	<circle stroke="#7EAE50" cx="915" r="10"/>
@@ -2207,7 +2239,9 @@ Tips for adding branches:
 	<circle stroke="#7EAE50" cx="1875" r="10"/>
 	<text x="1875" y="0" dy="3" class="subversion">1.5</text>
 
-	<!-- no idea what happened in the meantime, but V74 beta was released in January 2014 -->
+	<!-- V74: September 27, 2014 -->
+	<circle stroke="#7EAE50" cx="2605" r="10"/>
+	<text x="2605" y="0" dy="3" class="subversion">74</text>
 </g>
 
 <g id="seamonkey">
@@ -2216,7 +2250,7 @@ Tips for adding branches:
 	</a>
 
 	<line stroke="maroon" x1="1565" y1="-25" x2="1565"/>
-	<line stroke="maroon" x1="1565" x2="2555"/>
+	<line stroke="maroon" x1="1565" x2="2755"/>
 
 	<!-- V. 1.0: 30th January 2006 -->
 	<circle stroke="maroon" cx="1565" r="10"/>
@@ -2343,6 +2377,23 @@ Tips for adding branches:
 	<!-- Source: http://www.seamonkey-project.org/news -->
 	<use xlink:href="#longver" x="2565" stroke="maroon"/>
 	<text x="2565" dy="3" class="subversion">2.26</text>
+
+	<!-- 2.27 and 2.28 do not exist -->
+
+	<!-- V. 2.29: September 7, 2014 -->
+	<!-- Source: http://www.seamonkey-project.org/news -->
+	<use xlink:href="#longver" x="2605" stroke="maroon"/>
+	<text x="2605" dy="3" class="subversion">2.29</text>
+
+	<!-- V. 2.30: October 15, 2014 -->
+	<!-- Source: http://www.seamonkey-project.org/news -->
+	<use xlink:href="#longver" x="2615" stroke="maroon"/>
+	<text x="2615" dy="3" class="subversion">2.30</text>
+
+	<!-- V. 2.31: December 4, 2014 -->
+	<!-- Source: http://www.seamonkey-project.org/news -->
+	<use xlink:href="#longver" x="2635" stroke="maroon"/>
+	<text x="2635" dy="3" class="subversion">2.31</text>
 </g>
 
 <g id="camino">
@@ -2389,7 +2440,7 @@ Tips for adding branches:
 
 	<!-- Started September 2002 -->
 	<line stroke="orange" x1="1165" y1="-50" x2="1165"/>
-	<line stroke="orange" x1="1165" x2="2555"/>
+	<line stroke="orange" x1="1165" x2="2755"/>
 
 	<!-- V. 0.1: September 23, 2002 -->
 	<circle stroke="orange" cx="1165" r="10"/>
@@ -2572,6 +2623,14 @@ Tips for adding branches:
 	<!-- V. 32.0: September 2, 2014 -->
 	<circle stroke="orange" cx="2605" r="10"/>
 	<text x="2605" dy="5" class="version">32</text>
+
+	<!-- V. 33.0: October 14, 2014 -->
+	<circle stroke="orange" cx="2615" r="10"/>
+	<text x="2615" dy="5" class="version">33</text>
+
+	<!-- V. 34.0: December 1, 2014 -->
+	<circle stroke="orange" cx="2635" r="10"/>
+	<text x="2635" dy="5" class="version">34</text>
 </g>
 
 <g id="ie">
@@ -2580,7 +2639,7 @@ Tips for adding branches:
 	</a>
 
 	<line stroke="blue" x1="315" y1="150" x2="315"/>
-	<line stroke="blue" x1="315" x2="2605"/>
+	<line stroke="blue" x1="315" x2="2755"/>
 
 	<!-- V. 1.0: August, 1995 -->
 	<circle stroke="blue" cx="315" r="10"/>
@@ -2693,26 +2752,21 @@ Tips for adding branches:
 
 <g id="mme">
 	<a xlink:href="http://en.wikipedia.org/wiki/Microsoft_Mobile_Explorer">
-		<text x="455" y="-0" dx="10" dy="-12" class="browser">STNC HitchHiker</text>
+		<text x="555" y="-15" class="browser">STNC HitchHiker</text>
 	</a>
 	<!-- Development start at 21 October 1996 -->
 	<!-- Source: http://web.archive.org/web/19990220071258/www.stnc.com/news/relocate.htm -->
-	<line stroke="06f" x1="455" x2="785"/>
+	<line stroke="#06f" x1="455" x2="785"/>
 
 	<!-- V. 1.0: 29 September 1997 -->
 	<!-- Source: http://web.archive.org/web/19990423064209/www.stnc.com/news.htm and http://web.archive.org/web/19990423064209/http://www.stnc.com/news/browser.htm -->
 	<circle stroke="blue" cx="565" r="10"/>
 	<text x="565" dy="5" class="version">1</text>
 
-	<!-- Microsoft Mobile Explorer -->
-	<!-- End of MME was mid 2002 says press release at the May 16, 2001 (last press release with MME by MS) -->
-	<!-- Source: http://www.microsoft.com/presspass/press/2001/may01/05-16HTWPR.mspx -->
-	<line stroke="blue" x2="1140" x1="1140" y1="-10" y2="10"/>
-	
-	<!-- Microsoft Acquires STNC on the July 21, 1999: so now blue color -->
+	<!-- Microsoft Acquires STNC on July 21, 1999 -->
 	<!-- Source: http://www.microsoft.com/presspass/press/1999/Jul99/STNCpr.mspx -->
 	<a xlink:href="http://en.wikipedia.org/wiki/Microsoft_Mobile_Explorer">
-		<text x="785" y="-0" dx="10" dy="-12" class="browser">Microsoft Mobile Explorer</text>
+		<text x="785" y="-15" class="browser">Microsoft Mobile Explorer</text>
 	</a>
 	<line stroke="blue" x1="785" x2="1140"/>
 
@@ -2725,6 +2779,10 @@ Tips for adding branches:
 	<!-- Source: http://www.microsoft.com/presspass/press/2001/feb01/02-19mmepr.mspx -->
 	<circle stroke="blue" cx="975" r="10"/>
 	<text x="975" dy="5" class="version">3</text>
+
+	<!-- End of MME was mid 2002 says press release at the May 16, 2001 (last press release with MME by MS) -->
+	<!-- Source: http://www.microsoft.com/presspass/press/2001/may01/05-16HTWPR.mspx -->
+	<line stroke="blue" x2="1140" x1="1140" y1="-10" y2="10"/>
 </g>
 
 <g id="iemobile">
@@ -2734,7 +2792,7 @@ Tips for adding branches:
 	<!-- Source: Wikipedia article" -->
 
 	<line stroke="blue" x1="465" x2="465" y1="0" y2="50"/>
-	<line stroke="blue" x1="465" x2="735"/>
+	<line stroke="blue" x1="465" x2="735"/><!-- This is the end of Pocket IE -->
 
 	<!-- V. 1.0: November 1996 -->
 	<circle stroke="blue" cx="465" r="10"/>
@@ -2766,16 +2824,16 @@ Tips for adding branches:
 	<a xlink:href="http://en.wikipedia.org/wiki/Internet_Explorer_Mobile">
 		<text x="1525" y="0" dx="10" dy="-12" class="browser">Internet Explorer Mobile</text>
 	</a>
-	<line stroke="blue" x1="1525" y1="50" x2="1525"/>
-	<line stroke="blue" x1="1525" x2="1835"/>
+	<line stroke="blue" x1="1525" y1="50" x2="1525"/><!-- This is the fork from IE -->
+	<line stroke="blue" x1="1525" x2="1835"/><!-- This is IE Mobile v6 -->
 
 	<circle stroke="blue" cx="1835" r="10"/>
 	<text x="1835" dy="5" class="version">6</text>
 
 	<!-- V. 7.0: February, 2010 -->
-	<line stroke="blue" x1="1925" y1="50" x2="1925"/>
-	<line stroke="blue" x1="1925" x2="2605"/>
-	<path stroke="blue" stroke-width="3px" d="M2035,50 2035,25 2035,0" marker-mid="url(#Triangle)"/>
+	<line stroke="blue" x1="1925" y1="50" x2="1925"/><!-- This is the new fork from IE -->
+	<line stroke="blue" x1="1925" x2="2755"/><!-- This is IE Mobile from v7 and up -->
+	<path stroke="blue" stroke-width="3px" d="M2035,50 2035,7" marker-end="url(#Triangle)"/>
 
 	<circle stroke="blue" cx="2055" r="10"/>
 	<text x="2055" dy="5" class="version">7</text>
@@ -2789,6 +2847,10 @@ Tips for adding branches:
 	<!-- V. 10.0: October 29, 2012 -->
 	<circle stroke="blue" cx="2375" r="10"/>
 	<text x="2375" dy="5" class="version">10</text>
+
+	<!-- V. 11.0: April 2, 2014 -->
+	<circle stroke="blue" cx="2555" r="10"/>
+	<text x="2555" dy="5" class="version">11</text>
 </g>
 
 <g id="maxthon">
@@ -2799,7 +2861,7 @@ Tips for adding branches:
 	<!-- Source: http://www.maxthon.com -->
 	<!-- Started as MyIE: 2000 -->
 
-	<line stroke="navy" x1="900" x2="2605"/>
+	<line stroke="navy" x1="900" x2="2755"/>
 
 	<!-- V0.3 beta: June 29, 2002 -->
 	<!-- Source: http://groups.google.com/group/cn.comp.software.shareware/browse_thread/thread/9c1936adc9fb2c81/aaa8ec16da2ee8ab -->
@@ -2914,7 +2976,7 @@ Tips for adding branches:
 	<!--          http://web.archive.org/20040701000000*/http://www.snapfiles.com/apphistory/greenbrowser_history.html -->
 	<!-- Forked from MyIE, source: http://web.archive.org/web/20060208030636/http://www.morequick.com/indexen.htm -->
 
-	<line stroke="green" x1="1235" x2="2605"/>
+	<line stroke="green" x1="1235" x2="2555"/>
 
 	<!-- V1.0.5: April 25, 2003 -->
 	<!-- Source: http://web.archive.org/web/20031003215523/http://www.morequick.com/indexen.htm -->
@@ -3104,7 +3166,7 @@ Tips for adding branches:
 
 	<!-- Started: between February and May 2002 -->
 	<!-- Source: http://replay.waybackmachine.org/20020604181452/http://www.flashpeak.com/sbrowser/sbrowser.htm -->
-	<line stroke="purple" x1="1125" x2="2605"/>
+	<line stroke="purple" x1="1125" x2="2625"/>
 
 	<!-- Versions to add:
 	 1.0,
@@ -3192,7 +3254,7 @@ Tips for adding branches:
 	<circle stroke="purple" cx="2435" r="10"/>
 	<text x="2435" dy="5" class="version">7</text>
 
-	<!-- still being released in February 2014 -->
+	<!-- still being released in November 2014 -->
 </g>
 
 <g id="avant">
@@ -3202,7 +3264,7 @@ Tips for adding branches:
 
 	<!-- http://web.archive.org/web/*/http://www.avantbrowser.com -->
 	<!-- Source: http://www.50download.com/software/IE%20Opera.htm (earliest appearance found)-->
-	<line stroke="darkred" x1="1165" x2="2605"/>
+	<line stroke="darkred" x1="1165" x2="2635"/>
 
 	<!-- V6.5: September 2002 -->
 	<circle stroke="darkred" cx="1165" r="10"/>
@@ -3269,6 +3331,11 @@ Tips for adding branches:
 	<!-- Source: http://www.avantbrowser.com/new.aspx -->
 	<circle stroke="darkred" cx="2525" r="10"/>
 	<text x="2525" dy="5" class="version">14</text>
+
+	<!-- V15: September 29, 2014 -->
+	<!-- Source: http://www.avantbrowser.com/new.aspx -->
+	<circle stroke="darkred" cx="2605" r="10"/>
+	<text x="2605" dy="5" class="version">15</text>
 </g>
 
 <g id="aol">
@@ -3333,7 +3400,7 @@ Tips for adding branches:
 
 	<!-- Sources: http://www.dillo.org/ChangeLog.html, http://www.dillo.org/, http://hg.dillo.org/dillo/file/tip/ChangeLog -->
 	<line stroke="#A5BAFF" x1="805" y1="-50" x2="805"/>
-	<line stroke="#A5BAFF" x1="805" x2="2595"/>
+	<line stroke="#A5BAFF" x1="805" x2="2645"/>
 
 	<!-- V. 0.0.0: December, 1999 -->
 	<circle stroke="#A5BAFF" cx="835" r="10"/>
@@ -3359,7 +3426,7 @@ Tips for adding branches:
 	<use x="1605" stroke="#A5BAFF" xlink:href="#longver"/>
 	<text x="1605" dy="3" class="subversion">0.8.6</text>
 
-	<!-- V 2.0: Oct  24, 2008 -->
+	<!-- V 2.0: Oct 24, 2008 -->
 	<circle stroke="#A5BAFF" cx="1895" r="10"/>
 	<text x="1895" dy="5" class="version">2</text>
 
@@ -3376,7 +3443,21 @@ Tips for adding branches:
 	<circle stroke="#A5BAFF" cx="2245" r="10"/>
 	<text x="2245" dy="5" class="version">3</text>
 
-	<!-- Still in development in August 2014 -->
+	<!-- V 3.0.1: September 23, 2011 -->
+
+	<!-- V 3.0.2: December 5, 2011 -->
+	<use stroke="#A5BAFF" x="2275" xlink:href="#longver"/>
+	<text x="2275" y="0" dy="3" class="subversion">3.0.2</text>
+
+	<!-- V 3.0.3: April 17, 2013 -->
+	<use stroke="#A5BAFF" x="2435" xlink:href="#longver"/>
+	<text x="2435" y="0" dy="3" class="subversion">3.0.3</text>
+
+	<!-- V 3.0.4: April 9, 2014 -->
+	<use stroke="#A5BAFF" x="2555" xlink:href="#longver"/>
+	<text x="2555" y="0" dy="3" class="subversion">3.0.4</text>
+
+	<!-- Still in development in January 2015 -->
 	<!-- http://hg.dillo.org/dillo -->
 </g>
 
@@ -3408,7 +3489,7 @@ Tips for adding branches:
 	</a>
 
 	<!-- Source: WP article "History of the Opera Internet suite" -->
-	<line stroke="#B00" x1="120" x2="2605"/>
+	<line stroke="#B00" x1="120" x2="2755"/>
 
 	<!-- V. 1.0: November, 1994 -->
 	<circle stroke="#B00" cx="225" r="10"/>
@@ -3569,6 +3650,16 @@ Tips for adding branches:
 	<!-- Source: http://blogs.opera.com/desktop/2014/09/browse-faster-opera-24-desktop-with-tab-preview/ -->
 	<circle stroke="#B00" cx="2605" r="10"/>
 	<text x="2605" dy="5" class="version">24</text>
+
+	<!-- V. 25: October 15, 2014 -->
+	<!-- Source: http://blogs.opera.com/desktop/2014/10/visual-bookmarks-opera-for-computers/ -->
+	<circle stroke="#B00" cx="2615" r="10"/>
+	<text x="2615" dy="5" class="version">25</text>
+
+	<!-- V. 26: December 3, 2014 -->
+	<!-- Source: http://blogs.opera.com/desktop/2014/12/share-bookmarks-opera-computers/ -->
+	<circle stroke="#B00" cx="2635" r="10"/>
+	<text x="2635" dy="5" class="version">26</text>
 </g>
 
 <g id="operamini">
@@ -3578,7 +3669,7 @@ Tips for adding branches:
 
 	<!-- Started: January, 2003 -->
 	<line stroke="#B00" x1="1500" y1="-50" x2="1500"/>
-	<line stroke="#B00" x1="1500" x2="2555"/>
+	<line stroke="#B00" x1="1500" x2="2755"/>
 
 	<!-- V. 1.0: August 10, 2005 -->
 	<circle stroke="#B00" cx="1515" r="10"/>
@@ -3635,6 +3726,10 @@ Tips for adding branches:
 	<!-- Source: http://blogs.opera.com/mobile/2014/03/opera-mini-for-java-and-blackberry/ -->
 	<circle stroke="#B00" cx="2545" r="10"/>
 	<text x="2545" dy="5" class="version">8</text>
+
+	<!-- V. 9.0 (iOS): November 6, 2014 -->
+	<circle stroke="#B00" cx="2625" r="10"/>
+	<text x="2625" dy="5" class="version">9</text>
 </g>
 
 <g id="operamobile">
@@ -3746,7 +3841,7 @@ Tips for adding branches:
 		<text x="935" y="0" dx="10" dy="-12" class="browser">Konqueror</text>
 	</a>
 
-	<line stroke="#3E71C6" x1="935" x2="2605"/>
+	<line stroke="#3E71C6" x1="935" x2="2755"/>
 
 	<!-- V. 2.0 (tied to KDE releases): October, 2000 -->
 	<circle stroke="#3E71C6" cx="935" r="10"/>
@@ -3842,7 +3937,7 @@ Tips for adding branches:
 	<!-- Source dates from: http://en.wikipedia.org/wiki/Safari_(web_browser) -->
 	<!-- Started: January, 2003 -->
 	<line stroke="#888" x1="1205" y1="-50" x2="1205"/>
-	<line stroke="#888" x1="1205" x2="2605"/>
+	<line stroke="#888" x1="1205" x2="2755"/>
 
 	<!-- V. 1.0: June 23, 2003 -->
 	<circle stroke="#888" cx="1255" r="10"/>
@@ -3894,6 +3989,10 @@ Tips for adding branches:
 	<!-- V. 7.0: October 24, 2013 -->
 	<circle stroke="#888" cx="2495" r="10"/>
 	<text x="2495" dy="5" class="version">7</text>
+
+	<!-- V. 8.0: October 16, 2014 -->
+	<circle stroke="#888" cx="2615" r="10"/>
+	<text x="2615" dy="5" class="version">8</text>
 </g>
 
 <g id="tkWWW">
@@ -3996,7 +4095,7 @@ Tips for adding branches:
 	<text x="2215" y="0" dy="3" class="subversion">5.11</text>
 
 	<!-- Latest release: July 20, 2012 -->
-	<!-- Test builds available on http://omnistaging.omnigroup.com/omniweb/ as of February 2014 -->
+	<!-- Test builds available on http://omnistaging.omnigroup.com/omniweb/ as of January 2015 -->
 </g>
 
 <g id="shiira">
@@ -4044,7 +4143,7 @@ Tips for adding branches:
 		<text x="1880" y="0" dx="10" dy="-15" class="browser">Chrome</text>
 	</a>
 
-	<line stroke="#7d753d" x1="1885" x2="2605"/>
+	<line stroke="#7d753d" x1="1885" x2="2755"/>
 
 	<!-- V0.2: September 2, 2008 -->
 	<circle stroke="#7d753d" cx="1885" r="10"/>
@@ -4207,6 +4306,14 @@ Tips for adding branches:
 	<!-- V37.0: August 26, 2014 -->
 	<circle stroke="#7d753d" cx="2595" r="10"/>
 	<text x="2595" dy="5" class="version">37</text>
+
+	<!-- V38.0: October 10, 2014 -->
+	<circle stroke="#7d753d" cx="2615" r="10"/>
+	<text x="2615" dy="5" class="version">38</text>
+
+	<!-- V39.0: November 12, 2014 -->
+	<circle stroke="#7d753d" cx="2625" r="10"/>
+	<text x="2625" dy="5" class="version">39</text>
 </g>
 
 <g id="icab">
@@ -4214,7 +4321,7 @@ Tips for adding branches:
 		<text x="735" y="0" dx="10" dy="-12" class="browser">iCab</text>
 	</a>
 
-	<line stroke="#afa302" x1="735" x2="2565"/>
+	<line stroke="#afa302" x1="735" x2="2755"/>
 
 	<!-- V. 1.0: February, 1999 -->
 	<circle stroke="#afa302" cx="735" r="10"/>
@@ -4272,6 +4379,12 @@ Tips for adding branches:
 	<!-- V. 5.2: June 3, 2014 -->
 	<circle stroke="#afa302" cx="2575" r="10"/>
 	<text x="2575" dy="3" class="subversion">5.2</text>
+
+	<!-- V. 5.3 and 5.4 do not exist -->
+
+	<!-- V. 5.5: October 30, 2014 -->
+	<circle stroke="#afa302" cx="2615" r="10"/>
+	<text x="2615" dy="3" class="subversion">5.5</text>
 </g>
 
 <g id="icabmobile">
@@ -4282,7 +4395,7 @@ Tips for adding branches:
 	<!-- Sources: http://www.icab-mobile.de/history.html -->
 
 	<line stroke="#afa302" x1="1955" y1="-50" x2="1955"/>
-	<line stroke="#afa302" x1="1955" x2="2605"/>
+	<line stroke="#afa302" x1="1955" x2="2755"/>
 
 	<!-- V. 1.0: April 21, 2009 -->
 	<circle stroke="#afa302" cx="1955" r="10"/>
@@ -4420,6 +4533,15 @@ Tips for adding branches:
 	<!-- V. 8.3: July 30, 2014 -->
 	<circle stroke="#afa302" cx="2585" r="10"/>
 	<text x="2585" dy="3" class="subversion">8.3</text>
+
+	<!-- V. 8.4 does not exist -->
+	<!-- V. 8.5: October 6, 2014 -->
+	<circle stroke="#afa302" cx="2615" r="10"/>
+	<text x="2615" dy="3" class="subversion">8.5</text>
+
+	<!-- V. 8.6: December 29, 2014 -->
+	<circle stroke="#afa302" cx="2635" r="10"/>
+	<text x="2635" dy="3" class="subversion">8.6</text>
 </g>
 
 <g id="rekonq">
@@ -4507,7 +4629,7 @@ Tips for adding branches:
 		<text x="1125" y="0" dx="10" dy="-12" class="browser">NetSurf</text>
 	</a>
 
-	<line stroke="#7d753d" x1="1125" x2="2605"/>
+	<line stroke="#7d753d" x1="1125" x2="2645"/>
 
 	<!-- V1.0: May 17 2007 -->
 	<circle stroke="#7d753d" cx="1725" r="10"/>
@@ -4569,7 +4691,7 @@ Tips for adding branches:
 
 <g id="mosaictree">
 	<g id="tridenttree">
-		<polygon points="550,265 1150,265 1200,175 2640,175 2640,575 1600,575 1485,640 1375,575 850,575 550,400" fill="blue" opacity="0.12"/>
+		<polygon points="550,265 1150,265 1200,175 2760,175 2760,575 1600,575 1485,640 1375,575 850,575 550,400" fill="blue" opacity="0.12"/>
 		<text x="750" y="280" class="engine">
 			Based on <a xlink:href="http://en.wikipedia.org/wiki/Trident (layout engine)">Trident layout engine</a>
 		</text>
@@ -4587,7 +4709,7 @@ Tips for adding branches:
 	</g>
 
 	<g id="geckotree">
-		<polygon points="605,610 2215,610 2235,525 2640,525 2640,820 2105,820 2105,870 1970,870 1970,965 860,965 605,775" fill="red" opacity="0.12"/>
+		<polygon points="605,610 2215,610 2235,525 2760,525 2760,820 2105,820 2105,870 1970,870 1970,965 860,965 605,775" fill="red" opacity="0.12"/>
 		<text x="820" y="625" dy="30" class="engine">
 			Based on <a xlink:href="http://en.wikipedia.org/wiki/Gecko (layout engine)">Gecko layout engine</a>
 		</text>
@@ -4612,7 +4734,7 @@ Tips for adding branches:
 </g>
 
 <g id="webkittree">
-	<polygon points="910,970 1975,970 1975,875 2110,875 2110,825 2640,825 2640,1470 2420,1470 2420,1370 1850,1370 1750,1175 1250,1175 1250,1125 910,1125" transform="translate(0,-300)" fill="green" opacity="0.12"/>
+	<polygon points="910,970 1975,970 1975,875 2110,875 2110,825 2760,825 2760,1470 2420,1470 2420,1370 1850,1370 1750,1175 1250,1175 1250,1125 910,1125" transform="translate(0,-300)" fill="green" opacity="0.12"/>
 	<text x="1195" y="725" class="engine">
 		Based on <a xlink:href="http://en.wikipedia.org/wiki/KHTML">KHTML</a> / <a xlink:href="http://en.wikipedia.org/wiki/WebKit">WebKit</a> / <a xlink:href="http://en.wikipedia.org/wiki/Blink_(layout_engine)">Blink</a> layout engines
 	</text>
@@ -4631,7 +4753,7 @@ Tips for adding branches:
 </g>
 
 <g id="prestotree">
-	<polygon points="1175,65 1650,65 1650,25 2415,25 2415,125 2640,125 2640,175 1500,175 1450,125 1175,125" transform="translate(0,0)" fill="purple" opacity="0.13"/>
+	<polygon points="1175,65 1650,65 1650,25 2415,25 2415,125 2760,125 2760,175 1500,175 1450,125 1175,125" transform="translate(0,0)" fill="purple" opacity="0.13"/>
 	<text x="1370" y="80" class="engine">
 		Based on <a xlink:href="http://en.wikipedia.org/wiki/Presto (layout engine)">Presto</a> layout engine
 	</text>

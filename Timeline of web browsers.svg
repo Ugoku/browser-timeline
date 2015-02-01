@@ -8,7 +8,9 @@ It includes version numbers for milestones reached by each browser, and displays
 
 First version created on June 12, 2007 by ADeveria for Wikipedia.
 
-Changelog available in source.
+Recent changelog available in source. For older versions, see:
+ - https://upload.wikimedia.org/wikipedia/commons/archive/7/74/20150104154324%21Timeline_of_web_browsers.svg
+ - https://github.com/Ugoku/browser-timeline/blob/master/CHANGELOG
 	</desc>
 <!--
 TODO:
@@ -25,490 +27,6 @@ TODO:
 
 
 Changelog
-
-V. 2.0 (June 29, 2007 - by ADeveria) :
-- Added browsers:
-	- WorldWideWeb
-	- ViolaWWW
-	- Lynx
-	- Cello
-	- w3m
-	- Gzilla
-	- Dillo
-	- Links
-	- ELinks
-	- Avant Browser
-- Added Omniweb V 1.0 marker (must've missed that before)
-- Rearranged timelines to be more or less in order of release
-- Added years to accomodate older browsers, increasing image width
-- Increased height to accomdate additional browsers
-- Added more source URLs
-
-V. 2.5 (July 16, 2007 - by ADeveria):
-- Improved code, more use of CSS 
-- Reverted improved code, wikimedia's SVG parser didn't like it. :(
-- Updated through end of June 2007
-- Added alternate names to WWW, Firefox, Maxthon and Avant Browser
-- Added layout engine areas
-- Added more browsers: Flock, SlipKnot, HotJava, Arachne, AOL Browser, Amaya
-	
-V. 2.6 (July 24, 2007 - by ADeveria):	
-- Updated Maxthon with V. 2.0
-- Updated Avant Browser with V. 11.5
-- Updated K-Meleon with V. 1.1
-- Updated w3m with V. 0.5.2
-- Added more Lynx version points (supporting 3 char versions)
-- Added layout engine area for Trident, removed dashed lines
-
-V. 2.7 (August 10, 2007 - by ADeveria):
-- Updated through end of July 2007
-- Added AMosaic/IBrowser
-- Added AWeb
-- Added NetCaptor
-
-V. 2.71 (September 4, 2007 - by ADeveria):
-- Updated through end of August 2007
-
-V. 2.72 (September 10, 2007 - by ADeveria):
-- Fixed IBrowse 2.4 size (thanks Ice Ardor!)
-
-V. 2.8 (November 1, 2007 - by ADeveria):
-- Updated through end of October 2007
-- Added wikilinks to browser names
-- Added Netscape Navigator 9
-
-V. 2.9 (November 7, 2007 - by Ice Ardor)
-- Added Opera Mini 4 release
-
-V. 3.0 (December 3, 2007 - by ADeveria)
-- Updated through end of November 2007
-- Fixed Safari name/link mixup
-- Added Safari 3
-- Added Flock 1.0
-- Added Amaya 9.5
-- Changed color for Amaya
-
-V 3.1 (December 28, 2007 - by Ice Ardor)
-- Updated through end of December 2007
-- Ended Netscape branch, as per http://blog.netscape.com/2007/12/28/end-of-support-for-netscape-web-browsers/
-
-V. 3.2 (January 3, 2008 - by ADeveria)
-- Added iCab 4.0, changed Webkit area  
-
-V. 3.3 (January 28, 2008 - by ADeveria)
-- Updated through end of January 2008
-- Added and expanded Links 2.0
-- Changed color of ELinks
-- Increased image width to include 2008
-
-V. 3.4 (March 31, 2008 - by ADeveria)
-- Updated through end of March 2008
-- Fixed and added some Lynx dates (thanks Aluvus!)
-- Added Konqueror 4.0
-- Added arrows to some lines for clarification 
-
-V. 3.5 (June 18, 2008 - by ADeveria)
-- Added Opera 9.5 
-- Added older Opera sub versions
-- Added Firefox 3
-
-V. 3.6 (September 5, 2008 - by ADeveria)
-- Added Google Chrome 
-- Updated through September 2
-- Added K-Meleon 1.5
-- Moved KHTML/Webkit tree for Epiphany switch
-- Fixed Galeon link
-
-V. 3.7 (December 1, 2008 - by Trent)
-- Updated through end of december 2008
-- Added Dillo 0.8.6
-- Added Dillo 2.0
-- Added NetSurf 1.0
-- Added NetSurf 1.1
-- Added NetSurf 1.2
-- Added Opera Mini 4.1
-- Added Opera Mini 4.2
-- Added Opera 9.6
-
-V. 3.8 (December 7, 2008 - by tlsa)
-- Fixed NetSurf start date
-
-V. 3.9 (December 7, 2008 - by tlsa)
-- Tidy up: move NetSurf label to start of line
-
-V. 4.0 (December 11, 2008 - by Trent)
-- Added Opera 1
-
-V. 4.1 (January 6, 2009 - by Trent)
-- Moving starting point of Opera (Source: http://www.opera.com/company/history/)
-
-V. 4.2 (March 12, 2009 - by ADeveria)
-- Added Chrome 1.0
-- Added Flock 2.0
-
-V. 4.3 (12th April 2009 - by CaesarsGrunt)
-- Added IE 8.0
-- Tidied up coloured backgrounds and made them more visible
-
-V. 4.4 (21st May 2009 - by ADeveria)
-- Added Chrome 2.0
-- Added Flock 2.5
-
-V. 4.5 (4th August 2009 - by ADeveria)
-- Updated through end of July 2009
-- Added white background
-- Added Amaya 11.0
-- Added Firefox 3.5
-- Added Maxthon 2.5
-- Added Safari 4
-- Added Lynx 2.8.7
-- Ended Galeon, AOL Explorer and AMosaic (no updates since 2006)
-- Moved Chrome label
-
-V. 4.6 (15th September 2009 - by Ice Ardor)
-- Updated through mid September 2009
-- Added Opera 10.0
-- Added Chrome 3.0
-- Added SeaMonkey 1.1 and skeleton for SeaMonkey 2.0
-
-V. 4.6 (3rd November 2009 - by ADeveria)
-- Updated through October 2009
-- Added Epiphany 2.28
-- Updated layout engine backgrounds
-- Enabled SeaMonkey 2.0
-
-V. 4.7 (29th January 2010 - by ADeveria)
-- Updated through January 2010
-- Added Camino 2.0
-- Added Firefox 3.6
-- Added Chrome 4.0
-
-V. 4.8 (28th March 2010 - by Spinal83)
-- Added Opera 10.10 and 10.50
-- Added Opera Mini 5.0
-
-V. 4.9 (31st May 2010 - by ADeveria)
-- Added Chrome 5.0
-- Updated through May 2010
-- Made some older browsers end that haven't been updated in years
-
-V. 5.0 (1st July 2010 - by Mabdul)
-- Added UdiWWW
-- Added Arena
-- correct Cello with "new" information of wp article
-
-V. 5.1 (12th August 2010 - by tlsa)
-- Added NetSurf 2.5
-- Removed NetSurf 2.1 (so close to 2.0 that it overlapped)
-
-V. 5.2 (13th August 2010 - by Spinal83)
-- Added Opera 10.6
-
-V. 5.3 (9th September 2010 - by Spinal83)
-- Added Chrome 6
-- Made lines go to September '10
-
-V. 5.4 (27th October 2010 - by Thespam)
-- Added Chrome 7
-- Made lines go to October '10
-
-V. 5.5 (20th Nocember 2010 - by mabdul)
-- Added tkWWW
-- clean source code of legend
-- Added Dillo 2.1 and 2.2
-
-V. 5.6 (16th December 2010 - by mabdul)
-- Added Opera 11.0
-
-V. 5.7 (8th January 2011 - by Thespam)
-- Added Chrome 8
-- Made lines go to January '11
-- Increased image width to include 2011
-
-V. 5.8 (17th January 2011 - by mabdul)
-- w3m is still alive! Add version 0.5.3
-- added Netscape 4.6 and 4.7
-- added Source for Netscape dead
-
-V. 5.9 (22th January 2011 - by mabdul)
-- Nexus was developed since the middle of 1990 (see articles; presented at Christmas 1990): expand the timeline for 1990
-- more versions of Nexus added
-
-V. 6.0 (24th January 2011 - by mabdul)
-- added Line Mode Browser (LMB)
-	moved Lynx to the bottom
-- LMB based on Nexus and influences Nexus
-- add the first MacWWW version (need to search more dates)
-- update and add more for the todo-list
-- correct Mosaic Wikipedia link and add NCSA
-- add two more versions of Gzilla (Armadillo)
-
-V. 6.1 (3th February 2011 - by Spinal83)
-- Changed Gecko/Webkit trees a bit to better suit Epiphany
-- Added Maxthon 3
-
-V. 6.2 (4th February 2011 - by Spinal83)
-- Added Chrome 9
-
-V. 6.3 (4th March 2011 - by Spinal83)
-- Lengthened line of Galeon
-- Moved Flock starting date, added Flock 2.6
-- Moved positions of various Gecko browsers
-- Added Shiira 2.3
-- Made lines go to March '11
-V. 6.3.1 (4th March 2011 - by Spinal83)
-- Added more Konqueror versions
-- Added Safari 5
-- Added Amaya 11.3
-- Added Netsurf 2.6
-- Added Flock 3.5
-- Added more Avant versions (2010 = 11.8)
-
-V. 6.4 (7th March 2011 - by Spinal83)
-- Small source cleanup
-- Added MyIE 1.6
-- Added Beonex
-- Added more Mozilla versions
-- Added some info on IE for Unix
-V. 6.4.1 (7th March 2011 - by Spinal83)
-- Added Pocket IE and IE Mobile (that browser is a mess...)
-
-V. 6.5 (9th March 2011 - by Spinal83)
-- Added Chrome 10
-- Added information on adding branches (see below)
-
-V. 6.6 (14th March 2011 - by Spinal83)
-- Added IE9 and rekonq
-- Updated IE for Unix
-
-V. 6.7 (15th March 2011 - by mabdul)
-- moved some browser for not overlapping each other (gecko based)
-- reordered trident based for same reasons and maxthon moving down
-
-V. 6.8 (16th March 2011 - by Spinal83)
-- Updated Trident and Gecko "boxes" per mabdul's request
-- Added some early MyIE2 versions
-V. 6.8.1 (21th March 2011 - by Spinal83)
-- Ended Galeon
-- Moved Gecko-Webkit transition for Epiphany
-- Small layout fixes
-
-V. 6.9 (22th March 2011 - by Spinal83)
-- Firefox 4 released
-- Made lines go to April 2011
-V. 6.9.1 (22th March 2011 - by Spinal83)
-- Opera Mini 6 released too
-
-V. 6.9.2 (31th March 2011 - by Thespam)
-- "Fixed" (deleted) Opera Mini 6
-
-V. 7.0 (3rd April 2011 - by mabdul)
-- Added rekonq 0.7
-- bring back Opera Mini 6
-- more versions of AMosaic
-- add Ibrowse 2
-
-V. 7.1 (4th April 2011 - by Spinal83)
-- "Cosmetic fixes"
-- Made lines go to May 2011
-- Added Opera 3.6 and 8.5
-- Added Opera Mobile
-- Added Presto layout engine
-
-V. 7.2 (4th April 2011 - by mabdul)
-- IBrowser 1.1, 1.11, 1.12, 1.2, 1.22
-
-V. 7.3 (7th April 2011 - by Spinal83)
-- Added Contiki
-- Added IBM WebExplorer
-- Update some libwww versions
-
-V. 7.4 (8th April 2011 - by Spinal83)
-- Connect IBM WebExplorer with Mosaic, recolour
-- Recolour tkWWW
-- Added Google Chrome 4.1
-
-V. 7.5.0 (10th April 2011 - by Spinal83)
-- Added SlimBrowsers and GreenBrowser (in wrong position and without releases)
-V. 7.5.1 (10th April 2011 - by Spinal83)
-- Added SlimBrowsers and GreenBrowser releases (but still in wrong position)
-
-V. 7.6 (11th April 2011 - by Spinal83)
-- Add more Netscape versions
-- Fix MacWWW dates
-- Fix starting dates for Lynx and ViolaWWW
-- Add Epiphany 3 and MidasWWW
-- Move some browsers around a bit
-V. 7.6.1 (11th April 2011 - by Spinal83)
-- Put Flock v3+ in seperate tree
-- Put Netscape v6+ in seperate tree
-- Put Trident and Gecko in a new tree
-
-V. 7.7 (12th April 2011 - by Spinal83)
-- Slightly move Trident browsers around
-- Moved SlimBrowsers and GreenBrowser to Trident area
-- Expand Trident area and move Gecko/Webkit
-- Added Opera 11.1
-- Added SlipKnot 1.5 and ended it there
-
-V. 7.8 (13th April 2011 - by Spinal83)
-- Unsplit Flock, end line
-- Added more Epiphany versions
-- Added RockMelt to the best of my ability
-
-V. 7.9 (14th April 2011 - by mabdul)
--add STNC HitchHiker since the became Microsoft Mobile Explorer and filling the gap between the IEmobiles
--updated some IEMobile versions
-
-V. 8.0 (23th April 2011 - by Spinal83)
-- Added GreenBrowser 5.9
-- Rename Avant 2010 to 11.8
-- Added more iCab versions
-- Added NetSurf 2.7
-- Made lines go to May 2011
-
-V. 8.1 (28th April 2011 - by Spinal83)
-- Added Chrome 11
-- Added more GreenBrowser versions
-
-V. 8.2 (15th May 2011 - by Spinal83)
-- Added Spyglass Mosaic and base IE on that
-V. 8.2.1 (16th May 2011 - by Spinal83)
-- Added two more Spyglass Mosaic versions
-- Added NCSA Mosaic 2.1
-
-V. 8.3 (31th May 2011 - by Spinal83)
-- Added Avant 11.9
-
-V. 8.3.1 (7th June 2011 - by TheSpam)
-- Added Chrome 12
-
-V. 8.4 (22th June 2011 - by Spinal83)
-- Added Maxthon 3.1
-- Added SeaMonkey 2.1
-- Added Firefox 5
-- End ELinks and Arachne
-- Made lines go to July 2011
-
-V. 8.5 (29th June 2011 - by Spinal83)
-- Added Opera 11.5
-
-V. 8.6 (6th July 2011 - by Spinal83)
-- Added Opera Mobile 11.1/Mini 6.1
-
-V. 8.7 (4th August 2011 - by Spinal83)
-- Added: Chrome 13, Konqueror 4.7, Safari 5.1, OmniWeb 5.11
-
-V. 8.8 (1st September 2011 - by Spinal83)
-- Adde SlimBrowser 6, SeaMonkey 2.2/2.3, Firefox 6
-- Made lines go to October 2011
-
-V. 8.9 (22st September 2011 - by Spinal83)
-- Added Pocket IE 1.1, Chrome 14
-
-V. 9.0 (28st September 2011 - by Spinal83)
-- Added IE Mobile 9, Firefox 7
-- Fixed IE Mobile 7 date
-
-V. 9.1 (13st October 2011 - by Spinal83)
-- Added SeaMonkey 2.4, Epiphany 2.3, 3.1, 3.2, Links 2.3, Dillo 3, Netsurf 2.8, Contiki 2.5
-- Expanded image to include 2012, made lines go to December 2011
-
-V. 9.2 (18st October 2011 - by Spinal83)
-- Added Classilla
-- Added Flock 1.1/1.2, rekonq 0.8
-- Added more GreenBrowser versions
-- Added more Amaya versions
-
-V. 9.3 (25st October 2011 - by Spinal83)
-- Added Phoenix/Firebird (early Firefox) versions
-- Added Maxthon 3.2
-- Added iCab Mobile
-- "soft end" K-Meleon and iCab (no releases for over a year)
-
-V. 9.4 (9th November 2011 - by Spinal83)
-- Added Avant 12, Chrome 15, Lynx 2.8.3, Firefox 8
-
-V. 9.5 (6th December 2011 - by Spinal83)
-- Added SeaMonkey 2.5, iCab Mobile 5.1, Opera 11.6, Camino 2.1, Links 2.4
-- Made lines go to March 2012
-
-V. 9.6 (22th December 2011 - by Spinal83)
-- Avant 12 has both Trident/Gecko, so moved things around to include this
-- Added Maxthon 3.3, SeaMonkey 2.6, Firefox 9, Chrome 16, iCab Mobile 5.3
-
-V. 9.7 (24th January 2012 - by Spinal83)
-- Added Links 2.5, GreenBrowser 6.1, Classilla 9.3
-- Added more Gzilla and RockMelt versions
-- "soft end" w3m (no releases for over a year)
-
-V. 9.8 (9th February 2012 - by Spinal83)
-- Made lines go to June 2012
-- Added SeaMonkey 2.7, Firefox 10, Chrome 17, Konqueror 4.8
-
-V. 9.9 (26th March 2012 - by Spinal83)
-- Added Opera Mobile 12/Mini 7, SeaMonkey 2.8, Firefox 11, iCab Mobile 5.5, rekonq 0.9
-
-V 10.0 (29th April 2012 - by Spinal83)
-- Added Greenbrowser 6.2, SeaMonkey 2.9, Firefox 12, Epiphany 3.3 and 3.4, Chrome 18, Links 2.6, Netsurf 2.9
-
-V 10.1 (18th June 2012 - by Spinal83)
-- Made lines go to December 2012
-- Added Chrome 19, iCab Mobile 5.8, SeaMonkey 2.10, Firefox 13, iCab 5, iCab Mobile 5.9, Opera 12
-- Renamed Epiphany to Web
-
-V 10.2 (22th August 2012 - by Spinal83)
-- Added Greenbrowser 6.3, Maxthon 3.4, SeaMonkey 2.11, Firefox 14, Chrome 20 and 21, Konqueror 4.9, Safari 6, iCab Mobile 6, rekonq 1.0, Links 2.7, Contiki 2.6
-
-V 10.3 (23th September 2012 - by Spinal83)
-- Added SeaMonkey 2.12, Firefox 15
-
-V 10.4 (31st October 2012 - by Spinal83)
-- Added Internet Explorer (Mobile) 10, SeaMonkey 2.13, Firefox 16, Web 3.5/3.6/3.7, Chrome 22, iCab Mobile 6.5, rekonq 1.1/1.2/1.3
-
-V 10.5 (8th December 2012 - by Spinal83)
-- Added Maxthon 3.5, SeaMonkey 2.14, Firefox 17, Chrome 23, iCab Mobile 6.6, Opera 12.10, Opera Mobile 12.1, Opera Mini 6.6
-- Expanded image to the end of 2013
-
-V 10.6 (26th January 2013 - by Spinal83)
-- Added Maxthon 4, SeaMonkey 2.15, Firefox 18, Chrome 24, iCab Mobile 6.8, rekonq 2
-- Soft end Camino (no releases since March 2012)
-
-V 10.7 (13th March 2013 - by Spinal83)
-- Added Avant 2013, SeaMonkey 2.16, Firefox 19, Chrome 25, Konqueror 4.10, rekonq 2.1 and 2.2
-- Made lines go to June 2013
-
-V 10.8 (9th May 2013 - by Spinal83)
-- Added Omniweb 4.1, 4.2 and 4.5
-- Added Safari 1.1, 1.2, 3.1 and 3.2
-- Added SeaMonkey 2.17, Firefox 20, Web 3.8, Chrome 26
-- Added SlimBrowser 7
-- Added rekonq 2.3
-- Added NetSurf 3
-- Alter KTML/Webkit to include Blink and change area around Omniweb
-- Move some browsers around a bit to anticipate Blink switch
-- Remove following "forks": Safari to Omniweb, Safari to iCab, Chrome to Flock
-
-V 10.9 (15th June 2013 - by Spinal83)
-- Made lines go to December 2013
-- Added GreenBrowser 6.4, Firefox 21, iCab Mobile 7, Chrome 27, Opera Mobile 14
-- Expand Blink branch to include Opera Mobile
-- Soft end Links (no releases in one year)
-
-V 11.0 (8th August 2013 - by Spinal83)
-- Added Maxthon 4.1, SeaMonkey 2.19, Firefox 22, iCab Mobile 7.1, Opera Mobile 15, Opera 14
-- Expand Blink branch to include Opera
-- Soft end Contiki (no releases for more than a year)
-
-V 11.1 (29th September 2013 - by Spinal83)
-- Added GreenBrowser 6.5, SeaMonkey 2.20 and 2.21, Firefox 23 and 24, Web 3.9 and 3.10, Konqueror 4.11, Chrome 29 and 30, Opera Mobile 16, Opera 16
-- Hard end RockMelt
-- Soft end OmniWeb (no releases for over a year)
-
-V 11.2 (unreleased 25th November 2013 - by Spinal83)
-- Expand image to 2014
-- Revive iCab
-- Added Internet Explorer 11, SeaMonkey 2.22, Firefox 25, Safari 7, iCab 5.1, rekonq 2.4, Chrome 31, Opera 17
 
 V 11.3 (28th February 2014 - by Spinal83)
 - Added GreenBrowser 6.6, Maxthon 4.2 and 4.3, Avant 14, SeaMonkey 2.23 and 2.24, Firefox 26 and 27, Konqueror 4.12, iCab Mobile 7.2, Chrome 32 and 33, Opera 18 and 19, Opera Mobile 18, Lynx 2.8.8, Links 2.8, Contiki 2.7
@@ -530,6 +48,10 @@ V 12.0.1 (4th January 2015 - by Spinal83)
 - Add 2015
 - Fix latest Arachne date
 - Added Classilla 9.3.1-9.3.3, Dillo 3.0.1-3.0.4, iCab 5.5, iCab Mobile 8.5/8.6, IE Mobile 11, K-Meleon 74, Opera 25/26, Opera Mini 9, SeaMonkey 2.27-2.31, Web 3.14/3.15, Avant 15, Safari 8, Firefox 33/34, Chrome 38/39
+
+V 12.2 (1st February 2015 - by Spinal83)
+- Moved changelog for 2007-2013 to a separate file. This saves 15KB
+- Added Vivaldi, Greenbrowser 6.8, SeaMonkey 2.32, Firefox 35, Chrome 40, Opera Mobile 21-27, Opera 27, Opera Mini 9.1
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -927,7 +449,7 @@ Tips for adding branches:
 	</a>
 
 	<!-- Beta available in July 1992 -->
-	<line stroke="gold" x1="-55" x2="2545"/>
+	<line stroke="gold" x1="-55" x2="2645"/>
 
 	<!-- V. 2.0 Final: March, 1993 -->
 	<!-- Source: http://www.livinginternet.com/w/wi_browse.htm -->
@@ -2213,7 +1735,7 @@ Tips for adding branches:
 	<line stroke="#7EAE50" x1="915" y1="80" x2="915"/>
 	<line stroke="#7EAE50" x1="915" x2="2275"/>
 	<line stroke="#7EAE50" x1="2275" x2="2525" style="stroke-dasharray: 4,6"/>
-	<line stroke="#7EAE50" x1="2525" x2="2605"/>
+	<line stroke="#7EAE50" x1="2525" x2="2645"/>
 
 	<!-- V0.1: August 2000 -->
 	<circle stroke="#7EAE50" cx="915" r="10"/>
@@ -2394,6 +1916,11 @@ Tips for adding branches:
 	<!-- Source: http://www.seamonkey-project.org/news -->
 	<use xlink:href="#longver" x="2635" stroke="maroon"/>
 	<text x="2635" y="3" class="subversion">2.31</text>
+
+	<!-- V. 2.32: January 13, 2014 -->
+	<!-- Source: http://www.seamonkey-project.org/news -->
+	<use xlink:href="#longver" x="2645" stroke="maroon"/>
+	<text x="2645" y="3" class="subversion">2.32</text>
 </g>
 
 <g id="camino">
@@ -2631,6 +2158,10 @@ Tips for adding branches:
 	<!-- V. 34.0: December 1, 2014 -->
 	<circle stroke="orange" cx="2635" r="10"/>
 	<text x="2635" y="5" class="version">34</text>
+
+	<!-- V. 35.0: January 26, 2015 -->
+	<circle stroke="orange" cx="2645" r="10"/>
+	<text x="2645" y="5" class="version">35</text>
 </g>
 
 <g id="ie">
@@ -2976,7 +2507,7 @@ Tips for adding branches:
 	<!--          http://web.archive.org/20040701000000*/http://www.snapfiles.com/apphistory/greenbrowser_history.html -->
 	<!-- Forked from MyIE, source: http://web.archive.org/web/20060208030636/http://www.morequick.com/indexen.htm -->
 
-	<line stroke="green" x1="1235" x2="2555"/>
+	<line stroke="green" x1="1235" x2="2755"/>
 
 	<!-- V1.0.5: April 25, 2003 -->
 	<!-- Source: http://web.archive.org/web/20031003215523/http://www.morequick.com/indexen.htm -->
@@ -3156,6 +2687,10 @@ Tips for adding branches:
 	<!-- V6.7: April 17, 2014 -->
 	<circle stroke="green" cx="2555" r="10"/>
 	<text x="2555" y="3" class="subversion">6.7</text>
+
+	<!-- V6.8: January 5, 2015 -->
+	<circle stroke="green" cx="2645" r="10"/>
+	<text x="2645" y="3" class="subversion">6.8</text>
 </g>
 
 <g id="slimbrowser">
@@ -3166,7 +2701,7 @@ Tips for adding branches:
 
 	<!-- Started: between February and May 2002 -->
 	<!-- Source: http://replay.waybackmachine.org/20020604181452/http://www.flashpeak.com/sbrowser/sbrowser.htm -->
-	<line stroke="purple" x1="1125" x2="2625"/>
+	<line stroke="purple" x1="1125" x2="2755"/>
 
 	<!-- Versions to add:
 	 1.0,
@@ -3264,7 +2799,7 @@ Tips for adding branches:
 
 	<!-- http://web.archive.org/web/*/http://www.avantbrowser.com -->
 	<!-- Source: http://www.50download.com/software/IE%20Opera.htm (earliest appearance found)-->
-	<line stroke="darkred" x1="1165" x2="2635"/>
+	<line stroke="darkred" x1="1165" x2="2755"/>
 
 	<!-- V6.5: September 2002 -->
 	<circle stroke="darkred" cx="1165" r="10"/>
@@ -3660,6 +3195,11 @@ Tips for adding branches:
 	<!-- Source: http://blogs.opera.com/desktop/2014/12/share-bookmarks-opera-computers/ -->
 	<circle stroke="#B00" cx="2635" r="10"/>
 	<text x="2635" y="5" class="version">26</text>
+
+	<!-- V. 27: January 27, 2015 -->
+	<!-- Source: http://blogs.opera.com/desktop/2015/01/opera-27-computers-bookmarks-tabs-navigation-bar/ -->
+	<circle stroke="#B00" cx="2645" r="10"/>
+	<text x="2645" y="5" class="version">27</text>
 </g>
 
 <g id="operamini">
@@ -3730,6 +3270,10 @@ Tips for adding branches:
 	<!-- V. 9.0 (iOS): November 6, 2014 -->
 	<circle stroke="#B00" cx="2625" r="10"/>
 	<text x="2625" y="5" class="version">9</text>
+
+	<!-- V. 9.1 (iOS): January 22, 2015 -->
+	<circle stroke="#B00" cx="2645" r="10"/>
+	<text x="2645" y="3" class="subversion">9.1</text>
 </g>
 
 <g id="operamobile">
@@ -3739,7 +3283,7 @@ Tips for adding branches:
 
 	<!-- Started: before October 1999 -->
 	<line stroke="#B00" x1="810" y1="50" x2="810"/>
-	<line stroke="#B00" x1="810" x2="2555"/>
+	<line stroke="#B00" x1="810" x2="2755"/>
 
 	<!-- V. 3.6: February 28, 2000 -->
 	<circle stroke="#B00" cx="855" r="10"/>
@@ -3833,7 +3377,40 @@ Tips for adding branches:
 	<circle stroke="#B00" cx="2545" r="10"/>
 	<text x="2545" y="5" class="version">20</text>
 
-	<!-- V. 21 and 22: unknown, but before September 2, 2014 -->
+	<!-- V. 21.0: May 6, 2014 -->
+	<!-- Release date not 100% sure -->
+	<circle stroke="#B00" cx="2565" r="10"/>
+	<text x="2565" y="5" class="version">21</text>
+
+	<!-- V. 22.0: June 3, 2014 -->
+	<!-- Release date not 100% sure -->
+	<circle stroke="#B00" cx="2575" r="10"/>
+	<text x="2575" y="5" class="version">22</text>
+
+	<!-- V. 23.0: July 22, 2014 -->
+	<!-- Release date not 100% sure -->
+	<circle stroke="#B00" cx="2585" r="10"/>
+	<text x="2585" y="5" class="version">23</text>
+
+	<!-- V. 24.0: September 2, 2014 -->
+	<!-- Release date not 100% sure -->
+	<circle stroke="#B00" cx="2605" r="10"/>
+	<text x="2605" y="5" class="version">24</text>
+
+	<!-- V. 25.0: October 15, 2014 -->
+	<!-- Release date not 100% sure -->
+	<circle stroke="#B00" cx="2615" r="10"/>
+	<text x="2615" y="5" class="version">25</text>
+
+	<!-- V. 26.0: December 3, 2014 -->
+	<!-- Release date not 100% sure -->
+	<circle stroke="#B00" cx="2635" r="10"/>
+	<text x="2635" y="5" class="version">26</text>
+
+	<!-- V. 27.0: January 27, 2015 -->
+	<!-- Release date not 100% sure -->
+	<circle stroke="#B00" cx="2645" r="10"/>
+	<text x="2645" y="5" class="version">27</text>
 </g>
 
 <g id="konqueror">
@@ -4098,6 +3675,19 @@ Tips for adding branches:
 	<!-- Test builds available on http://omnistaging.omnigroup.com/omniweb/ as of January 2015 -->
 </g>
 
+<g id="vivaldi">
+	<a xlink:href="http://en.wikipedia.org/wiki/Vivaldi_(web_browser)">
+		<text x="2645" y="-12" class="browser">Vivaldi</text>
+	</a>
+
+	<!-- One statement said they worked on this browser for 1.5 years, but I couldn't find any other source to back this up -->
+	<!--<line stroke="#ec4947" x1="2525" x2="2645"/>-->
+
+	<!-- V. 1.0: January 27, 2015 -->
+	<circle stroke="#ec4947" cx="2645" r="10"/>
+	<text x="2645" y="5" class="version">1</text>
+</g>
+
 <g id="shiira">
 	<a xlink:href="http://en.wikipedia.org/wiki/Shiira">
 		<text x="1365" y="-12" class="browser">Shiira</text>
@@ -4314,6 +3904,10 @@ Tips for adding branches:
 	<!-- V39.0: November 12, 2014 -->
 	<circle stroke="#7d753d" cx="2625" r="10"/>
 	<text x="2625" y="5" class="version">39</text>
+
+	<!-- V40.0: January 20, 2015 (iOS) -->
+	<circle stroke="#7d753d" cx="2645" r="10"/>
+	<text x="2645" y="5" class="version">40</text>
 </g>
 
 <g id="icab">
@@ -4740,6 +4334,7 @@ Tips for adding branches:
 	</text>
 
 	<use y="550" xlink:href="#flock"/>
+	<use y="600" xlink:href="#vivaldi"/>
 	<use y="800" xlink:href="#rockmelt"/>
 	<use y="650" xlink:href="#epiphany"/>
 	<use y="1050" xlink:href="#chrome"/>

@@ -69,6 +69,9 @@ V 13.5 (13th January 2016 - by CortoFrancese)
 - Added 2016 column
 - Added Avant Browser 16, Chrome 47, Firefox 43, Lunascape 6.12, Opera 34, Opera Mini 11/12/13, Opera Mobile 34, Vivaldi Beta1
 
+V 13.7 (2nd June 2016 - by Spinal83)
+- Added GreenBrowser 6.9, Maxthon 4.9, Lunascape 6.13, SeaMonkey 2.40, Firefox 44-46, Web 3.19-3.21, QupZilla 2, Safari 9.1, iCab Mobile 9.1-9.4, Chrome 48-51, dooble 1.56, Vivaldi, Opera 35-37, NetSurf 3.4-3.5
+
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
 
@@ -474,7 +477,8 @@ Tips for adding branches:
 
 	<!-- Beta available in July 1992 -->
 	<line stroke="gold" x1="-55" y1="-90" x2="-55"/>
-	<line stroke="gold" x1="-55" x2="2685"/>
+	<!-- Still in development as of April 2016 -->
+	<line stroke="gold" x1="-55" x2="2795"/>
 
 	<!-- V. 2.0 Final: March, 1993 -->
 	<!-- Source: http://www.livinginternet.com/w/wi_browse.htm -->
@@ -1432,7 +1436,7 @@ Tips for adding branches:
 	<use stroke="deepskyblue" x="1185" xlink:href="#longver"/>
 	<text x="1185" y="3" class="subversion">1.0.1</text>
 
-	<!-- Based on Mozilla's open source Febrary 2005 -->
+	<!-- Based on Mozilla's open source February 2005 -->
 	<path stroke="deepskyblue" stroke-width="3px" d="M1455,90 1455,5" marker-end="url(#Triangle)"/>
 
 	<!-- Ended February 2007 -->
@@ -1829,6 +1833,21 @@ Tips for adding branches:
 	<!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
 	<use xlink:href="#longver" x="2725" stroke="#207C00"/>
 	<text x="2725" y="3" class="subversion">3.18</text>
+
+	<!-- V. 3.19.1: December 9, 2015 -->
+	<!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
+	<use xlink:href="#longver" x="2755" stroke="#207C00"/>
+	<text x="2755" y="3" class="subversion">3.19</text>
+
+	<!-- V. 3.20.0: March 21, 2016 -->
+	<!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
+	<use xlink:href="#longver" x="2785" stroke="#207C00"/>
+	<text x="2785" y="3" class="subversion">3.20</text>
+
+	<!-- V. 3.21.0: April 25, 2016 -->
+	<!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
+	<use xlink:href="#longver" x="2795" stroke="#207C00"/>
+	<text x="2795" y="3" class="subversion">3.21</text>
 </g>
 
 <g id="kmeleon">
@@ -2053,6 +2072,11 @@ Tips for adding branches:
 	<!-- Source: http://www.seamonkey-project.org/releases/2.39 -->
 	<use xlink:href="#longver" x="2745" stroke="maroon"/>
 	<text x="2745" y="3" class="subversion">2.39</text>
+
+	<!-- V. 2.40: March 10, 2016 -->
+	<!-- Source: http://www.seamonkey-project.org/releases/2.40 -->
+	<use xlink:href="#longver" x="2785" stroke="maroon"/>
+	<text x="2785" y="3" class="subversion">2.40</text>
 </g>
 
 <g id="camino">
@@ -2362,6 +2386,18 @@ Tips for adding branches:
 	<!-- V. 43.0: December 15, 2015 -->
 	<circle stroke="orange" cx="2755" r="10"/>
 	<text x="2755" y="5" class="version">43</text>
+
+	<!-- V. 44.0: January 26, 2016 -->
+	<circle stroke="orange" cx="2765" r="10"/>
+	<text x="2765" y="5" class="version">44</text>
+
+	<!-- V. 45.0: March 8, 2016 -->
+	<circle stroke="orange" cx="2785" r="10"/>
+	<text x="2785" y="5" class="version">45</text>
+
+	<!-- V. 46.0: April 26, 2016 -->
+	<circle stroke="orange" cx="2795" r="10"/>
+	<text x="2795" y="5" class="version">46</text>
 </g>
 
 <g id="ie">
@@ -2786,6 +2822,16 @@ Tips for adding branches:
 	<!-- Source: http://www.maxthon.com/blog/ -->
 	<circle stroke="navy" cx="2555" r="10"/>
 	<text x="2555" y="3" class="subversion">4.4</text>
+
+	<!-- V4.5: April 30, 2015 (Mac version) -->
+	<!-- Source: http://www.maxthon.com/blog/ -->
+	<circle stroke="navy" cx="2675" r="10"/>
+	<text x="2675" y="3" class="subversion">4.5</text>
+
+	<!-- V4.9: February 25, 2016 (Windows version) -->
+	<!-- Source: http://www.maxthon.com/windows/changelog/ -->
+	<circle stroke="navy" cx="2775" r="10"/>
+	<text x="2775" y="3" class="subversion">4.9</text>
 </g>
 
 <g id="greenbrowser">
@@ -2982,6 +3028,10 @@ Tips for adding branches:
 	<!-- V6.8: January 5, 2015 -->
 	<circle stroke="green" cx="2645" r="10"/>
 	<text x="2645" y="3" class="subversion">6.8</text>
+
+	<!-- V6.9: May 17, 2016 -->
+	<circle stroke="green" cx="2805" r="10"/>
+	<text x="2805" y="3" class="subversion">6.9</text>
 </g>
 
 <g id="slimbrowser">
@@ -3394,6 +3444,10 @@ Tips for adding branches:
 	<!-- V. 6.12: December 21, 2015 -->
 	<use x="2755" stroke="dimgray" xlink:href="#longver"/>
 	<text x="2755" y="3" class="subversion">6.12</text>
+
+	<!-- V. 6.13: April 5, 2016-->
+	<use x="2795" stroke="dimgray" xlink:href="#longver"/>
+	<text x="2795" y="3" class="subversion">6.13</text>
 </g>
 
 <g id="gzilla">
@@ -3744,14 +3798,29 @@ Tips for adding branches:
 	<text x="2725" y="5" class="version">32</text>
 
 	<!-- V. 33.0: October 27, 2015 -->
-	<!-- Source: http://blogs.opera.com/desktop/2015/10/opera-33-our-contribution-to-chromium/-->
+	<!-- Source: http://blogs.opera.com/desktop/2015/10/opera-33-our-contribution-to-chromium/ -->
 	<circle stroke="#B00" cx="2735" r="10"/>
 	<text x="2735" y="5" class="version">33</text>
 
 	<!-- V. 34.0: December 8, 2015 -->
-	<!-- Source: http://www.opera.com/blogs/desktop/2015/12/opera-34-technology-help/-->
+	<!-- Source: http://www.opera.com/blogs/desktop/2015/12/opera-34-technology-help/ -->
 	<circle stroke="#B00" cx="2755" r="10"/>
 	<text x="2755" y="5" class="version">34</text>
+
+	<!-- V. 35.0: February 2, 2016 -->
+	<!-- Source: http://www.opera.com/blogs/desktop/2016/02/better-downloads-and-quieter-tabs-in-opera-35-for-computers/ -->
+	<circle stroke="#B00" cx="2775" r="10"/>
+	<text x="2775" y="5" class="version">35</text>
+
+	<!-- V. 36.0: March 15, 2016 -->
+	<!-- Source: http://www.opera.com/blogs/desktop/2016/03/best-browser-windows-10/ -->
+	<circle stroke="#B00" cx="2785" r="10"/>
+	<text x="2785" y="5" class="version">36</text>
+
+	<!-- V. 37.0: May 4, 2016 -->
+	<!-- Source: http://www.opera.com/blogs/desktop/2016/05/ad-blocker-opera-for-windows-mac-free/ -->
+	<circle stroke="#B00" cx="2805" r="10"/>
+	<text x="2805" y="5" class="version">37</text>
 </g>
 
 <g id="operamini">
@@ -4015,6 +4084,18 @@ Tips for adding branches:
 	<!-- V. 34.0: December 15, 2015 -->
 	<circle stroke="#B00" cx="2755" r="10"/>
 	<text x="2755" y="5" class="version">34</text>
+
+	<!-- V. 35.0: February 2, 2016 -->
+	<circle stroke="#B00" cx="2775" r="10"/>
+	<text x="2775" y="5" class="version">35</text>
+
+	<!-- V. 36.0: March 15, 2016 -->
+	<circle stroke="#B00" cx="2785" r="10"/>
+	<text x="2785" y="5" class="version">36</text>
+
+	<!-- V. 37.0: May 4, 2016 -->
+	<circle stroke="#B00" cx="2805" r="10"/>
+	<text x="2805" y="5" class="version">37</text>
 </g>
 
 <g id="kazehakase">
@@ -4207,9 +4288,14 @@ Tips for adding branches:
 	<circle stroke="#888" cx="2615" r="10"/>
 	<text x="2615" y="5" class="version">8</text>
 
-	<!-- V. 9.0: September 30, 2014 -->
+	<!-- V. 9.0: September 30, 2015 -->
 	<circle stroke="#888" cx="2725" r="10"/>
 	<text x="2725" y="5" class="version">9</text>
+
+	<!-- V. 9.1: late March, 2016 -->
+	<!-- Source: https://webkit.org/blog/6008/new-web-features-in-safari/ -->
+	<circle stroke="#888" cx="2785" r="10"/>
+	<text x="2785" y="3" class="subversion">9.1</text>
 </g>
 
 <g id="tkWWW">
@@ -4325,6 +4411,14 @@ Tips for adding branches:
 	<!-- V. Beta 1: November 3, 2015 -->
 	<use x="2745" stroke="#ec4947" xlink:href="#longver"/>
 	<text x="2745" y="3" class="subversion">BETA</text>
+
+	<!-- V1.0: April 6, 2016 -->
+	<circle stroke="#ec4947" cx="2795" r="10"/>
+	<text x="2795" y="5" class="version">1</text>
+
+	<!-- V1.1: April 26, 2016 -->
+	<!-- Source: https://vivaldi.net/en-US/teamblog/110-vivaldi-1-1-is-here -->
+	<!-- Since 1.0 is the first stable version, that one is included instead of the later 1.1 -->
 </g>
 
 <g id="webpositive">
@@ -4672,6 +4766,22 @@ Tips for adding branches:
 	<!-- V47.0: December 15, 2015 -->
 	<circle stroke="#7d753d" cx="2755" r="10"/>
 	<text x="2755" y="5" class="version">47</text>
+
+	<!-- V48.0: January 20, 2016 -->
+	<circle stroke="#7d753d" cx="2765" r="10"/>
+	<text x="2765" y="5" class="version">48</text>
+
+	<!-- V49.0: March 2, 2016 -->
+	<circle stroke="#7d753d" cx="2785" r="10"/>
+	<text x="2785" y="5" class="version">49</text>
+
+	<!-- V50.0: April 13, 2016 -->
+	<circle stroke="#7d753d" cx="2795" r="10"/>
+	<text x="2795" y="5" class="version">50</text>
+
+	<!-- V51.0: May 25, 2016 -->
+	<circle stroke="#7d753d" cx="2805" r="10"/>
+	<text x="2805" y="5" class="version">51</text>
 </g>
 
 <g id="dooble">
@@ -4850,6 +4960,10 @@ Tips for adding branches:
 	<!-- V. 1.55: November 5, 2015 -->
 	<circle stroke="dodgerblue" cx="2745" r="10"/>
 	<text x="2745" y="3" class="subversion">1.55</text>
+
+	<!-- V. 1.56: May 1, 2016 -->
+	<circle stroke="dodgerblue" cx="2805" r="10"/>
+	<text x="2805" y="3" class="subversion">1.56</text>
 </g>
 
 <g id="icab">
@@ -5106,6 +5220,22 @@ Tips for adding branches:
 	<!-- V. 9.0: November 11, 2015 -->
 	<circle stroke="#afa302" cx="2745" r="10"/>
 	<text x="2745" y="5" class="version">9</text>
+
+	<!-- V. 9.1: December 16, 2015 -->
+	<circle stroke="#afa302" cx="2755" r="10"/>
+	<text x="2755" y="3" class="subversion">9.1</text>
+
+	<!-- V. 9.2: January 15, 2016 -->
+	<circle stroke="#afa302" cx="2765" r="10"/>
+	<text x="2765" y="3" class="subversion">9.2</text>
+
+	<!-- V. 9.3: February 9, 2016 -->
+	<circle stroke="#afa302" cx="2775" r="10"/>
+	<text x="2775" y="3" class="subversion">9.3</text>
+
+	<!-- V. 9.4: April 30, 2016 -->
+	<circle stroke="#afa302" cx="2795" r="10"/>
+	<text x="2795" y="3" class="subversion">9.4</text>
 </g>
 
 <g id="rekonq">
@@ -5222,6 +5352,11 @@ Tips for adding branches:
 	<!-- V. 1.8.0: September 26, 2014 -->
 	<circle stroke="blue" cx="2605" r="10"/>
 	<text x="2605" y="3" class="subversion">1.8</text>
+
+	<!-- V. 2.0.0: March 30, 2016 -->
+	<!-- Source: http://blog.qupzilla.com/2016/03/qupzilla-200-released-with-qtwebengine.html -->
+	<circle stroke="blue" cx="2785" r="10"/>
+	<text x="2785" y="5" class="version">2</text>
 </g>
 
 <g id="xombrero">
@@ -5230,6 +5365,7 @@ Tips for adding branches:
 	</a>
 
 	<!-- Source: https://github.com/conformal/xombrero -->
+	<!-- Still in development as of May 2016 -->
 	<line stroke="black" x1="2065" x2="2875"/>
 
 	<!-- V. 1.22: February 13, 2010 -->
@@ -5386,6 +5522,16 @@ Tips for adding branches:
 	<!-- Source: http://www.netsurf-browser.org/about/news -->
 	<circle stroke="#7d753d" cx="2665" r="10"/>
 	<text x="2665" y="3" class="subversion">3.3</text>
+
+	<!-- V3.4: February 17, 2016 -->
+	<!-- Source: http://www.netsurf-browser.org/about/news -->
+	<circle stroke="#7d753d" cx="2775" r="10"/>
+	<text x="2775" y="3" class="subversion">3.4</text>
+
+	<!-- V3.4: April 14, 2016 -->
+	<!-- Source: http://www.netsurf-browser.org/about/news -->
+	<circle stroke="#7d753d" cx="2795" r="10"/>
+	<text x="2795" y="3" class="subversion">3.5</text>
 
 	<!-- Source: http://git.netsurf-browser.org/netsurf.git/log/ -->
 </g>

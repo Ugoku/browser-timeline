@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3965" height="2740">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4205" height="2740">
     <title>Timeline of Web Browsers</title>
     <desc>
         This timeline displays the releases of major versions of web browsers.
@@ -173,6 +173,8 @@ Tips for adding branches:
             <text x="3240">2020</text>
             <text x="3360">2021</text>
             <text x="3480">2022</text>
+            <text x="3600">2023</text>
+            <text x="3720">2024</text>
         </g>
 
         <g id="www">

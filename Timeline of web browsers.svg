@@ -59,7 +59,7 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 
 Not yet released
 - Added 2023, 2024 columns
-- Added IBrowse 3, Edge 100/110/120
+- Added IBrowse 3, Edge 100/110/120, Maxthon 7
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -3394,7 +3394,7 @@ Tips for adding branches:
             <!-- Source: http://www.maxthon.com -->
 
             <line stroke="navy" x1="900" y1="-50" x2="900"/>
-            <line stroke="navy" x1="900" x2="3595"/>
+            <line stroke="navy" x1="900" x2="3725"/>
 
             <!-- V0.3 beta: June 29, 2002 -->
             <!-- Source: http://groups.google.com/group/cn.comp.software.shareware/browse_thread/thread/9c1936adc9fb2c81/aaa8ec16da2ee8ab -->
@@ -3533,6 +3533,11 @@ Tips for adding branches:
             <!-- Source: http://www.maxthon.com/blog/ -->
             <circle stroke="navy" cx="3345" r="10"/>
             <text x="3345" y="5" class="version">6</text>
+
+            <!-- V7.1.6.1200: August 7, 2023 -->
+            <!-- Source: https://forum.maxthon.com/index.php?/topic/27464-maxthon-release-notes/ -->
+            <circle stroke="navy" cx="3675" r="10"/>
+            <text x="3675" y="5" class="version">7</text>
         </g>
 
         <g id="greenbrowser">

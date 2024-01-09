@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3365" height="2580">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3485" height="2580">
     <title>Timeline of Web Browsers</title>
     <desc>
         This timeline displays the releases of major versions of web browsers.
@@ -92,6 +92,12 @@ V 14.0 (6th January 2017 - by CortoFrancese)
 V 14.1 (19th April 2017 - by CortoFrancese)
 - Added Avant Browser 17, Chrome 57, Edge 40, Firefox 51-52, iCab 5.8, iCab Mobile 9.5-9.6-9.7-9.8, Opera 43-44, Opera Mini 22-23-24, Opera Mobile 42-42.4-42.7, QupZilla 2.1, Safari 10.1, surf 2, Vivaldi 1.7-1.8, Web 3.24
 - Soft end Opera (Presto-based) (no releases for over a year)
+
+V 14.2 (19th April 2017 - by CortoFrancese)
+- Added 2018 column
+- Added Falkon line
+- Added Avant Browser 18, Chrome 57-58-59-60-61-62-63-64-65-66, Dooble 2, Edge 41, Firefox 53-54-55-56-57-58-59, Konqueror 5, Links 2.15, Maxthon 5.1-5-2, NetSurf 3.7, Opera 45-46-47-48-49-50-51-52, Opera Mini 25-26-27-28-29-30-31-32-33, Opera Mobile 42.8-42.9-43-44-45, Otter Browser RC1-2-3-4-5-6-7, Safari 11-11.1 SeaMonkey 2.49, Vivaldi 1.9-1.10-1.11-1.12-1.13-1.14-1.15, Web 3.26-3.28
+- Soft end Greenbrowser, iCab, iCab Mobile, Konqueror, MenuBox, surf, Uzbl (no releases for over a year)
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -204,6 +210,7 @@ Tips for adding branches:
             <text x="2640">2015</text>
             <text x="2760">2016</text>
             <text x="2880">2017</text>
+            <text x="3000">2018</text>
         </g>
 
         <g id="www">
@@ -652,7 +659,7 @@ Tips for adding branches:
                 <text x="835" y="-15" class="browser">Links</text>
             </a>
 
-            <line stroke="black" x1="825" x2="2995"/>
+            <line stroke="black" x1="825" x2="3115"/>
 
             <!-- V. 0.8 Nov 24, 1999 -->
             <circle stroke="black" cx="825" r="10"/>
@@ -733,6 +740,11 @@ Tips for adding branches:
             <!-- Source: http://links.twibright.com/download/ChangeLog -->
             <use xlink:href="#longver" x="2865" stroke="black"/>
             <text x="2865" y="3" class="subversion">2.14</text>
+
+            <!-- V. 2.15: January 18, 2018 -->
+            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <use xlink:href="#longver" x="3005" stroke="black"/>
+            <text x="3005" y="3" class="subversion">2.15</text>
         </g>
 
         <g id="elinks">
@@ -1681,7 +1693,7 @@ Tips for adding branches:
                 <text x="2515" y="23" class="browser">Otter Browser</text>
             </a>
 
-            <line stroke="#c30" x1="2515" x2="2995"/>
+            <line stroke="#c30" x1="2515" x2="3115"/>
 
             <!-- V. Alpha 1: January 1, 2014 -->
             <circle stroke="#c30" cx="2525" r="10"/>
@@ -1750,6 +1762,34 @@ Tips for adding branches:
             <!-- V. Beta 12: January 1, 2017 -->
             <circle stroke="#c30" cx="2885" r="10"/>
             <text x="2885" y="3" class="subversion">b12</text>
+
+            <!-- V. RC 1: October 1, 2017 -->
+            <circle stroke="#c30" cx="2975" r="10"/>
+            <text x="2975" y="3" class="subversion">RC1</text>
+
+            <!-- V. RC 2: November 1, 2017 -->
+            <circle stroke="#c30" cx="2985" r="10"/>
+            <text x="2985" y="3" class="subversion">RC2</text>
+
+            <!-- V. RC 3: December 1, 2017 -->
+            <circle stroke="#c30" cx="2995" r="10"/>
+            <text x="2995" y="3" class="subversion">RC3</text>
+
+            <!-- V. RC 4: January 1, 2018 -->
+            <circle stroke="#c30" cx="3005" r="10"/>
+            <text x="3005" y="3" class="subversion">RC4</text>
+
+            <!-- V. RC 5: February 1, 2018 -->
+            <circle stroke="#c30" cx="3015" r="10"/>
+            <text x="3015" y="3" class="subversion">RC5</text>
+
+            <!-- V. RC 6: March 1, 2018 -->
+            <circle stroke="#c30" cx="3025" r="10"/>
+            <text x="3025" y="3" class="subversion">RC6</text>
+
+            <!-- V. RC 7: April 1, 2018 -->
+            <circle stroke="#c30" cx="3035" r="10"/>
+            <text x="3035" y="3" class="subversion">RC7</text>
         </g>
 
         <g id="gnomeweb">
@@ -1760,7 +1800,7 @@ Tips for adding branches:
             <!-- From Galeon -->
             <!-- Started: November 2002 -->
             <line stroke="#207C00" x1="1185" y1="50" x2="1185"/>
-            <line stroke="#207C00" x1="1185" x2="2995"/>
+            <line stroke="#207C00" x1="1185" x2="3115"/>
 
             <!-- Source for releases: http://ftp.gnome.org/pub/GNOME/sources/epiphany/ -->
 
@@ -1962,6 +2002,16 @@ Tips for adding branches:
             <!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
             <use xlink:href="#longver" x="2905" stroke="#207C00"/>
             <text x="2905" y="3" class="subversion">3.24</text>
+
+            <!-- V. 3.26.0: September 9, 2017 -->
+            <!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
+            <use xlink:href="#longver" x="2965" stroke="#207C00"/>
+            <text x="2965" y="3" class="subversion">3.26</text>
+
+            <!-- V. 3.28.0: March 10, 2018 -->
+            <!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
+            <use xlink:href="#longver" x="3025" stroke="#207C00"/>
+            <text x="3025" y="3" class="subversion">3.28</text>
         </g>
 
         <g id="kmeleon">
@@ -2019,7 +2069,7 @@ Tips for adding branches:
             </a>
 
             <line stroke="maroon" x1="1565" y1="45" x2="1565"/>
-            <line stroke="maroon" x1="1565" x2="2995"/>
+            <line stroke="maroon" x1="1565" x2="3115"/>
 
             <!-- V. 1.0: 30th January 2006 -->
             <circle stroke="maroon" cx="1565" r="10"/>
@@ -2196,6 +2246,11 @@ Tips for adding branches:
             <!-- Source: http://www.seamonkey-project.org/releases/2.46 -->
             <use xlink:href="#longver" x="2875" stroke="maroon"/>
             <text x="2875" y="3" class="subversion">2.46</text>
+
+            <!-- V. 2.49.1: November 4, 2017 -->
+            <!-- Source: https://www.seamonkey-project.org/releases/2.49.1 -->
+            <use xlink:href="#longver" x="2985" stroke="maroon"/>
+            <text x="2985" y="3" class="subversion">2.49</text>
         </g>
 
         <g id="camino">
@@ -2278,7 +2333,7 @@ Tips for adding branches:
 
             <!-- Started September 2002 -->
             <line stroke="orange" x1="1165" y1="-50" x2="1165"/>
-            <line stroke="orange" x1="1165" x2="2995"/>
+            <line stroke="orange" x1="1165" x2="3115"/>
 
             <!-- V. 0.1: September 23, 2002 -->
             <circle stroke="orange" cx="1165" r="10"/>
@@ -2545,6 +2600,34 @@ Tips for adding branches:
             <!-- V. 52.0: March 7, 2017 -->
             <circle stroke="orange" cx="2905" r="10"/>
             <text x="2905" y="5" class="version">52</text>
+
+            <!-- V. 53.0: April 19, 2017 -->
+            <circle stroke="orange" cx="2915" r="10"/>
+            <text x="2915" y="5" class="version">53</text>
+
+            <!-- V. 54.0: June 13, 2017 -->
+            <circle stroke="orange" cx="2935" r="10"/>
+            <text x="2935" y="5" class="version">54</text>
+
+            <!-- V. 55.0: August 8, 2017 -->
+            <circle stroke="orange" cx="2955" r="10"/>
+            <text x="2955" y="5" class="version">55</text>
+
+            <!-- V. 56.0: September 28, 2017 -->
+            <circle stroke="orange" cx="2965" r="10"/>
+            <text x="2965" y="5" class="version">56</text>
+
+            <!-- V. 57.0: November 14, 2017 -->
+            <circle stroke="orange" cx="2985" r="10"/>
+            <text x="2985" y="5" class="version">57</text>
+
+            <!-- V. 58.0: January 23, 2018 -->
+            <circle stroke="orange" cx="3005" r="10"/>March 13
+            <text x="3005" y="5" class="version">58</text>
+
+            <!-- V. 59.0: March 13, 2018 -->
+            <circle stroke="orange" cx="3025" r="10"/>
+            <text x="3025" y="5" class="version">59</text>
         </g>
 
         <g id="ie">
@@ -2553,7 +2636,7 @@ Tips for adding branches:
             </a>
 
             <line stroke="blue" x1="315" y1="150" x2="315"/>
-            <line stroke="blue" x1="315" x2="2995"/>
+            <line stroke="blue" x1="315" x2="3115"/>
 
             <!-- V. 1.0: August, 1995 -->
             <circle stroke="blue" cx="315" r="10"/>
@@ -2675,7 +2758,7 @@ Tips for adding branches:
                 <text x="2655" y="-12" class="browser">Edge</text>
             </a>
 
-            <line stroke="deepskyblue" x1="2655" x2="2995"/><!-- March, 2015: IE Mobile becomes Edge -->
+            <line stroke="deepskyblue" x1="2655" x2="3115"/><!-- March, 2015: IE Mobile becomes Edge -->
             <path stroke="deepskyblue" stroke-width="3px" d="M2655,50 2655,7" marker-end="url(#Triangle)"/><!-- converting to Multi-Platform -->
 
             <!-- V. 20.0: 29th July 2015 -->
@@ -2715,6 +2798,10 @@ Tips for adding branches:
             <!-- V. 40.15063: April 11, 2017 -->
             <circle stroke="deepskyblue" cx="2915" r="10"/>
             <text x="2915" y="5" class="version">40</text>
+
+            <!-- V. 41.16299: September 26, 2017 -->
+            <circle stroke="deepskyblue" cx="2965" r="10"/>
+            <text x="2965" y="5" class="version">41</text>
         </g>
 
         <g id="iemac">
@@ -2891,7 +2978,7 @@ Tips for adding branches:
             <!-- Source: http://www.maxthon.com -->
 
             <line stroke="navy" x1="900" y1="-50" x2="900"/>
-            <line stroke="navy" x1="900" x2="2995"/>
+            <line stroke="navy" x1="900" x2="3115"/>
 
             <!-- V0.3 beta: June 29, 2002 -->
             <!-- Source: http://groups.google.com/group/cn.comp.software.shareware/browse_thread/thread/9c1936adc9fb2c81/aaa8ec16da2ee8ab -->
@@ -3010,6 +3097,16 @@ Tips for adding branches:
             <!-- Source: http://www.maxthon.com/blog/ -->
             <circle stroke="navy" cx="2855" r="10"/>
             <text x="2855" y="5" class="version">5</text>
+
+            <!-- V5.1.0.3000: July 27, 2017 -->
+            <!-- Source: http://www.maxthon.com/blog/ -->
+            <circle stroke="navy" cx="2945" r="10"/>
+            <text x="2945" y="3" class="subversion">5.1</text>
+
+            <!-- V5.2.0.2000: March 27, 2018 -->
+            <!-- Source: http://www.maxthon.com/blog/ -->
+            <circle stroke="navy" cx="3025" r="10"/>
+            <text x="3025" y="3" class="subversion">5.2</text>
         </g>
 
         <g id="greenbrowser">
@@ -3218,7 +3315,7 @@ Tips for adding branches:
             </a>
             <!-- Source: http://www.menubox.com/ -->
 
-            <line stroke="#E9A54F" x1="1125" x2="2995"/>
+            <line stroke="#E9A54F" x1="1125" x2="2935"/>
 
             <!-- V. 1.7.0.0: May 31, 2002 -->
             <circle stroke="#E9A54F" cx="1125" r="10"/>
@@ -3314,7 +3411,7 @@ Tips for adding branches:
 
             <!-- Started: between February and May 2002 -->
             <!-- Source: http://replay.waybackmachine.org/20020604181452/http://www.flashpeak.com/sbrowser/sbrowser.htm -->
-            <line stroke="purple" x1="1125" x2="2995"/>
+            <line stroke="purple" x1="1125" x2="3115"/>
 
             <!-- Versions to add:
 	 1.0,
@@ -3432,7 +3529,7 @@ Tips for adding branches:
 
             <!-- http://web.archive.org/web/*/http://www.avantbrowser.com -->
             <!-- Source: http://www.50download.com/software/IE%20Opera.htm (earliest appearance found)-->
-            <line stroke="darkred" x1="1165" x2="2995"/>
+            <line stroke="darkred" x1="1165" x2="3115"/>
 
             <!-- V6.5: September 2002 -->
             <circle stroke="darkred" cx="1165" r="10"/>
@@ -3514,6 +3611,11 @@ Tips for adding branches:
             <!-- Source: http://www.avantbrowser.com/new.aspx -->
             <circle stroke="darkred" cx="2895" r="10"/>
             <text x="2895" y="5" class="version">17</text>
+
+            <!-- V18: February 15, 2018 -->
+            <!-- Source: http://www.avantbrowser.com/new.aspx -->
+            <circle stroke="darkred" cx="3015" r="10"/>
+            <text x="3015" y="5" class="version">18</text>
         </g>
 
         <g id="sleipnir">
@@ -3521,7 +3623,7 @@ Tips for adding branches:
                 <text x="1425" y="-12" class="browser">Sleipnir</text>
             </a>
 
-            <line stroke="royalblue" x1="1425" x2="2995"/>
+            <line stroke="royalblue" x1="1425" x2="3115"/>
 
             <!-- V. 2.00: October 12, 2005 -->
             <circle stroke="royalblue" cx="1535" r="10"/>
@@ -3617,7 +3719,7 @@ Tips for adding branches:
                 <text x="1065" y="-12" class="browser">Lunascape</text>
             </a>
 
-            <line stroke="dimgray" x1="1065" x2="2995"/>
+            <line stroke="dimgray" x1="1065" x2="3115"/>
 
             <!-- V. 3.0: September 2005 -->
             <circle stroke="dimgray" cx="1535" r="10"/>
@@ -4166,6 +4268,46 @@ Tips for adding branches:
             <!-- Source: http://www.opera.com/blogs/desktop/2017/03/opera-44-goes-final-support-apples-new-touch-bar/ -->
             <circle stroke="#B00" cx="2905" r="10"/>
             <text x="2905" y="5" class="version">44</text>
+
+            <!-- V. 45.0: May 10, 2017 -->
+            <!-- Source: https://blogs.opera.com/desktop/2017/05/opera-is-reborn/ -->
+            <circle stroke="#B00" cx="2925" r="10"/>
+            <text x="2925" y="5" class="version">45</text>
+
+            <!-- V. 46.0: June 22, 2017 -->
+            <!-- Source: https://blogs.opera.com/desktop/2017/06/opera-46-goes-final-more-quality-and-operas-first-tv-ad/ -->
+            <circle stroke="#B00" cx="2935" r="10"/>
+            <text x="2935" y="5" class="version">46</text>
+
+            <!-- V. 47.0: August 9, 2017 -->
+            <!-- Source: https://blogs.opera.com/desktop/2017/08/exportable-bookmarks-smoother-videos-design-improvements-opera-47/ -->
+            <circle stroke="#B00" cx="2955" r="10"/>
+            <text x="2955" y="5" class="version">47</text>
+
+            <!-- V. 48.0: September 27, 2017 -->
+            <!-- Source: https://blogs.opera.com/desktop/2017/09/convert-measurements-currencies-time-zones-opera-48/ -->
+            <circle stroke="#B00" cx="2965" r="10"/>
+            <text x="2965" y="5" class="version">48</text>
+
+            <!-- V. 49.0: November 8, 2017 -->
+            <!-- Source: https://blogs.opera.com/desktop/2017/11/opera-49-adds-snapshot-tool-editing-tools/ -->
+            <circle stroke="#B00" cx="2985" r="10"/>
+            <text x="2985" y="5" class="version">49</text>
+
+            <!-- V. 50.0: January 4, 2018 -->
+            <!-- Source: https://blogs.opera.com/desktop/2018/01/opera-50-introduces-anti-bitcoin-mining-tool/ -->
+            <circle stroke="#B00" cx="3005" r="10"/>
+            <text x="3005" y="5" class="version">50</text>
+
+            <!-- V. 51.0: February 7, 2018 -->
+            <!-- Source: https://blogs.opera.com/desktop/2018/02/opera-51/ -->
+            <circle stroke="#B00" cx="3015" r="10"/>
+            <text x="3015" y="5" class="version">51</text>
+
+            <!-- V. 52.0: March 22, 2018 -->
+            <!-- Source: https://blogs.opera.com/desktop/2018/03/opera-52-offers-faster-ad-blocking-and-cool-new-animations/ -->
+            <circle stroke="#B00" cx="3025" r="10"/>
+            <text x="3025" y="5" class="version">52</text>
         </g>
 
         <g id="operamini">
@@ -4175,7 +4317,7 @@ Tips for adding branches:
 
             <!-- Started: January, 2003 -->
             <line stroke="#B00" x1="1500" y1="-50" x2="1500"/>
-            <line stroke="#B00" x1="1500" x2="2995"/>
+            <line stroke="#B00" x1="1500" x2="3115"/>
 
             <!-- V. 1.0: August 10, 2005 -->
             <circle stroke="#B00" cx="1515" r="10"/>
@@ -4309,6 +4451,40 @@ Tips for adding branches:
             <!-- V. 24.0 (Android): April 2, 2017 -->
             <circle stroke="#B00" cx="2915" r="10"/>
             <text x="2915" y="5" class="version">24</text>
+
+            <!-- V. 25.0 (Android): May 9, 2017 -->
+
+            <!-- V. 26.0 (Android): May 26, 2017 -->
+            <circle stroke="#B00" cx="2925" r="10"/>
+            <text x="2925" y="5" class="version">26</text>
+
+            <!-- V. 27.0 (Android): June 29, 2017 -->
+            <circle stroke="#B00" cx="2935" r="10"/>
+            <text x="2935" y="5" class="version">27</text>
+
+            <!-- V. 28.0 (Android): July 14, 2017 -->
+            <circle stroke="#B00" cx="2945" r="10"/>
+            <text x="2945" y="5" class="version">28</text>
+
+            <!-- V. 29.0 (Android): August 20, 2017 -->
+            <circle stroke="#B00" cx="2955" r="10"/>
+            <text x="2955" y="5" class="version">29</text>
+
+            <!-- V. 30.0 (Android): September 14, 2017 -->
+            <circle stroke="#B00" cx="2965" r="10"/>
+            <text x="2965" y="5" class="version">30</text>
+
+            <!-- V. 31.0 (Android): October 26, 2017 -->
+            <circle stroke="#B00" cx="2975" r="10"/>
+            <text x="2975" y="5" class="version">31</text>
+
+            <!-- V. 32.0 (Android): December 1, 2017 -->
+            <circle stroke="#B00" cx="2995" r="10"/>
+            <text x="2995" y="5" class="version">32</text>
+
+            <!-- V. 33.0 (Android): March 9, 2018 -->
+            <circle stroke="#B00" cx="3025" r="10"/>
+            <text x="3025" y="5" class="version">33</text>
         </g>
 
         <g id="operamobile">
@@ -4318,7 +4494,7 @@ Tips for adding branches:
 
             <!-- Started: before October 1999 -->
             <line stroke="#B00" x1="810" y1="50" x2="810"/>
-            <line stroke="#B00" x1="810" x2="2995"/>
+            <line stroke="#B00" x1="810" x2="3115"/>
 
             <!-- V. 3.6: February 28, 2000 -->
             <circle stroke="#B00" cx="855" r="10"/>
@@ -4514,6 +4690,30 @@ Tips for adding branches:
             <!-- V. 42.7: March 27, 2017 -->
             <circle stroke="#B00" cx="2905" r="10"/>
             <text x="2905" y="3" class="subversion">42.7</text>
+
+            <!-- V. 42.8: June 19, 2017 -->
+            <circle stroke="#B00" cx="2935" r="10"/>
+            <text x="2935" y="3" class="subversion">42.8</text>
+
+            <!-- V. 42.9: August 14, 2017 -->
+            <circle stroke="#B00" cx="2955" r="10"/>
+            <text x="2955" y="3" class="subversion">42.9</text>
+
+            <!-- V. 43.0: September 22, 2017 -->
+            <circle stroke="#B00" cx="2965" r="10"/>
+            <text x="2965" y="5" class="version">43</text>
+
+            <!-- V. 44.0: December 2, 2017 -->
+            <circle stroke="#B00" cx="2995" r="10"/>
+            <text x="2995" y="5" class="version">44</text>
+
+            <!-- V. 44.1: December 11, 2017 -->
+
+            <!-- V. 45.0: February 12, 2017 -->
+            <circle stroke="#B00" cx="3015" r="10"/>
+            <text x="3015" y="5" class="version">45</text>
+
+            <!-- V. 45.1: February 26, 2017 -->
         </g>
 
         <g id="kazehakase">
@@ -4553,7 +4753,7 @@ Tips for adding branches:
                 <text x="945" y="-12" class="browser">Konqueror</text>
             </a>
 
-            <line stroke="#3E71C6" x1="935" x2="2745"/>
+            <line stroke="#3E71C6" x1="935" x2="2995"/>
 
             <!-- V. 2.0 (tied to KDE releases): October, 2000 -->
             <circle stroke="#3E71C6" cx="935" r="10"/>
@@ -4639,6 +4839,10 @@ Tips for adding branches:
             <!-- V. 4.14: August 20, 2014 -->
             <use x="2595" stroke="#3E71C6" xlink:href="#longver"/>
             <text x="2595" y="3" class="subversion">4.14</text>
+
+            <!-- V. 5.0: December 15, 2016 -->
+            <circle stroke="#3E71C6" cx="2875" r="10"/>
+            <text x="2875" y="5" class="version">5</text>
         </g>
 
         <g id="safari">
@@ -4649,7 +4853,7 @@ Tips for adding branches:
             <!-- Source dates from: http://en.wikipedia.org/wiki/Safari_(web_browser) -->
             <!-- Started: January, 2003 -->
             <line stroke="#888" x1="1205" y1="-50" x2="1205"/>
-            <line stroke="#888" x1="1205" x2="2995"/>
+            <line stroke="#888" x1="1205" x2="3115"/>
 
             <!-- V. 1.0: June 23, 2003 -->
             <circle stroke="#888" cx="1255" r="10"/>
@@ -4722,6 +4926,14 @@ Tips for adding branches:
             <!-- V. 10.1: March 27, 2017 -->
             <circle stroke="#888" cx="2905" r="10"/>
             <text x="2905" y="3" class="subversion">10.1</text>
+
+            <!-- V. 11.0: September 19, 2017 -->
+            <circle stroke="#888" cx="2965" r="10"/>
+            <text x="2965" y="5" class="version">11</text>
+
+            <!-- V. 10.1: March 27, 2017 -->
+            <circle stroke="#888" cx="3025" r="10"/>
+            <text x="3025" y="3" class="subversion">11.1</text>
         </g>
 
         <g id="tkWWW">
@@ -4832,7 +5044,7 @@ Tips for adding branches:
                 <text x="2645" y="-12" class="browser">Vivaldi</text>
             </a>
 
-            <line stroke="#ec4947" x1="2645" x2="2995"/>
+            <line stroke="#ec4947" x1="2645" x2="3115"/>
 
             <!-- V. Beta 1: November 3, 2015 -->
             <use x="2745" stroke="#ec4947" xlink:href="#longver"/>
@@ -4873,6 +5085,34 @@ Tips for adding branches:
             <!-- V1.8: March 29, 2017 -->
             <circle stroke="#ec4947" cx="2905" r="10"/>
             <text x="2905" y="3" class="subversion">1.8</text>
+
+            <!-- V1.9: April 27, 2017 -->
+            <circle stroke="#ec4947" cx="2915" r="10"/>
+            <text x="2915" y="3" class="subversion">1.9</text>
+
+            <!-- V1.10: June 15, 2017 -->
+            <circle stroke="#ec4947" cx="2935" r="10"/>
+            <text x="2935" y="3" class="subversion">1.10</text>
+
+            <!-- V1.11: August 10, 2017 -->
+            <circle stroke="#ec4947" cx="2955" r="10"/>
+            <text x="2955" y="3" class="subversion">1.11</text>
+
+            <!-- V1.12: September 20, 2017 -->
+            <circle stroke="#ec4947" cx="2965" r="10"/>
+            <text x="2965" y="3" class="subversion">1.12</text>
+
+            <!-- V1.13: November 22, 2017 -->
+            <circle stroke="#ec4947" cx="2985" r="10"/>
+            <text x="2985" y="3" class="subversion">1.13</text>
+
+            <!-- V1.14: January 31, 2018 -->
+            <circle stroke="#ec4947" cx="3005" r="10"/>
+            <text x="3005" y="3" class="subversion">1.14</text>
+
+            <!-- V1.15: April 25, 2018 -->
+            <circle stroke="#ec4947" cx="3035" r="10"/>
+            <text x="3035" y="3" class="subversion">1.15</text>
         </g>
 
         <g id="webpositive">
@@ -5018,7 +5258,7 @@ Tips for adding branches:
                 <text x="1890" y="-15" class="browser">Chrome</text>
             </a>
 
-            <line stroke="#7d753d" x1="1885" x2="2995"/>
+            <line stroke="#7d753d" x1="1885" x2="3115"/>
 
             <!-- V0.2: September 2, 2008 -->
             <circle stroke="#7d753d" cx="1885" r="10"/>
@@ -5258,6 +5498,42 @@ Tips for adding branches:
             <!-- V57.0: March 9, 2017 -->
             <circle stroke="#7d753d" cx="2905" r="10"/>
             <text x="2905" y="5" class="version">57</text>
+
+            <!-- V58.0: April 19, 2017 -->
+            <circle stroke="#7d753d" cx="2915" r="10"/>
+            <text x="2915" y="5" class="version">58</text>
+
+            <!-- V59.0: June 5, 2017 -->
+            <circle stroke="#7d753d" cx="2935" r="10"/>
+            <text x="2935" y="5" class="version">59</text>
+
+            <!-- V60.0: July 25, 2017 -->
+            <circle stroke="#7d753d" cx="2945" r="10"/>
+            <text x="2945" y="5" class="version">60</text>
+
+            <!-- V61.0: September 5, 2017 -->
+            <circle stroke="#7d753d" cx="2965" r="10"/>
+            <text x="2965" y="5" class="version">61</text>
+
+            <!-- V62.0: October 17, 2017 -->
+            <circle stroke="#7d753d" cx="2975" r="10"/>
+            <text x="2975" y="5" class="version">62</text>
+
+            <!-- V63.0: December 5, 2017 -->
+            <circle stroke="#7d753d" cx="2995" r="10"/>
+            <text x="2995" y="5" class="version">63</text>
+
+            <!-- V64.0: January 23, 2018 -->
+            <circle stroke="#7d753d" cx="3005" r="10"/>
+            <text x="3005" y="5" class="version">64</text>
+
+            <!-- V65.0: March 6, 2018 -->
+            <circle stroke="#7d753d" cx="3025" r="10"/>
+            <text x="3025" y="5" class="version">65</text>
+
+            <!-- V66.0: April 17, 2018 -->
+            <circle stroke="#7d753d" cx="3035" r="10"/>
+            <text x="3035" y="5" class="version">66</text>
         </g>
 
         <g id="dooble">
@@ -5265,7 +5541,7 @@ Tips for adding branches:
                 <text x="1915" y="-15" class="browser">Dooble</text>
             </a>
 
-            <line stroke="dodgerblue" x1="1915" x2="2995"/>
+            <line stroke="dodgerblue" x1="1915" x2="3115"/>
 
             <!-- V. 0.01: December 8, 2008 -->
             <circle stroke="dodgerblue" cx="1915" r="10"/>
@@ -5440,6 +5716,12 @@ Tips for adding branches:
             <!-- V. 1.56: May 1, 2016 -->
             <circle stroke="dodgerblue" cx="2805" r="10"/>
             <text x="2805" y="3" class="subversion">1.56</text>
+
+            <!-- V. 2.0: November 5, 2017 -->
+            <circle stroke="dodgerblue" cx="2985" r="10"/>
+            <text x="2985" y="5" class="version">2</text>
+
+            <!-- V. 2.1: November 11, 2017 -->
         </g>
 
         <g id="uzbl">
@@ -5448,7 +5730,7 @@ Tips for adding branches:
             </a>
 
             <!-- Source: https://github.com/uzbl/uzbl -->
-            <line stroke="#575757" x1="1965" x2="2995"/>
+            <line stroke="#575757" x1="1965" x2="2895"/>
 
             <!-- V. 2009.05.17 -->
             <circle stroke="#575757" cx="1965" r="10"/>
@@ -5553,7 +5835,7 @@ Tips for adding branches:
             </a>
 
             <!-- Source: http://surf.suckless.org/ -->
-            <line stroke="#069" x1="1985" x2="2995"/>
+            <line stroke="#069" x1="1985" x2="3025"/>
 
             <!-- V. 0.1: September 10, 2009 -->
             <circle stroke="#069" cx="2005" r="10"/>
@@ -5599,7 +5881,7 @@ Tips for adding branches:
                 <text x="745" y="-12" class="browser">iCab</text>
             </a>
 
-            <line stroke="#afa302" x1="735" x2="2995"/>
+            <line stroke="#afa302" x1="735" x2="3025"/>
 
             <!-- V. 1.0: February, 1999 -->
             <circle stroke="#afa302" cx="735" r="10"/>
@@ -5685,7 +5967,7 @@ Tips for adding branches:
             <!-- Sources: http://www.icab-mobile.de/history.html -->
 
             <line stroke="#afa302" x1="1955" y1="-50" x2="1955"/>
-            <line stroke="#afa302" x1="1955" x2="2995"/>
+            <line stroke="#afa302" x1="1955" x2="3025"/>
 
             <!-- V. 1.0: April 21, 2009 -->
             <circle stroke="#afa302" cx="1955" r="10"/>
@@ -6167,7 +6449,7 @@ Tips for adding branches:
                 <text x="2155" y="-12" class="browser">QupZilla</text>
             </a>
 
-            <line stroke="blue" x1="2155" x2="2995"/>
+            <line stroke="blue" x1="2155" x2="3025"/>
 
             <!-- V. 1.0.0: November 9, 2010 -->
             <circle stroke="blue" cx="2265" r="10"/>
@@ -6206,6 +6488,30 @@ Tips for adding branches:
             <!-- Source: http://blog.qupzilla.com/2017/02/qupzilla-210-released.html -->
             <circle stroke="blue" cx="2895" r="10"/>
             <text x="2895" y="3" class="subversion">2.1</text>
+
+            <!-- V. 2.2.0: October 8, 2017 -->
+            <!-- Source: http://blog.qupzilla.com/2017/10/qupzilla-220-released.html -->
+            <circle stroke="blue" cx="2975" r="10"/>
+            <text x="2975" y="3" class="subversion">2.2</text>
+
+            <!-- V. 2.2.6: March 13, 2018 -->
+            <!-- Source: http://blog.qupzilla.com/2018/03/final-qupzilla-release-is-out.html -->
+            <use x="3025" stroke="blue" xlink:href="#longver"/>
+            <text x="3025" y="3" class="subversion">2.2.6</text>
+        </g>
+
+        <g id="falkon">
+            <a xlink:href="http://en.wikipedia.org/wiki/Falkon">
+                <text x="3025" y="-15" class="browser">Falkon</text>
+            </a>
+
+            <!-- Source: https://download.kde.org/stable/falkon/ -->
+            <line stroke="#ceacdc" x1="3015" y1="-40" x2="3015"/>
+            <line stroke="#ceacdc" x1="3015" x2="3115"/>
+
+            <!-- V. 3.0.0: February 27, 2018 -->
+            <circle stroke="#ceacdc" cx="3015" r="10"/>
+            <text x="3015" y="5" class="version">3</text>
         </g>
 
         <g id="xombrero">
@@ -6312,7 +6618,7 @@ Tips for adding branches:
                 <text x="1125" y="-12" class="browser">NetSurf</text>
             </a>
 
-            <line stroke="#7d753d" x1="1125" x2="2995"/>
+            <line stroke="#7d753d" x1="1125" x2="3115"/>
 
             <!-- V1.0: May 17 2007 -->
             <circle stroke="#7d753d" cx="1725" r="10"/>
@@ -6387,6 +6693,11 @@ Tips for adding branches:
             <circle stroke="#7d753d" cx="2865" r="10"/>
             <text x="2865" y="3" class="subversion">3.6</text>
 
+            <!-- V3.7: Octobet 16, 2016 -->
+            <!-- Source: http://www.netsurf-browser.org/about/news -->
+            <circle stroke="#7d753d" cx="2975" r="10"/>
+            <text x="2975" y="3" class="subversion">3.7</text>
+
             <!-- Source: http://git.netsurf-browser.org/netsurf.git/log/ -->
         </g>
 
@@ -6394,7 +6705,7 @@ Tips for adding branches:
 
         <g id="mosaictree">
             <g id="tridenttree">
-                <polygon points="550,215 960,215 1020,125 1140,125 1160,25 3000,25 3000,525 2485,525 2485,575 3000,575 3000,625 1600,625 1485,690 1375,625 750,625 550,535" fill="blue" opacity="0.12"/>
+                <polygon points="550,215 960,215 1020,125 1140,125 1160,25 3120,25 3120,525 2485,525 2485,575 3120,575 3120,625 1600,625 1485,690 1375,625 750,625 550,535" fill="blue" opacity="0.12"/>
                 <text x="830" y="230" class="engine">
                     Based on <a xlink:href="http://en.wikipedia.org/wiki/Trident_(layout_engine)">Trident</a> / <a xlink:href="http://en.wikipedia.org/wiki/EdgeHTML">EdgeHTML</a> layout engines
                 </text>
@@ -6414,7 +6725,7 @@ Tips for adding branches:
             </g>
 
             <g id="geckotree">
-                <polygon points="605,660 1425,660 1445,575 1510,575 1520,525 2230,525 2240,475 3000,475 3000,525 2310,525 2310,575 3000,575 3000,972 2105,972 2105,1022 1970,1022 1970,1125 1970,1125 2020,1125 2020,1175 1190,1175 1180,1125 860,1125 605,925" fill="red" opacity="0.12"/>
+                <polygon points="605,660 1425,660 1445,575 1510,575 1520,525 2230,525 2240,475 3120,475 3120,525 2310,525 2310,575 3120,575 3120,972 2105,972 2105,1022 1970,1022 1970,1125 1970,1125 2020,1125 2020,1175 1190,1175 1180,1125 860,1125 605,925" fill="red" opacity="0.12"/>
                 <text x="830" y="800" class="engine">
                     Based on <a xlink:href="http://en.wikipedia.org/wiki/Gecko_(layout_engine)">Gecko layout engine</a>
                 </text>
@@ -6433,7 +6744,7 @@ Tips for adding branches:
             </g>
 
             <g id="withwktree">
-                <polygon points="2140,375 3000,375 3000,625 1865,625 1865,575 2315,575 2315,470 2140,470" transform="translate(0,0)" fill="green" opacity="0.13"/>
+                <polygon points="2140,375 3120,375 3120,625 1865,625 1865,575 2315,575 2315,470 2140,470" transform="translate(0,0)" fill="green" opacity="0.13"/>
                 <text x="2245" y="440" class="engine">
                     + <a xlink:href="http://en.wikipedia.org/wiki/WebKit">WebKit</a> / <a xlink:href="http://en.wikipedia.org/wiki/Blink_(layout_engine)">Blink</a>
                 </text>
@@ -6452,7 +6763,7 @@ Tips for adding branches:
         </g>
 
         <g id="webkittree">
-            <polygon points="910,470 1180,470 1190,425 1975,425 1975,327 2110,327 2110,277 3000,277 3000,1272 2420,1272 2420,1175 1910,1175 1780,825 1780,725 1750,675 1250,675 1250,625 910,625" transform="translate(0,-300)" fill="green" opacity="0.12"/>
+            <polygon points="910,470 1180,470 1190,425 1975,425 1975,327 2110,327 2110,277 3120,277 3120,1272 2420,1272 2420,1175 1910,1175 1780,825 1780,725 1750,675 1250,675 1250,625 910,625" transform="translate(0,-300)" fill="green" opacity="0.12"/>
             <text x="1215" y="280" class="engine">
                 Based on <a xlink:href="http://en.wikipedia.org/wiki/KHTML">KHTML</a> / <a xlink:href="http://en.wikipedia.org/wiki/WebKit">WebKit</a> / <a xlink:href="http://en.wikipedia.org/wiki/Blink_(layout_engine)">Blink</a> layout engines
             </text>
@@ -6481,6 +6792,7 @@ Tips for adding branches:
             <use y="800" xlink:href="#steel"/>
             <use y="800" xlink:href="#qupzilla"/>
             <use y="850" xlink:href="#uzbl"/>
+            <use y="850" xlink:href="#falkon"/>
             <use y="900" xlink:href="#opera"/>
             <use y="950" xlink:href="#operamobile"/>
         </g>

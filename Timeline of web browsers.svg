@@ -57,6 +57,10 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 - Removed MediaBox (just removed from en.wiki)
 - Simplified browser history with many major releases in a short time (e.g. Chrome, Firefox, Opera)
 
+Not yet released
+- Added 2023, 2024 columns
+- Added IBrowse 3
+
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
 
@@ -466,8 +470,9 @@ Tips for adding branches:
 
             <!-- Beta available in July 1992 -->
             <line stroke="gold" x1="-55" y1="50" x2="-55"/>
-            <!-- Still in development as of April 2016 -->
-            <line stroke="gold" x1="-55" x2="3185"/>
+            <!-- Still in development as of January 2023 -->
+            <!-- Source: https://lynx.invisible-island.net/current/CHANGES.html -->
+            <line stroke="gold" x1="-55" x2="3605"/>
 
             <!-- V. 2.0 Final: March, 1993 -->
             <!-- Source: http://www.livinginternet.com/w/wi_browse.htm -->
@@ -1319,7 +1324,7 @@ Tips for adding branches:
             </a>
 
             <!-- Started: October, 1993 -->
-            <line stroke="#D0BF64" x1="95" x2="1680"/>
+            <line stroke="#D0BF64" x1="95" x2="3715"/>
             <!-- No updates since December 2006 -->
             <!-- Source: http://www.obh.snafu.de/~solon/docs/StatusOld.html -->
             <!-- Source: http://www.mfischer.com/legacy/amosaic/Status.html -->
@@ -1392,8 +1397,13 @@ Tips for adding branches:
 
             <!-- V2.5: August 30, 2019 -->
             <!-- Source: http://www.ibrowse-dev.net/news.php -->
-            <circle stroke="#D0BF64" cx="3315" r="10"/>
-            <text x="3315" y="3" class="subversion">2.5</text>
+            <circle stroke="#D0BF64" cx="3195" r="10"/>
+            <text x="3195" y="3" class="subversion">2.5</text>
+
+            <!-- V3.0: November 19, 2023 -->
+            <!-- Source: http://www.ibrowse-dev.net/news.php -->
+            <circle stroke="#D0BF64" cx="3705" r="10"/>
+            <text x="3705" y="5" class="version">3</text>
         </g>
 
         <g id="ncsamosaic">

@@ -59,7 +59,7 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 
 Not yet released
 - Added 2023, 2024 columns
-- Added IBrowse 3
+- Added IBrowse 3, Edge 100/110/120
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -142,6 +142,7 @@ Tips for adding branches:
         </pattern>
 
         <rect id="longver" width="30" height="20" rx="10" transform="translate(-15, -10)" stroke-width="2" fill="white"/>
+        <rect id="verylongver" width="40" height="20" rx="10" transform="translate(-20, -10)" stroke-width="2" fill="white"/>
 
         <g id="yearlabels">
             <text x="-360">1990</text>
@@ -3142,7 +3143,7 @@ Tips for adding branches:
             </a>
 
             <line stroke="deepskyblue" x1="2655" y1="-100" x2="2655"/>
-            <line stroke="deepskyblue" x1="2655" x2="3595"/>
+            <line stroke="deepskyblue" x1="2655" x2="3715"/>
 
             <!-- V. 20.0: 29th July 2015 -->
             <use x="2705" stroke="deepskyblue" xlink:href="#longver"/>
@@ -3205,6 +3206,18 @@ Tips for adding branches:
             <!-- V. 90.0.818: April 15, 2021 -->
             <use x="3395" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="3395" y="5" class="version">90+</text>
+
+            <!-- V. 100.0.1185.29: April 1, 2022 -->
+            <use x="3515" stroke="deepskyblue" xlink:href="#verylongver"/>
+            <text x="3515" y="5" class="version">100+</text>
+
+            <!-- V. 110.0.1587.41: February 9, 2023 -->
+            <use x="3615" stroke="deepskyblue" xlink:href="#verylongver"/>
+            <text x="3615" y="5" class="version">110+</text>
+
+            <!-- V. 120.0.2210.61: December 7, 2023 -->
+            <use x="3715" stroke="deepskyblue" xlink:href="#verylongver"/>
+            <text x="3715" y="5" class="version">120+</text>
         </g>
 
         <g id="iemac">

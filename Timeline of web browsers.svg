@@ -10,6 +10,7 @@
 
         Recent changelog available in source. For older versions, see:
         - https://upload.wikimedia.org/wikipedia/commons/archive/7/74/20150104154324%21Timeline_of_web_browsers.svg
+        - https://upload.wikimedia.org/wikipedia/commons/archive/7/74/20170418232405%21Timeline_of_web_browsers.svg
         - https://github.com/Ugoku/browser-timeline/blob/master/CHANGELOG
     </desc>
     <!--
@@ -25,62 +26,6 @@ TODO:
 
 
 Changelog
-
-V 12.5 (4th June 2015 - by CortoFrancese)
-- Added Lunascape, MyIE fork from Internet Explorer, GreenBrowser and Maxthon, second WebKit/Blink tree for web browsers with double and triple layout engines
-- Moved lines to reorganize space
-
-V 12.6 (6th June 2015 - by Spinal83)
-- Add Microsoft Edge (formerly known as Project Spartan), SeaMonkey 2.33, Firefox 37-38, Web 3.16, iCab Mobile 8.8, Chrome 42-43, Opera 28-29 (+Mobile), Opera Mini 10, NetSurf 3.3
-- Moved Vivaldi to be next to Opera
-
-V 12.7 (13th June 2015 - by CortoFrancese)
-- Added Ghostzilla, IBM Lotus Symphony, Kazehakase, Midori, QupZilla, Sleipnir, xxxterm / xombrero, Gzilla / Armadillo 0.3.10, Amaya 11.4, Links 2.9
-- Soft end Amaya, Armadillo, rekonq (no releases for over an year)
-- Moved lines to reorganize space
-
-V 12.8 (13th July 2015 - by Spinal83)
-- Added K-Meleon 75, Firefox 39, Web 3.17, iCab Mobile 8.9, Opera 30 (+Mobile), Dillo 3.0.5
-- Small fixes
-
-V 12.9 (30th July 2015 - by Spinal83)
-- Added Microsoft Edge, Chrome 44, Links 2.10
-
-V 13.0 (27th August 2015 - by Spinal83)
-- Fixed Edge version
-- Added several Lunascape versions, several Midori versions, Firefox 40
-
-V 13.1 (20th September 2015 - by CortoFrancese)
-- Added Chrome 45, Contiki 3, Links 2.11, Midori 0.5.11, Opera 31/32, SeaMonkey 2.35
-- Fixed Edge as conversion from IE Mobile in multi-platform (during this period, IE and Edge are distinct)
-
-V 13.2 (14th October 2015 - by CortoFrancese)
-- Added Chrome 46, Firefox 41, K-Meleon 75.1, Links 2.12, Lunascape 6.11, Opera Mobile 32, SeaMonkey 2.38, Web 3.18
-- Fixed Camino link
-
-V 13.3 (26th October 2015 - by CortoFrancese)
-- Added Cyberdog, Dooble
-
-V 13.4 (24th November 2015 - by CortoFrancese)
-- Added Dooble 1.55, Edge 23/25, Firefox 42, iCab 5.6, iCab Mobile 8.10/8.11/9, Opera 33, Opera Mobile 33, SeaMonkey 2.39, xombrero 1.6.4
-- Soft end Classilla, Konqueror (no releases for over a year)
-
-V 13.5 (13th January 2016 - by CortoFrancese)
-- Added 2016 column
-- Added Avant Browser 16, Chrome 47, Firefox 43, Lunascape 6.12, Opera 34, Opera Mini 11/12/13, Opera Mobile 34, Vivaldi Beta1
-
-V 13.7 (2nd June 2016 - by Spinal83)
-- Added GreenBrowser 6.9, Maxthon 4.9, Lunascape 6.13, SeaMonkey 2.40, Firefox 44-46, Web 3.19-3.21, QupZilla 2, Safari 9.1, iCab Mobile 9.1-9.4, Chrome 48-51, dooble 1.56, Vivaldi, Opera 35-37, NetSurf 3.4-3.5
-
-V 13.8 (7th September 2016 - by CortoFrancese)
-- Added Arora/Zeromus/BlueLightCat
-- Added Chrome 52-53, Edge 27-28-31-34-37-38, Firefox 47-48, iCab 5.7, Links 2.13, Lunascape 6.14, Opera 38, Opera Mini 14-15-16-17-18, Sleipnir 6.2, SlimBrowser 8, Vivaldi 1.2-1.3
-- Soft end Contiki, Dillo, Midori, xombrero (no releases for over a year)
-
-V 13.9 (16th October 2016 - by CortoFrancese)
-- Added Deepnet Explorer, Iris Browser, MenuBox, Otter Browser, Steel, surf, Uzbl
-- Added Chrome 54, Firefox 49, Opera 39-40, Opera Mini 19, Opera Mobile 37.1-37.2, Safari 10, Vivaldi 1.4, Web 3.22
-- Soft end K-Meleon (no releases for over a year)
 
 V 14.0 (6th January 2017 - by CortoFrancese)
 - Added 2017 column

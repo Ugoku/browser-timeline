@@ -4027,7 +4027,7 @@ Tips for adding branches:
                 <text x="1425" y="-12" class="browser">Sleipnir</text>
             </a>
 
-            <line stroke="royalblue" x1="1425" x2="3595"/>
+            <line stroke="royalblue" x1="1425" x2="3715"/>
 
             <!-- V. 2.00: October 12, 2005 -->
             <circle stroke="royalblue" cx="1535" r="10"/>
@@ -4120,6 +4120,10 @@ Tips for adding branches:
             <!-- V. 4.7: September 5, 2019 -->
             <circle stroke="royalblue" cx="3205" r="10"/>
             <text x="3205" y="3" class="subversion">4.7</text>
+
+            <!-- V. 4.8.0: April 18, 2023 -->
+            <circle stroke="royalblue" cx="3635" r="10"/>
+            <text x="3635" y="3" class="subversion">4.8</text>
         </g>
 
         <g id="sleipnirblink">
@@ -4127,7 +4131,7 @@ Tips for adding branches:
                 <text x="2505" y="23" class="browser">Sleipnir (blink-based)</text>
             </a>
 
-            <line stroke="royalblue" x1="2505" x2="3595"/>
+            <line stroke="royalblue" x1="2505" x2="3715"/>
 
             <!-- V. 5.0.0: November 21, 2013 -->
             <circle stroke="royalblue" cx="2505" r="10"/>
@@ -4160,6 +4164,10 @@ Tips for adding branches:
             <!-- V. 6.4.0: June 27, 2019 -->
             <circle stroke="royalblue" cx="3175" r="10"/>
             <text x="3175" y="3" class="subversion">6.4</text>
+
+            <!-- V. 6.5.0: April 18, 2023 -->
+            <circle stroke="royalblue" cx="3635" r="10"/>
+            <text x="3635" y="3" class="subversion">6.5</text>
         </g>
 
         <g id="lunascape">

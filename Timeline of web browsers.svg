@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3245" height="2480">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3245" height="2680">
     <title>Timeline of Web Browsers</title>
     <desc>
         This timeline displays the releases of major versions of web browsers.
@@ -76,6 +76,11 @@ V 13.8 (7th September 2016 - by CortoFrancese)
 - Added Arora/Zeromus/BlueLightCat
 - Added Chrome 52-53, Edge 27-28-31-34-37-38, Firefox 47-48, iCab 5.7, Links 2.13, Lunascape 6.14, Opera 38, Opera Mini 14-15-16-17-18, Sleipnir 6.2, SlimBrowser 8, Vivaldi 1.2-1.3
 - Soft end Contiki, Dillo, Midori, xombrero (no releases for over a year)
+
+V 13.9 (16th October 2016 - by CortoFrancese)
+- Added Deepnet Explorer, Iris Browser, MenuBox, Otter Browser, Steel, surf, Uzbl
+- Added Chrome 54, Firefox 49, Opera 39-40, Opera Mini 19, Opera Mobile 37.1-37.2, Safari 10, Vivaldi 1.4, Web 3.22
+- Soft end K-Meleon (no releases for over a year)
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -248,7 +253,7 @@ Tips for adding branches:
             </a>
 
             <!--Line Mode Browser and WorldWideWeb based on each other (later)-->
-            <path stroke="#89B" stroke-width="3px" d="M-255,100 -255,583" marker-end="url(#Triangle)"/>
+            <path stroke="#89B" stroke-width="3px" d="M-255,100 -255,633" marker-end="url(#Triangle)"/>
             <path stroke="#89B" stroke-width="3px" d="M-255,100 -255,7" marker-end="url(#Triangle)"/>
 
             <!--Development started in November 1990 http://www.w3.org/History.html-->
@@ -1106,7 +1111,7 @@ Tips for adding branches:
             <!-- Source: http://www.mfischer.com/legacy/amosaic/StatusOld.html -->
 
             <!-- Based on NCSA Mosaic -->
-            <line stroke="#D0BF64" x1="95" y1="400" x2="95"/>
+            <line stroke="#D0BF64" x1="95" y1="450" x2="95"/>
 
             <!-- V 1.0: 25 December 1993 -->
             <circle stroke="#D0BF64" cx="115" r="10"/>
@@ -1146,7 +1151,7 @@ Tips for adding branches:
             <!-- V. 1.2: 9th March 1998 -->
             <!-- Source: http://web.archive.org/web/19981205103602/http://www.omnipresence.com/ibrowse/ -->
             <circle stroke="#D0BF64" cx="625" r="10"/>
-            <text x="625" y="5" class="subversion">1.2</text>
+            <text x="625" y="3" class="subversion">1.2</text>
 
             <!-- V. 1.22: 28th July 1998 -->
             <!-- Source: http://web.archive.org/web/19981205103602/http://www.omnipresence.com/ibrowse/ -->
@@ -1274,7 +1279,7 @@ Tips for adding branches:
                 <text x="205" y="-15" class="browser">Mosaic Netscape / Netscape Navigator</text>
             </a>
 
-            <line stroke="teal" x1="195" y1="-200" x2="195"/>
+            <line stroke="teal" x1="195" y1="-250" x2="195"/>
             <line stroke="teal" x1="195" x2="1155"/>
 
             <!-- V. 0.9 Oct. 13, 1994 -->
@@ -1616,7 +1621,7 @@ Tips for adding branches:
             </a>
 
             <!-- From Mozilla -->
-            <line stroke="#33485F" x1="895" y1="-150" x2="895"/>
+            <line stroke="#33485F" x1="895" y1="-200" x2="895"/>
             <line stroke="#33485F" x1="895" x2="1885"/><!-- Galeon 2.0.7 was released on 2008-09-27 -->
 
             <!-- V. 0.6: June 2000 -->
@@ -1658,14 +1663,86 @@ Tips for adding branches:
             <line stroke="#D08020" x1="1225" x2="1225" y1="-10" y2="10"/>
         </g>
 
+        <g id="otter">
+            <a xlink:href="https://en.wikipedia.org/wiki/Otter_Browser">
+                <text x="2515" y="23" class="browser">Otter Browser</text>
+            </a>
+
+            <line stroke="#c30" x1="2515" x2="2875"/>
+
+            <!-- V. Alpha 1: January 1, 2014 -->
+            <circle stroke="#c30" cx="2525" r="10"/>
+            <text x="2525" y="3" class="subversion">a1</text>
+
+            <!-- V. Alpha 2: February 1, 2014 -->
+            <circle stroke="#c30" cx="2535" r="10"/>
+            <text x="2535" y="3" class="subversion">a2</text>
+
+            <!-- V. Alpha 3: March 1, 2014 -->
+            <circle stroke="#c30" cx="2545" r="10"/>
+            <text x="2545" y="3" class="subversion">a3</text>
+
+            <!-- V. Alpha 4: April 1, 2014 -->
+            <circle stroke="#c30" cx="2555" r="10"/>
+            <text x="2555" y="3" class="subversion">a4</text>
+
+            <!-- V. Alpha 5: May 1, 2014 -->
+            <circle stroke="#c30" cx="2565" r="10"/>
+            <text x="2565" y="3" class="subversion">a5</text>
+
+            <!-- V. Beta 1: June 1, 2014 -->
+            <circle stroke="#c30" cx="2575" r="10"/>
+            <text x="2575" y="3" class="subversion">b1</text>
+
+            <!-- V. Beta 2: August 1, 2014 -->
+            <circle stroke="#c30" cx="2595" r="10"/>
+            <text x="2595" y="3" class="subversion">b2</text>
+
+            <!-- V. Beta 3: November 1, 2014 -->
+            <circle stroke="#c30" cx="2625" r="10"/>
+            <text x="2625" y="3" class="subversion">b3</text>
+
+            <!-- V. Beta 4: January 1, 2015 -->
+            <circle stroke="#c30" cx="2645" r="10"/>
+            <text x="2645" y="3" class="subversion">b4</text>
+
+            <!-- V. Beta 5: April 1, 2015 -->
+            <circle stroke="#c30" cx="2675" r="10"/>
+            <text x="2675" y="3" class="subversion">b5</text>
+
+            <!-- V. Beta 6: June 1, 2015 -->
+            <circle stroke="#c30" cx="2695" r="10"/>
+            <text x="2695" y="3" class="subversion">b6</text>
+
+            <!-- V. Beta 7: September 1, 2015 -->
+            <circle stroke="#c30" cx="2725" r="10"/>
+            <text x="2725" y="3" class="subversion">b7</text>
+
+            <!-- V. Beta 8: December 1, 2015 -->
+            <circle stroke="#c30" cx="2755" r="10"/>
+            <text x="2755" y="3" class="subversion">b8</text>
+
+            <!-- V. Beta 9: January 1, 2016 -->
+            <circle stroke="#c30" cx="2765" r="10"/>
+            <text x="2765" y="3" class="subversion">b9</text>
+
+            <!-- V. Beta 10: May 1, 2016 -->
+            <circle stroke="#c30" cx="2805" r="10"/>
+            <text x="2805" y="3" class="subversion">b10</text>
+
+            <!-- V. Beta 11: October 1, 2016 -->
+            <circle stroke="#c30" cx="2855" r="10"/>
+            <text x="2855" y="3" class="subversion">b11</text>
+        </g>
+
         <g id="gnomeweb">
             <a xlink:href="http://en.wikipedia.org/wiki/Web_(web_browser)">
-                <text x="1195" y="-15" class="browser">Epiphany</text>
+                <text x="1185" y="-15" class="browser">Epiphany</text>
             </a>
 
             <!-- From Galeon -->
             <!-- Started: November 2002 -->
-            <line stroke="#207C00" x1="1185" y1="-50" x2="1185"/>
+            <line stroke="#207C00" x1="1185" y1="50" x2="1185"/>
             <line stroke="#207C00" x1="1185" x2="2875"/>
 
             <!-- Source for releases: http://ftp.gnome.org/pub/GNOME/sources/epiphany/ -->
@@ -1858,6 +1935,11 @@ Tips for adding branches:
             <!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
             <use xlink:href="#longver" x="2795" stroke="#207C00"/>
             <text x="2795" y="3" class="subversion">3.21</text>
+
+            <!-- V. 3.22.0: September 21, 2016 -->
+            <!-- Source: https://git.gnome.org/browse/epiphany/refs/tags -->
+            <use xlink:href="#longver" x="2845" stroke="#207C00"/>
+            <text x="2845" y="3" class="subversion">3.22</text>
         </g>
 
         <g id="kmeleon">
@@ -1869,7 +1951,7 @@ Tips for adding branches:
             <line stroke="#7EAE50" x1="915" y1="180" x2="915"/>
             <line stroke="#7EAE50" x1="915" x2="2275"/>
             <line stroke="#7EAE50" x1="2275" x2="2525" style="stroke-dasharray: 4,6"/>
-            <line stroke="#7EAE50" x1="2525" x2="2875"/>
+            <line stroke="#7EAE50" x1="2525" x2="2845"/>
 
             <!-- V0.1: August 2000 -->
             <circle stroke="#7EAE50" cx="915" r="10"/>
@@ -2416,6 +2498,10 @@ Tips for adding branches:
             <!-- V. 48.0: August 2, 2016 -->
             <circle stroke="orange" cx="2835" r="10"/>
             <text x="2835" y="5" class="version">48</text>
+
+            <!-- V. 49.0: September 20, 2016 -->
+            <circle stroke="orange" cx="2845" r="10"/>
+            <text x="2845" y="5" class="version">49</text>
         </g>
 
         <g id="ie">
@@ -2423,7 +2509,7 @@ Tips for adding branches:
                 <text x="325" y="22" class="browser">Internet Explorer</text>
             </a>
 
-            <line stroke="blue" x1="315" y1="150" x2="315"/>
+            <line stroke="blue" x1="315" y1="100" x2="315"/>
             <line stroke="blue" x1="315" x2="2875"/>
 
             <!-- V. 1.0: August, 1995 -->
@@ -2591,7 +2677,7 @@ Tips for adding branches:
 
             <!-- Started: January, 1996 -->
             <!-- Source: Wikipedia article" -->
-            <line stroke="blue" x1="365" y1="150" x2="365"/>
+            <line stroke="blue" x1="365" y1="250" x2="365"/>
             <line stroke="blue" x1="365" x2="1555"/>
 
             <!-- V. 2.0: April, 1996 -->
@@ -3074,15 +3160,109 @@ Tips for adding branches:
             <text x="2805" y="3" class="subversion">6.9</text>
         </g>
 
+        <g id="menubox">
+            <a xlink:href="https://en.wikipedia.org/wiki/MenuBox">
+                <text x="1125" y="23" class="browser">MenuBox</text>
+            </a>
+            <!-- Source: http://www.menubox.com/ -->
+
+            <line stroke="#E9A54F" x1="1125" x2="2875"/>
+
+            <!-- V. 1.7.0.0: May 31, 2002 -->
+            <circle stroke="#E9A54F" cx="1125" r="10"/>
+            <text x="1125" y="3" class="subversion">1.7</text>
+
+            <!-- V. 2.0.0.0: September 22, 2002 -->
+            <circle stroke="#E9A54F" cx="1165" r="10"/>
+            <text x="1165" y="5" class="version">2</text>
+
+            <!-- V. 2.1.1.0: May 7, 2003 -->
+            <circle stroke="#E9A54F" cx="1245" r="10"/>
+            <text x="1245" y="3" class="subversion">2.1</text>
+
+            <!-- V. 2.2.0.0: August 20, 2003 -->
+            <circle stroke="#E9A54F" cx="1275" r="10"/>
+            <text x="1275" y="3" class="subversion">2.2</text>
+
+            <!-- V. 2.3.0.0: November 11, 2003 -->
+            <circle stroke="#E9A54F" cx="1305" r="10"/>
+            <text x="1305" y="3" class="subversion">2.3</text>
+
+            <!-- V. 3.0.1.0: October 29, 2004 -->
+            <circle stroke="#E9A54F" cx="1415" r="10"/>
+            <text x="1415" y="5" class="version">3</text>
+
+            <!-- V. 3.1.0.0: August 1, 2005 -->
+            <circle stroke="#E9A54F" cx="1515" r="10"/>
+            <text x="1515" y="3" class="subversion">3.1</text>
+
+            <!-- V. 3.2.0.0: September 21, 2005 -->
+            <circle stroke="#E9A54F" cx="1525" r="10"/>
+            <text x="1525" y="3" class="subversion">3.2</text>
+
+            <!-- V. 4.0.1.0: May 17, 2007 -->
+            <circle stroke="#E9A54F" cx="1725" r="10"/>
+            <text x="1725" y="5" class="version">4</text>
+
+            <!-- V. 5.0.0.0: August 8, 2008 -->
+            <circle stroke="#E9A54F" cx="1875" r="10"/>
+            <text x="1875" y="5" class="version">5</text>
+
+            <!-- V. 5.1.0.0: September 25, 2009 -->
+            <circle stroke="#E9A54F" cx="2005" r="10"/>
+            <text x="2005" y="3" class="subversion">5.1</text>
+
+            <!-- V. 5.2.0.0: October 21, 2010 -->
+            <circle stroke="#E9A54F" cx="2135" r="10"/>
+            <text x="2135" y="3" class="subversion">5.2</text>
+
+            <!-- V. 6.0.0.0: January 26, 2015 -->
+            <circle stroke="#E9A54F" cx="2645" r="10"/>
+            <text x="2645" y="5" class="version">6</text>
+        </g>
+
+        <g id="deepnet">
+            <a xlink:href="https://en.wikipedia.org/wiki/Deepnet_Explorer">
+                <text x="1335" y="23" class="browser">Deepnet Explorer</text>
+            </a>
+            <!-- Source: https://web.archive.org/web/20121119021701/http://www.deepnetexplorer.com/ -->
+
+            <line stroke="dodgerblue" x1="1335" x2="1775"/>
+
+            <!-- V. 1.0.0.8: May 2004 -->
+            <circle stroke="dodgerblue" cx="1365" r="10"/>
+            <text x="1365" y="5" class="version">1</text>
+
+            <!-- V. 1.1: June 2004 -->
+            <circle stroke="dodgerblue" cx="1375" r="10"/>
+            <text x="1375" y="3" class="subversion">1.1</text>
+
+            <!-- V. 1.2: August 9, 2004 -->
+            <circle stroke="dodgerblue" cx="1395" r="10"/>
+            <text x="1395" y="3" class="subversion">1.2</text>
+
+            <!-- V. 1.3: December 1, 2004 -->
+            <circle stroke="dodgerblue" cx="1435" r="10"/>
+            <text x="1435" y="3" class="subversion">1.3</text>
+
+            <!-- V. 1.4: March 1, 2005 -->
+            <circle stroke="dodgerblue" cx="1465" r="10"/>
+            <text x="1465" y="3" class="subversion">1.4</text>
+
+            <!-- V. 1.5: July 15, 2005 -->
+            <circle stroke="dodgerblue" cx="1505" r="10"/>
+            <text x="1505" y="3" class="subversion">1.5</text>
+        </g>
+
         <g id="slimbrowser">
             <a xlink:href="http://en.wikipedia.org/wiki/SlimBrowser">
-                <text x="1175" y="23" class="browser">Slimbrowser</text>
+                <text x="1125" y="20" class="browser">SlimBrowser</text>
             </a>
             <!-- Source: http://tweakers.net/meuktracker/?keyword=slimbrowser -->
 
             <!-- Started: between February and May 2002 -->
             <!-- Source: http://replay.waybackmachine.org/20020604181452/http://www.flashpeak.com/sbrowser/sbrowser.htm -->
-            <line stroke="purple" x1="1175" x2="2875"/>
+            <line stroke="purple" x1="1125" x2="2875"/>
 
             <!-- Versions to add:
 	 1.0,
@@ -3624,7 +3804,7 @@ Tips for adding branches:
 
             <!-- based on Mosaic -->
             <line stroke="red" x1="180" x2="445"/>
-            <line stroke="red" x1="180" x2="180" y1="-250" y2="0"/>
+            <line stroke="red" x1="180" x2="180" y1="-300" y2="0"/>
 
             <!-- V. 1.0: October, 1994 -->
             <circle stroke="red" cx="215" r="10"/>
@@ -3876,6 +4056,16 @@ Tips for adding branches:
             <!-- Source: https://www.opera.com/blogs/desktop/2016/06/opera-stable-38-0-2220-31-update/ -->
             <circle stroke="#B00" cx="2815" r="10"/>
             <text x="2815" y="5" class="version">38</text>
+
+            <!-- V. 39.0: September 6, 2016 -->
+            <!-- Source: https://www.opera.com/blogs/desktop/2016/09/opera-stable-39-0-2256-71-update/ -->
+            <circle stroke="#B00" cx="2845" r="10"/>
+            <text x="2845" y="5" class="version">39</text>
+
+            <!-- V. 40.0: October 4, 2016 -->
+            <!-- Source: https://www.opera.com/blogs/desktop/2016/10/opera-stable-40-0-2308-81-update/ -->
+            <circle stroke="#B00" cx="2855" r="10"/>
+            <text x="2855" y="5" class="version">40</text>
         </g>
 
         <g id="operamini">
@@ -3995,6 +4185,10 @@ Tips for adding branches:
             <!-- V. 18.0 (Android): September 5, 2016 -->
             <circle stroke="#B00" cx="2845" r="10"/>
             <text x="2845" y="5" class="version">18</text>
+
+            <!-- V. 19.0 (Android): October 10, 2016 -->
+            <circle stroke="#B00" cx="2855" r="10"/>
+            <text x="2855" y="5" class="version">19</text>
         </g>
 
         <g id="operamobile">
@@ -4172,6 +4366,14 @@ Tips for adding branches:
             <!-- V. 37.0: May 4, 2016 -->
             <circle stroke="#B00" cx="2805" r="10"/>
             <text x="2805" y="5" class="version">37</text>
+
+            <!-- V. 37.1: September 22, 2016 -->
+            <circle stroke="#B00" cx="2845" r="10"/>
+            <text x="2845" y="3" class="subversion">37.1</text>
+
+            <!-- V. 37.2: October 5, 2016 -->
+            <circle stroke="#B00" cx="2855" r="10"/>
+            <text x="2855" y="3" class="subversion">37.2</text>
         </g>
 
         <g id="kazehakase">
@@ -4372,6 +4574,10 @@ Tips for adding branches:
             <!-- Source: https://webkit.org/blog/6008/new-web-features-in-safari/ -->
             <circle stroke="#888" cx="2785" r="10"/>
             <text x="2785" y="3" class="subversion">9.1</text>
+
+            <!-- V. 10.0: September 30, 2015 -->
+            <circle stroke="#888" cx="2845" r="10"/>
+            <text x="2845" y="5" class="version">10</text>
         </g>
 
         <g id="tkWWW">
@@ -4503,6 +4709,10 @@ Tips for adding branches:
             <!-- V1.3: August 11, 2016 -->
             <circle stroke="#ec4947" cx="2835" r="10"/>
             <text x="2835" y="3" class="subversion">1.3</text>
+
+            <!-- V1.4: August 11, 2016 -->
+            <circle stroke="#ec4947" cx="2845" r="10"/>
+            <text x="2845" y="3" class="subversion">1.4</text>
         </g>
 
         <g id="webpositive">
@@ -4874,6 +5084,10 @@ Tips for adding branches:
             <!-- V53.0: August 31, 2016 -->
             <circle stroke="#7d753d" cx="2835" r="10"/>
             <text x="2835" y="5" class="version">53</text>
+
+            <!-- V54.0: October 10, 2016 -->
+            <circle stroke="#7d753d" cx="2855" r="10"/>
+            <text x="2855" y="5" class="version">54</text>
         </g>
 
         <g id="dooble">
@@ -5056,6 +5270,152 @@ Tips for adding branches:
             <!-- V. 1.56: May 1, 2016 -->
             <circle stroke="dodgerblue" cx="2805" r="10"/>
             <text x="2805" y="3" class="subversion">1.56</text>
+        </g>
+
+        <g id="uzbl">
+            <a xlink:href="https://en.wikipedia.org/wiki/Uzbl">
+                <text x="1965" y="-15" class="browser">Uzbl</text>
+            </a>
+
+            <!-- Source: https://github.com/uzbl/uzbl -->
+            <line stroke="#575757" x1="1965" x2="2875"/>
+
+            <!-- V. 2009.05.17 -->
+            <circle stroke="#575757" cx="1965" r="10"/>
+            <text x="1965" y="3" class="subversion">r1</text>
+
+            <!-- V. 2009.06.06 -->
+            <circle stroke="#575757" cx="1975" r="10"/>
+            <text x="1975" y="3" class="subversion">r2</text>
+
+            <!-- V. 2009.07.03 -->
+
+            <!-- V. 2009.07.18 -->
+            <circle stroke="#575757" cx="1985" r="10"/>
+            <text x="1985" y="3" class="subversion">r4</text>
+
+            <!-- V. 2009.08.08 -->
+
+            <!-- V. 2009.08.26 -->
+            <circle stroke="#575757" cx="1995" r="10"/>
+            <text x="1995" y="3" class="subversion">r6</text>
+
+            <!-- V. 2009.09.12 -->
+            <circle stroke="#575757" cx="2005" r="10"/>
+            <text x="2005" y="3" class="subversion">r7</text>
+
+            <!-- V. 2009.11.07 -->
+
+            <!-- V. 2009.11.29 -->
+
+            <!-- V. 2009.11.30 -->
+            <circle stroke="#575757" cx="2025" r="10"/>
+            <text x="2025" y="3" class="subversion">r10</text>
+
+            <!-- V. 2009.12.22 -->
+            <circle stroke="#575757" cx="2035" r="10"/>
+            <text x="2035" y="3" class="subversion">r11</text>
+
+            <!-- V. 2010.01.05 -->
+            <circle stroke="#575757" cx="2045" r="10"/>
+            <text x="2045" y="3" class="subversion">r12</text>
+
+            <!-- V. 2010.02.02 -->
+            <circle stroke="#575757" cx="2055" r="10"/>
+            <text x="2055" y="3" class="subversion">r13</text>
+
+            <!-- V. 2010.03.14 -->
+            <circle stroke="#575757" cx="2065" r="10"/>
+            <text x="2065" y="3" class="subversion">r14</text>
+
+            <!-- V. 2010.04.03 -->
+            <circle stroke="#575757" cx="2075" r="10"/>
+            <text x="2075" y="3" class="subversion">r15</text>
+
+            <!-- V. 2010.08.05 -->
+            <circle stroke="#575757" cx="2115" r="10"/>
+            <text x="2115" y="3" class="subversion">r16</text>
+
+            <!-- V. 2010.11.25 -->
+            <circle stroke="#575757" cx="2145" r="10"/>
+            <text x="2145" y="3" class="subversion">r17</text>
+
+            <!-- V. 2011.02.15 -->
+            <circle stroke="#575757" cx="2175" r="10"/>
+            <text x="2175" y="3" class="subversion">r18</text>
+
+            <!-- V. 2011.03.14 -->
+
+            <!-- V. 2011.03.17 -->
+            <circle stroke="#575757" cx="2185" r="10"/>
+            <text x="2185" y="3" class="subversion">r20</text>
+
+            <!-- V. 2011.04.12 -->
+            <circle stroke="#575757" cx="2195" r="10"/>
+            <text x="2195" y="3" class="subversion">r21</text>
+
+            <!-- V. 2011.07.17 -->
+
+            <!-- V. 2011.07.25 -->
+            <circle stroke="#575757" cx="2225" r="10"/>
+            <text x="2225" y="3" class="subversion">r23</text>
+
+            <!-- V. 2011.10.01 -->
+            <circle stroke="#575757" cx="2255" r="10"/>
+            <text x="2255" y="3" class="subversion">r24</text>
+
+            <!-- V. 2011.11.28 -->
+            <circle stroke="#575757" cx="2265" r="10"/>
+            <text x="2265" y="3" class="subversion">r25</text>
+
+            <!-- V. 2012.05.14 -->
+            <circle stroke="#575757" cx="2325" r="10"/>
+            <text x="2325" y="3" class="subversion">r26</text>
+
+            <!-- V. 0.9.0: May 1, 2016 -->
+            <circle stroke="#575757" cx="2775" r="10"/>
+            <text x="2775" y="3" class="subversion">0.9.0</text>
+        </g>
+
+        <g id="surf">
+            <a xlink:href="https://en.wikipedia.org/wiki/Surf_(web_browser)">
+                <text x="1985" y="-15" class="browser">surf</text>
+            </a>
+
+            <!-- Source: http://surf.suckless.org/ -->
+            <line stroke="#069" x1="1985" x2="2875"/>
+
+            <!-- V. 0.1: September 10, 2009 -->
+            <circle stroke="#069" cx="2005" r="10"/>
+            <text x="2005" y="3" class="subversion">0.1</text>
+
+            <!-- V. 0.1.1: September 10, 2009 -->
+
+            <!-- V. 0.1.2: September 11, 2009 -->
+
+            <!-- V. 0.2: October 17, 2009 -->
+
+            <!-- V. 0.3: October 30, 2009 -->
+            <circle stroke="#069" cx="2015" r="10"/>
+            <text x="2015" y="3" class="subversion">0.3</text>
+
+            <!-- V. 0.4: May 28, 2010 -->
+            <circle stroke="#069" cx="2085" r="10"/>
+            <text x="2085" y="3" class="subversion">0.4</text>
+
+            <!-- V. 0.4.1: June 8, 2010 -->
+
+            <!-- V. 0.5: June 11, 2012 -->
+            <circle stroke="#069" cx="2335" r="10"/>
+            <text x="2335" y="3" class="subversion">0.5</text>
+
+            <!-- V. 0.6: February 10, 2013 -->
+            <circle stroke="#069" cx="2415" r="10"/>
+            <text x="2415" y="3" class="subversion">0.6</text>
+
+            <!-- V. 0.7: December 19, 2013 -->
+            <circle stroke="#069" cx="2755" r="10"/>
+            <text x="2755" y="3" class="subversion">0.7</text>
         </g>
 
         <g id="icab">
@@ -5334,6 +5694,40 @@ Tips for adding branches:
             <text x="2795" y="3" class="subversion">9.4</text>
         </g>
 
+        <g id="iris">
+            <a xlink:href="https://en.wikipedia.org/wiki/Iris_Browser">
+                <text x="1815" y="-15" class="browser">Iris Browser</text>
+            </a>
+
+            <line stroke="#b93833" x1="1815" x2="1995"/>
+
+            <!-- V. 1.0.9: May 5, 2008 -->
+            <use xlink:href="#longver" x="1845" stroke="#b93833"/>
+            <text x="1845" y="3" class="subversion">1.0.9</text>
+
+            <!-- V. 1.1: February 17, 2009 -->
+
+            <!-- V. 1.1.4: March 14, 2009 -->
+
+            <!-- V. 1.1.5: March 22, 2009 -->
+            <use xlink:href="#longver" x="1945" stroke="#b93833"/>
+            <text x="1945" y="3" class="subversion">1.1.5</text>
+
+            <!-- V. 1.1.6: April 1, 2009 -->
+
+            <!-- V. 1.1.7: April 23, 2009 -->
+            <use xlink:href="#longver" x="1955" stroke="#b93833"/>
+            <text x="1955" y="3" class="subversion">1.1.7</text>
+
+            <!-- V. 1.1.8: June 7, 2009 -->
+            <use xlink:href="#longver" x="1975" stroke="#b93833"/>
+            <text x="1975" y="3" class="subversion">1.1.8</text>
+
+            <!-- V. 1.1.9: July 6, 2009 -->
+            <use xlink:href="#longver" x="1985" stroke="#b93833"/>
+            <text x="1985" y="3" class="subversion">1.1.9</text>
+        </g>
+
         <g id="arora">
             <a xlink:href="https://en.wikipedia.org/wiki/Arora_(web_browser)">
                 <text x="1835" y="-15" class="browser">Arora</text>
@@ -5529,6 +5923,47 @@ Tips for adding branches:
             <!-- V. 2.4: November 15, 2013 -->
             <circle stroke="#ff8000" cx="2505" r="10"/>
             <text x="2505" y="3" class="subversion">2.4</text>
+        </g>
+
+        <g id="steel">
+            <a xlink:href="https://en.wikipedia.org/wiki/Steel_(web_browser)">
+                <text x="1915" y="-12" class="browser">Steel</text>
+            </a>
+
+            <line stroke="#f90" x1="1915" x2="2055"/>
+
+            <!-- V. 0.0.8: December 17, 2008 -->
+
+            <!-- V. 0.0.9: December 31, 2008 -->
+            <circle stroke="#f90" cx="1915" r="10"/>
+            <text x="1915" y="3" class="subversion">.0.9</text>
+
+            <!-- V. 0.0.10: January 1, 2009 -->
+
+            <!-- V. 0.0.11: January 2, 2009 -->
+
+            <!-- V. 0.0.12: January 25, 2009 -->
+            <circle stroke="#f90" cx="1925" r="10"/>
+            <text x="1925" y="3" class="subversion">.0.12</text>
+
+            <!-- V. 0.0.19: February 19, 2009 -->
+            <circle stroke="#f90" cx="1935" r="10"/>
+            <text x="1935" y="3" class="subversion">.0.19</text>
+
+            <!-- V. 0.1.1: June 12, 2009 -->
+            <circle stroke="#f90" cx="1975" r="10"/>
+            <text x="1975" y="3" class="subversion">.1.1</text>
+
+            <!-- V. 0.1.6: October 10, 2009 -->
+            <circle stroke="#f90" cx="2015" r="10"/>
+            <text x="2015" y="3" class="subversion">.1.6</text>
+
+            <!-- V. 0.1.9: December 10, 2009 -->
+            <circle stroke="#f90" cx="2035" r="10"/>
+            <text x="2035" y="3" class="subversion">.1.9</text>
+
+            <!-- In February 2010 Skyfire purchased kolbysoft and the Steel browser -->
+            <line stroke="#f90" x1="2055" x2="2055" y1="-10" y2="10"/>
         </g>
 
         <g id="qupzilla">
@@ -5753,72 +6188,76 @@ Tips for adding branches:
 
         <g id="mosaictree">
             <g id="tridenttree">
-                <polygon points="550,165 1120,165 1170,75 2880,75 2880,475 2485,475 2485,525 2880,525 2880,575 1600,575 1485,640 1375,575 750,575 550,485" fill="blue" opacity="0.12"/>
-                <text x="830" y="180" class="engine">
+                <polygon points="550,265 960,265 1020,175 1140,175 1160,75 2880,75 2880,575 2485,575 2485,625 2880,625 2880,675 1600,675 1485,740 1375,675 750,675 550,585" fill="blue" opacity="0.12"/>
+                <text x="830" y="280" class="engine">
                     Based on <a xlink:href="http://en.wikipedia.org/wiki/Trident_(layout_engine)">Trident</a> / <a xlink:href="http://en.wikipedia.org/wiki/EdgeHTML">EdgeHTML</a> layout engines
                 </text>
 
                 <use y="50" xlink:href="#iemac"/>
                 <use y="100" xlink:href="#mme"/>
-                <use y="100" xlink:href="#slimbrowser"/>
-                <use y="150" xlink:href="#edge"/>
-                <use y="200" xlink:href="#ie"/>
-                <use y="250" xlink:href="#greenbrowser"/>
-                <use y="300" xlink:href="#myie"/>
-                <use y="400" xlink:href="#netcaptor"/>
-                <use y="400" xlink:href="#aol"/>
-                <use y="450" xlink:href="#ieunix"/>
+                <use y="100" xlink:href="#deepnet"/>
+                <use y="150" xlink:href="#menubox"/>
+                <use y="200" xlink:href="#slimbrowser"/>
+                <use y="250" xlink:href="#edge"/>
+                <use y="300" xlink:href="#ie"/>
+                <use y="350" xlink:href="#greenbrowser"/>
+                <use y="400" xlink:href="#myie"/>
+                <use y="500" xlink:href="#netcaptor"/>
+                <use y="500" xlink:href="#aol"/>
+                <use y="550" xlink:href="#ieunix"/>
             </g>
 
             <g id="geckotree">
-                <polygon points="605,610 1425,610 1445,525 1510,525 1520,475 2230,475 2240,425 2880,425 2880,475 2310,475 2310,525 2880,525 2880,920 2105,920 2105,970 1970,970 1970,1075 2020,1075 2020,1125 1190,1125 1160,1025 860,1025 605,875" fill="red" opacity="0.12"/>
-                <text x="830" y="700" class="engine">
+                <polygon points="605,710 1425,710 1445,625 1510,625 1520,575 2230,575 2240,525 2880,525 2880,575 2310,575 2310,625 2880,625 2880,1020 2105,1020 2105,1070 1970,1070 1970,1120 1895,1120 1895,1175 1970,1175 2020,1175 2020,1225 1190,1225 1180,1175 860,1175 605,975" fill="red" opacity="0.12"/>
+                <text x="830" y="800" class="engine">
                     Based on <a xlink:href="http://en.wikipedia.org/wiki/Gecko_(layout_engine)">Gecko layout engine</a>
                 </text>
 
-                <use y="625" xlink:href="#geckonetscape"/>
-                <use y="625" xlink:href="#classilla"/>
-                <use y="670" xlink:href="#kmeleon"/>
-                <use y="715" xlink:href="#camino"/>
-                <use y="760" xlink:href="#ghostzilla"/>
-                <use y="805" xlink:href="#seamonkey"/>
-                <use y="850" xlink:href="#mozilla"/>
-                <use y="850" xlink:href="#ibmlotus"/>
-                <use y="900" xlink:href="#firefox"/>
-                <use y="950" xlink:href="#beonex"/>
-                <use y="1000" xlink:href="#galeon"/>
+                <use y="725" xlink:href="#geckonetscape"/>
+                <use y="725" xlink:href="#classilla"/>
+                <use y="770" xlink:href="#kmeleon"/>
+                <use y="815" xlink:href="#camino"/>
+                <use y="860" xlink:href="#ghostzilla"/>
+                <use y="905" xlink:href="#seamonkey"/>
+                <use y="950" xlink:href="#mozilla"/>
+                <use y="950" xlink:href="#ibmlotus"/>
+                <use y="1000" xlink:href="#firefox"/>
+                <use y="1050" xlink:href="#beonex"/>
+                <use y="1150" xlink:href="#galeon"/>
             </g>
 
             <g id="withwktree">
-                <polygon points="2140,325 2880,325 2880,575 1865,575 1865,525 2315,525 2315,420 2140,420" transform="translate(0,0)" fill="green" opacity="0.13"/>
-                <text x="2245" y="390" class="engine">
+                <polygon points="2140,425 2880,425 2880,675 1865,675 1865,625 2315,625 2315,520 2140,520" transform="translate(0,0)" fill="green" opacity="0.13"/>
+                <text x="2245" y="490" class="engine">
                     + <a xlink:href="http://en.wikipedia.org/wiki/WebKit">WebKit</a> / <a xlink:href="http://en.wikipedia.org/wiki/Blink_(layout_engine)">Blink</a>
                 </text>
 
-                <use y="350" xlink:href="#maxthon"/>
-                <use y="450" xlink:href="#avant"/>
-                <use y="500" xlink:href="#sleipnir"/>
-                <use y="550" xlink:href="#lunascape"/>
+                <use y="450" xlink:href="#maxthon"/>
+                <use y="550" xlink:href="#avant"/>
+                <use y="600" xlink:href="#sleipnir"/>
+                <use y="650" xlink:href="#lunascape"/>
             </g>
 
             <use y="0" xlink:href="#amosaic"/>
-            <use y="350" xlink:href="#spyglass"/>
-            <use y="400" xlink:href="#ncsamosaic"/>
-            <use y="600" xlink:href="#oldnetscape"/>
-            <use y="650" xlink:href="#ibmweb"/>
+            <use y="400" xlink:href="#spyglass"/>
+            <use y="450" xlink:href="#ncsamosaic"/>
+            <use y="700" xlink:href="#oldnetscape"/>
+            <use y="750" xlink:href="#ibmweb"/>
         </g>
 
         <g id="webkittree">
-            <polygon points="910,470 1180,470 1190,425 1975,425 1975,325 2110,325 2110,275 2880,275 2880,1170 2420,1170 2420,1070 1900,1070 1750,675 1250,675 1250,625 910,625" transform="translate(0,-300)" fill="green" opacity="0.12"/>
+            <polygon points="910,470 1180,470 1190,425 1900,425 1900,375 1975,375 1975,325 2110,325 2110,275 2880,275 2880,1270 2420,1270 2420,1170 1940,1170 1780,875 1780,725 1750,675 1250,675 1250,625 910,625" transform="translate(0,-300)" fill="green" opacity="0.12"/>
             <text x="1215" y="280" class="engine">
                 Based on <a xlink:href="http://en.wikipedia.org/wiki/KHTML">KHTML</a> / <a xlink:href="http://en.wikipedia.org/wiki/WebKit">WebKit</a> / <a xlink:href="http://en.wikipedia.org/wiki/Blink_(layout_engine)">Blink</a> layout engines
             </text>
 
             <use y="0" xlink:href="#flock"/>
-            <use y="50" xlink:href="#webpositive"/>
-            <use y="100" xlink:href="#gnomeweb"/>
+            <use y="0" xlink:href="#otter"/>
+            <use y="50" xlink:href="#gnomeweb"/>
+            <use y="100" xlink:href="#steel"/>
+            <use y="100" xlink:href="#qupzilla"/>
             <use y="150" xlink:href="#kazehakase"/>
-            <use y="150" xlink:href="#qupzilla"/>
+            <use y="150" xlink:href="#webpositive"/>
             <use y="200" xlink:href="#konqueror"/>
             <use y="250" xlink:href="#safari"/>
             <use y="300" xlink:href="#shiira"/>
@@ -5827,14 +6266,17 @@ Tips for adding branches:
             <use y="400" xlink:href="#midori"/>
             <use y="450" xlink:href="#icab"/>
             <use y="500" xlink:href="#icabmobile"/>
-            <use y="550" xlink:href="#arora"/>
-            <use y="600" xlink:href="#rekonq"/>
-            <use y="600" xlink:href="#vivaldi"/>
-            <use y="650" xlink:href="#chrome"/>
-            <use y="700" xlink:href="#dooble"/>
-            <use y="750" xlink:href="#xombrero"/>
-            <use y="800" xlink:href="#operamobile"/>
-            <use y="850" xlink:href="#opera"/>
+            <use y="550" xlink:href="#iris"/>
+            <use y="550" xlink:href="#xombrero"/>
+            <use y="600" xlink:href="#arora"/>
+            <use y="650" xlink:href="#rekonq"/>
+            <use y="650" xlink:href="#vivaldi"/>
+            <use y="700" xlink:href="#chrome"/>
+            <use y="750" xlink:href="#dooble"/>
+            <use y="800" xlink:href="#uzbl"/>
+            <use y="850" xlink:href="#surf"/>
+            <use y="900" xlink:href="#operamobile"/>
+            <use y="950" xlink:href="#opera"/>
         </g>
 
         <g id="prestotree">
@@ -5855,27 +6297,27 @@ Tips for adding branches:
             <use y="100" xlink:href="#w3m"/>
             <use y="150" xlink:href="#lynx"/>
             <use y="200" xlink:href="#mosaictree"/>
-            <use y="1900" xlink:href="#prestotree"/>
-            <use y="1150" xlink:href="#webkittree"/>
-            <use y="650" xlink:href="#www"/>
-            <use y="950" xlink:href="#violawww"/>
-            <use y="1025" xlink:href="#tkWWW"/>
-            <use y="1100" xlink:href="#midaswww"/>
-            <use y="1175" xlink:href="#cello"/>
-            <use y="1250" xlink:href="#Arena"/>
-            <use y="1325" xlink:href="#hotjava"/>
-            <use y="1400" xlink:href="#slipknot"/>
-            <use y="1600" xlink:href="#UdiWWW"/>
-            <use y="1700" xlink:href="#aweb"/>
-            <use y="1800" xlink:href="#cyberdog"/>
-            <use y="2100" xlink:href="#amaya"/>
-            <use y="2150" xlink:href="#arachne"/>
-            <use y="2200" xlink:href="#links"/>
-            <use y="2250" xlink:href="#elinks"/>
-            <use y="2250" xlink:href="#gzilla"/>
-            <use y="2300" xlink:href="#dillo"/>
-            <use y="2350" xlink:href="#netsurf"/>
-            <use y="2400" xlink:href="#contiki"/>
+            <use y="2100" xlink:href="#prestotree"/>
+            <use y="1250" xlink:href="#webkittree"/>
+            <use y="700" xlink:href="#www"/>
+            <use y="1075" xlink:href="#violawww"/>
+            <use y="1175" xlink:href="#tkWWW"/>
+            <use y="1275" xlink:href="#midaswww"/>
+            <use y="1375" xlink:href="#cello"/>
+            <use y="1475" xlink:href="#Arena"/>
+            <use y="1700" xlink:href="#slipknot"/>
+            <use y="1800" xlink:href="#hotjava"/>
+            <use y="1900" xlink:href="#UdiWWW"/>
+            <use y="2000" xlink:href="#aweb"/>
+            <use y="2100" xlink:href="#cyberdog"/>
+            <use y="2300" xlink:href="#amaya"/>
+            <use y="2350" xlink:href="#arachne"/>
+            <use y="2400" xlink:href="#links"/>
+            <use y="2450" xlink:href="#elinks"/>
+            <use y="2450" xlink:href="#gzilla"/>
+            <use y="2500" xlink:href="#dillo"/>
+            <use y="2550" xlink:href="#netsurf"/>
+            <use y="2600" xlink:href="#contiki"/>
         </g>
     </defs>
 

@@ -59,7 +59,7 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 
 Not yet released
 - Added 2023, 2024 columns
-- Added IBrowse 3, Edge 100/110/120, Maxthon 7
+- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -3781,7 +3781,7 @@ Tips for adding branches:
 
             <!-- Started: between February and May 2002 -->
             <!-- Source: http://replay.waybackmachine.org/20020604181452/http://www.flashpeak.com/sbrowser/sbrowser.htm -->
-            <line stroke="purple" x1="1125" x2="3595"/>
+            <line stroke="purple" x1="1125" x2="3675"/>
 
             <!-- Versions to add:
 	 1.0,
@@ -3896,6 +3896,20 @@ Tips for adding branches:
             <!-- V15.0: May 10, 2021 -->
             <circle stroke="purple" cx="3405" r="10"/>
             <text x="3405" y="5" class="version">15</text>
+
+            <!-- V16: April 12, 2022 -->
+            <!-- Source: https://www.slimbrowser.net/release/archive/16.0.0.0/ -->
+            <circle stroke="purple" cx="3515" r="10"/>
+            <text x="3515" y="5" class="version">16</text>
+
+            <!-- V17: August 17, 2022 -->
+            <!-- Source: https://www.slimbrowser.net/release/archive/17.0.1.0/ -->
+            <circle stroke="purple" cx="3555" r="10"/>
+            <text x="3555" y="5" class="version">17</text>
+
+            <!-- V18: August 31, 2023 -->
+            <circle stroke="purple" cx="3675" r="10"/>
+            <text x="3675" y="5" class="version">18</text>
         </g>
 
         <g id="aol">

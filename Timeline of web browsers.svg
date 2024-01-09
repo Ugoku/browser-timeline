@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3605" height="2840">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3965" height="2740">
     <title>Timeline of Web Browsers</title>
     <desc>
         This timeline displays the releases of major versions of web browsers.
@@ -106,6 +106,11 @@ V 14.3 (15th September 2019 - by CortoFrancese)
 - Created separate domain for triple engine browsers
 - Moved lines to reorganize space
 - Soft end Lunascape (no releases for over an year)
+
+V 14.4 (15th January 2022 - by CortoFrancese)
+- Added 2020, 2021, 2022 columns, along with many new browser versions
+- Removed MediaBox (just removed from en.wiki)
+- Simplified browser history with many major releases in a short time (e.g. Chrome, Firefox, Opera)
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -220,6 +225,9 @@ Tips for adding branches:
             <text x="2880">2017</text>
             <text x="3000">2018</text>
             <text x="3120">2019</text>
+            <text x="3240">2020</text>
+            <text x="3360">2021</text>
+            <text x="3480">2022</text>
         </g>
 
         <g id="www">
@@ -281,7 +289,7 @@ Tips for adding branches:
             </a>
 
             <!--Line Mode Browser and WorldWideWeb based on each other (later)-->
-            <path stroke="#89B" stroke-width="3px" d="M-255,10 -255,793" marker-end="url(#Triangle)"/>
+            <path stroke="#89B" stroke-width="3px" d="M-255,10 -255,743" marker-end="url(#Triangle)"/>
             <path stroke="#89B" stroke-width="3px" d="M-255,10 -255,7" marker-end="url(#Triangle)"/>
 
             <!--Development started in November 1990 http://www.w3.org/History.html-->
@@ -609,7 +617,7 @@ Tips for adding branches:
 		http://www.sics.se/contiki/perspective/the-history-of-contiki.html
 		http://www.sics.se/contiki/news/
 	-->
-            <line stroke="purple" x1="1175" x2="2835"/>
+            <line stroke="purple" x1="1175" x2="3595"/>
 
             <!-- V 1.0 March 10, 2003 -->
             <circle stroke="purple" cx="1225" r="10"/>
@@ -666,6 +674,45 @@ Tips for adding branches:
             <text x="2715" y="5" class="version">3</text>
 
             <!-- Releases: https://github.com/contiki-os/contiki -->
+
+            <!-- Project rebranded as Contiki-NG: https://github.com/contiki-ng/contiki-ng -->
+
+            <a xlink:href="http://en.wikipedia.org/wiki/Contiki">
+                <text x="2975" y="-15" class="browser">Contiki-NG</text>
+            </a>
+
+            <!-- V 4.0: November 4, 2017 -->
+            <circle stroke="purple" cx="2985" r="10"/>
+            <text x="2985" y="5" class="version">4</text>
+
+            <!-- V 4.1: May 11, 2018 -->
+            <circle stroke="purple" cx="3045" r="10"/>
+            <text x="3045" y="3" class="subversion">4.1</text>
+
+            <!-- V 4.2: November 12, 2018 -->
+            <circle stroke="purple" cx="3105" r="10"/>
+            <text x="3105" y="3" class="subversion">4.2</text>
+
+            <!-- V 4.3: May 16, 2019 -->
+            <circle stroke="purple" cx="3165" r="10"/>
+            <text x="3165" y="3" class="subversion">4.3</text>
+
+            <!-- V 4.4: October 31, 2019 -->
+            <circle stroke="purple" cx="3215" r="10"/>
+            <text x="3215" y="3" class="subversion">4.4</text>
+
+            <!-- V 4.5: May 14, 2020 -->
+            <circle stroke="purple" cx="3285" r="10"/>
+            <text x="3285" y="3" class="subversion">4.5</text>
+
+            <!-- V 4.6: December 8, 2020 -->
+            <circle stroke="purple" cx="3355" r="10"/>
+            <text x="3355" y="3" class="subversion">4.6</text>
+
+            <!-- V 4.7: July 8, 2020 -->
+            <circle stroke="purple" cx="3425" r="10"/>
+            <text x="3425" y="3" class="subversion">4.7</text>
+
         </g>
 
         <g id="links">
@@ -673,7 +720,7 @@ Tips for adding branches:
                 <text x="835" y="-15" class="browser">Links</text>
             </a>
 
-            <line stroke="black" x1="825" x2="3235"/>
+            <line stroke="black" x1="825" x2="3595"/>
 
             <!-- V. 0.8 Nov 24, 1999 -->
             <circle stroke="black" cx="825" r="10"/>
@@ -686,12 +733,12 @@ Tips for adding branches:
             <!-- Version 1.0 was alpha/beta only -->
 
             <!-- V. 2.0 June 10, 2002 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <circle stroke="black" cx="1135" r="10"/>
             <text x="1135" y="5" class="version">2</text>
 
             <!-- V. 2.1 July, 2008 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <circle stroke="black" cx="1865" r="10"/>
             <text x="1865" y="3" class="subversion">2.2</text>
 
@@ -716,74 +763,99 @@ Tips for adding branches:
             <text x="2275" y="3" class="subversion">2.5</text>
 
             <!-- V. 2.6 April 7, 2012 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <circle stroke="black" cx="2315" r="10"/>
             <text x="2315" y="3" class="subversion">2.6</text>
 
             <!-- V. 2.7: June 23, 2012 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <circle stroke="black" cx="2335" r="10"/>
             <text x="2335" y="3" class="subversion">2.7</text>
 
             <!-- V. 2.8: September 22, 2013 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <circle stroke="black" cx="2485" r="10"/>
             <text x="2485" y="3" class="subversion">2.8</text>
 
             <!-- V. 2.9: December 24, 2014 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <circle stroke="black" cx="2635" r="10"/>
             <text x="2635" y="3" class="subversion">2.9</text>
 
             <!-- V. 2.10-2.11: July 3, 2015 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="2705" stroke="black"/>
             <text x="2705" y="3" class="subversion">2.11</text>
 
             <!-- V. 2.12: September 20, 2015 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="2725" stroke="black"/>
             <text x="2725" y="3" class="subversion">2.12</text>
 
             <!-- V. 2.13: July 1, 2016 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="2825" stroke="black"/>
             <text x="2825" y="3" class="subversion">2.13</text>
 
             <!-- V. 2.14: November 26, 2016 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="2865" stroke="black"/>
             <text x="2865" y="3" class="subversion">2.14</text>
 
             <!-- V. 2.15: January 18, 2018 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="3005" stroke="black"/>
             <text x="3005" y="3" class="subversion">2.15</text>
 
             <!-- V. 2.16: May 11, 2018 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="3045" stroke="black"/>
             <text x="3045" y="3" class="subversion">2.16</text>
 
             <!-- V. 2.17: September 7, 2018 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="3085" stroke="black"/>
             <text x="3085" y="3" class="subversion">2.17</text>
 
-            <!-- V. 2.18: January 16, 2018 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- V. 2.18: January 16, 2019 -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="3125" stroke="black"/>
             <text x="3125" y="3" class="subversion">2.18</text>
 
-            <!-- V. 2.19: April 4, 2018 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- V. 2.19: April 4, 2019 -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="3155" stroke="black"/>
             <text x="3155" y="3" class="subversion">2.19</text>
 
-            <!-- V. 2.20: August 28, 2018 -->
-            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <!-- V. 2.20: August 28, 2019 -->
+            <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="3195" stroke="black"/>
             <text x="3195" y="3" class="subversion">2.20</text>
+
+            <!-- V. 2.21: August 5, 2020 -->
+            <!-- Source: http://links.twibright.com/download/ -->
+            <use xlink:href="#longver" x="3315" stroke="black"/>
+            <text x="3315" y="3" class="subversion">2.21</text>
+
+            <!-- V. 2.22: March 17, 2021 -->
+            <!-- Source: http://links.twibright.com/download/ -->
+            <use xlink:href="#longver" x="3385" stroke="black"/>
+            <text x="3385" y="3" class="subversion">2.22</text>
+
+            <!-- V. 2.23: May 23, 2021 -->
+            <!-- Source: http://links.twibright.com/download/ -->
+            <use xlink:href="#longver" x="3405" stroke="black"/>
+            <text x="3405" y="3" class="subversion">2.23</text>
+
+            <!-- V. 2.24: September 13, 2021 -->
+            <!-- Source: http://links.twibright.com/download/ -->
+            <use xlink:href="#longver" x="3445" stroke="black"/>
+            <text x="3445" y="3" class="subversion">2.24</text>
+
+            <!-- V. 2.25: October 3, 2021 -->
+            <!-- Source: http://links.twibright.com/download/ -->
+            <use xlink:href="#longver" x="3455" stroke="black"/>
+            <text x="3455" y="3" class="subversion">2.25</text>
         </g>
 
         <g id="elinks">
@@ -827,7 +899,7 @@ Tips for adding branches:
             <!-- First release: Early 1995 -->
             <!-- Source: http://w3m.sourceforge.net/STORY -->
             <!-- No releases since January 15, 2011 -->
-            <line stroke="black" x1="250" x2="3235"/>
+            <line stroke="black" x1="250" x2="3595"/>
 
             <!-- V. 0.2 March 22, 2001 -->
             <!-- Source: http://www4.ocn.ne.jp/~okabek/eng/w3m.html -->
@@ -983,6 +1055,10 @@ Tips for adding branches:
             <!-- V. 0.5.3-37: January 5, 2019 -->
             <circle stroke="black" cx="3125" r="10"/>
             <text x="3125" y="3" class="subversion">-37</text>
+
+            <!-- V. 0.5.3-38: May 2, 2020 -->
+            <circle stroke="black" cx="3285" r="10"/>
+            <text x="3285" y="3" class="subversion">-38</text>
         </g>
 
         <g id="slipknot">
@@ -1017,7 +1093,7 @@ Tips for adding branches:
             <!-- Source: http://opera.inrialpes.fr/Thot/AboutThot.html -->
             <!-- Other source: http://www.w3.org/Amaya/User/New.html -->
             <!-- No releases since December 9, 2009 -->
-            <line stroke="darkgoldenrod" x1="375" x2="2405"/>
+            <line stroke="darkgoldenrod" x1="375" x2="2285"/>
 
             <!-- V0.9 November 14, 1996 -->
             <circle stroke="darkgoldenrod" cx="465" r="10"/>
@@ -1301,9 +1377,12 @@ Tips for adding branches:
             <!-- Source: http://www.obh.snafu.de/~solon/docs/StatusOld.html -->
             <!-- Source: http://www.mfischer.com/legacy/amosaic/Status.html -->
             <!-- Source: http://www.mfischer.com/legacy/amosaic/StatusOld.html -->
+            <line stroke="#D0BF64" x1="1680" x2="3315" style="stroke-dasharray: 4,6"/>
+            <!-- New releases since August 2019 -->
+            <line stroke="#D0BF64" x1="3315" x2="3595"/>
 
             <!-- Based on NCSA Mosaic -->
-            <line stroke="#D0BF64" x1="95" y1="650" x2="95"/>
+            <line stroke="#D0BF64" x1="95" y1="600" x2="95"/>
 
             <!-- V 1.0: 25 December 1993 -->
             <circle stroke="#D0BF64" cx="115" r="10"/>
@@ -1363,6 +1442,11 @@ Tips for adding branches:
             <!-- Source: http://www.ibrowse-dev.net/news.php -->
             <circle stroke="#D0BF64" cx="1675" r="10"/>
             <text x="1675" y="3" class="subversion">2.4</text>
+
+            <!-- V2.5: August 30, 2019 -->
+            <!-- Source: http://www.ibrowse-dev.net/news.php -->
+            <circle stroke="#D0BF64" cx="3315" r="10"/>
+            <text x="3315" y="3" class="subversion">2.5</text>
         </g>
 
         <g id="ncsamosaic">
@@ -1439,6 +1523,10 @@ Tips for adding branches:
             <!-- Initial release: December 22, 1996 -->
             <line stroke="gray" x1="475" x2="2415"/>
 
+            <!-- Project suspended for 9 years -->
+            <line stroke="gray" x1="2415" x2="3475" style="stroke-dasharray: 4,6"/>
+            <line stroke="gray" x1="3475" x2="3595"/>
+
             <!-- V. 1.0b2 December 22, 1996 -->
             <circle stroke="gray" cx="475" r="10"/>
             <text x="475" y="5" class="version">1</text>
@@ -1464,6 +1552,11 @@ Tips for adding branches:
             <!-- Sources: http://www.glennmcc.org/ -->
             <use x="2415" stroke="gray" xlink:href="#longver"/>
             <text x="2415" y="3" class="subversion">1.97</text>
+
+            <!-- V. 1.99: December 23, 2021 -->
+            <!-- Sources: http://www.glennmcc.org/ -->
+            <use x="3475" stroke="gray" xlink:href="#longver"/>
+            <text x="3475" y="3" class="subversion">1.99</text>
         </g>
 
         <g id="oldnetscape">
@@ -1589,7 +1682,10 @@ Tips for adding branches:
                 <text x="1995" y="15" class="browser">Classilla</text>
             </a>
 
-            <line stroke="red" x1="1975" x2="2735"/>
+            <line stroke="red" x1="1975" x2="2625"/>
+
+            <!-- Final incomplete release: March 29, 2021 -->
+            <line stroke="red" x1="2625" x2="3385" style="stroke-dasharray: 4,6"/>
 
             <!-- Versions 1-8 do not exist. -->
 
@@ -1627,6 +1723,11 @@ Tips for adding branches:
             <!-- Source: http://sourceforge.net/projects/classilla/files/ -->
             <use stroke="red" x="2625" xlink:href="#longver"/>
             <text x="2625" y="3" class="subversion">9.3.3</text>
+
+            <!-- V. 9.3.4b: March 29, 2021 -->
+            <!-- Source: http://sourceforge.net/projects/classilla/files/ -->
+            <use stroke="red" x="3385" xlink:href="#longver"/>
+            <text x="3385" y="3" class="subversion">9.3.4 b</text>
         </g>
 
         <g id="ghostzilla">
@@ -1814,7 +1915,7 @@ Tips for adding branches:
 
             <!-- Started with Emacs 24.4: September 16, 1994 -->
             <!-- Source: https://qutebrowser.org/doc/changelog.html -->
-            <line stroke="#1E89C6" x1="2635" x2="3235"/>
+            <line stroke="#1E89C6" x1="2635" x2="3595"/>
 
             <!-- V. 0.1: December 14, 2014 -->
             <circle stroke="#1E89C6" cx="2635" r="10"/>
@@ -1891,6 +1992,52 @@ Tips for adding branches:
             <!-- V. 1.7: July 18, 2019 -->
             <circle stroke="#1E89C6" cx="3185" r="10"/>
             <text x="3185" y="3" class="subversion">1.7</text>
+
+            <!-- V. 1.8: September 25, 2019 -->
+            <circle stroke="#1E89C6" cx="3205" r="10"/>
+            <text x="3205" y="3" class="subversion">1.8</text>
+
+            <!-- V. 1.9: January 8, 2020 -->
+            <circle stroke="#1E89C6" cx="3245" r="10"/>
+            <text x="3245" y="3" class="subversion">1.9</text>
+
+            <!-- V. 1.10: February 2, 2020 -->
+            <circle stroke="#1E89C6" cx="3255" r="10"/>
+            <text x="3255" y="3" class="subversion">1.10</text>
+
+            <!-- V. 1.11: April 27, 2020 -->
+            <circle stroke="#1E89C6" cx="3275" r="10"/>
+            <text x="3275" y="3" class="subversion">1.11</text>
+
+            <!-- V. 1.12: June 1, 2020 -->
+
+            <!-- V. 1.13: June 26, 2020 -->
+            <circle stroke="#1E89C6" cx="3295" r="10"/>
+            <text x="3295" y="3" class="subversion">1.13</text>
+
+            <!-- V. 1.14: October 15, 2020 -->
+            <circle stroke="#1E89C6" cx="3335" r="10"/>
+            <text x="3335" y="3" class="subversion">1.14</text>
+
+            <!-- V. 2.0: January 8, 2021 -->
+            <circle stroke="#1E89C6" cx="3365" r="10"/>
+            <text x="3365" y="5" class="version">2</text>
+
+            <!-- V. 2.1: March 12, 2021 -->
+            <circle stroke="#1E89C6" cx="3385" r="10"/>
+            <text x="3385" y="3" class="subversion">2.1</text>
+
+            <!-- V. 2.2: April 13, 2021 -->
+            <circle stroke="#1E89C6" cx="3395" r="10"/>
+            <text x="3395" y="3" class="subversion">2.2</text>
+
+            <!-- V. 2.3: June 28, 2021 -->
+            <circle stroke="#1E89C6" cx="3415" r="10"/>
+            <text x="3415" y="3" class="subversion">2.3</text>
+
+            <!-- V. 2.4: October 21, 2021 -->
+            <circle stroke="#1E89C6" cx="3455" r="10"/>
+            <text x="3455" y="3" class="subversion">2.4</text>
         </g>
 
         <g id="galeon">
@@ -1946,7 +2093,7 @@ Tips for adding branches:
                 <text x="2515" y="-15" class="browser">Otter Browser</text>
             </a>
 
-            <line stroke="#c30" x1="2515" x2="3235"/>
+            <line stroke="#c30" x1="2515" x2="3355"/>
 
             <!-- V. Alpha 1: January 1, 2014 -->
             <circle stroke="#c30" cx="2525" r="10"/>
@@ -2077,7 +2224,7 @@ Tips for adding branches:
             <!-- From Galeon -->
             <!-- Started: November 2002 -->
             <line stroke="#207C00" x1="1185" y1="50" x2="1185"/>
-            <line stroke="#207C00" x1="1185" x2="3235"/>
+            <line stroke="#207C00" x1="1185" x2="3595"/>
 
             <!-- Source for releases: http://ftp.gnome.org/pub/GNOME/sources/epiphany/ -->
 
@@ -2304,6 +2451,26 @@ Tips for adding branches:
             <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/tags/3.34.0 -->
             <use xlink:href="#longver" x="3205" stroke="#207C00"/>
             <text x="3205" y="3" class="subversion">3.34</text>
+
+            <!-- V. 3.36.0: March 7, 2020 -->
+            <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/tags/3.36.0 -->
+            <use xlink:href="#longver" x="3265" stroke="#207C00"/>
+            <text x="3265" y="3" class="subversion">3.36</text>
+
+            <!-- V. 3.38.0: September 11, 2020 -->
+            <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/tags/3.38.0 -->
+            <use xlink:href="#longver" x="3325" stroke="#207C00"/>
+            <text x="3325" y="3" class="subversion">3.38</text>
+
+            <!-- V. 40.0: March 19, 2021 -->
+            <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/tags/40.0 -->
+            <use xlink:href="#longver" x="3385" stroke="#207C00"/>
+            <text x="3385" y="5" class="version">40</text>
+
+            <!-- V. 41.0: September 16, 2021 -->
+            <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/tags/41.0 -->
+            <use xlink:href="#longver" x="3445" stroke="#207C00"/>
+            <text x="3445" y="5" class="version">41</text>
         </g>
 
         <g id="kmeleon">
@@ -2361,7 +2528,7 @@ Tips for adding branches:
             </a>
 
             <line stroke="maroon" x1="1565" y1="-50" x2="1565"/>
-            <line stroke="maroon" x1="1565" x2="3235"/>
+            <line stroke="maroon" x1="1565" x2="3595"/>
 
             <!-- V. 1.0: 30th January 2006 -->
             <circle stroke="maroon" cx="1565" r="10"/>
@@ -2543,6 +2710,11 @@ Tips for adding branches:
             <!-- Source: https://www.seamonkey-project.org/releases/2.49.1 -->
             <use xlink:href="#longver" x="2985" stroke="maroon"/>
             <text x="2985" y="3" class="subversion">2.49</text>
+
+            <!-- V. 2.53.1: February 28, 2020 -->
+            <!-- Source: https://www.seamonkey-project.org/releases/2.53.1 -->
+            <use xlink:href="#longver" x="3255" stroke="maroon"/>
+            <text x="3255" y="3" class="subversion">2.53</text>
         </g>
 
         <g id="camino">
@@ -2625,7 +2797,7 @@ Tips for adding branches:
 
             <!-- Started October 2009 -->
             <line stroke="#7A98B5" x1="2015" y1="50" x2="2015"/>
-            <line stroke="#7A98B5" x1="2015" x2="3235"/>
+            <line stroke="#7A98B5" x1="2015" x2="3595"/>
 
             <!-- V. 3.6: February 2010 -->
             <circle stroke="#7A98B5" cx="2055" r="10"/>
@@ -2655,12 +2827,6 @@ Tips for adding branches:
             <circle stroke="#7A98B5" cx="2285" r="10"/>
             <text x="2285" y="5" class="version">9</text>
 
-            <!-- V. 9.1: January 24, 2012 -->
-
-            <!-- V. 9.2: February 21, 2012 -->
-            <circle stroke="#7A98B5" cx="2295" r="10"/>
-            <text x="2295" y="3" class="subversion">9.2</text>
-
             <!-- V. 11.0: March 23, 2012 -->
             <circle stroke="#7A98B5" cx="2305" r="10"/>
             <text x="2305" y="5" class="version">11</text>
@@ -2669,219 +2835,41 @@ Tips for adding branches:
             <circle stroke="#7A98B5" cx="2315" r="10"/>
             <text x="2315" y="5" class="version">12</text>
 
-            <!-- V. 12.1: May 22, 2012 -->
-            <circle stroke="#7A98B5" cx="2325" r="10"/>
-            <text x="2325" y="3" class="subversion">12.2</text>
-
-            <!-- V. 12.2: June 10, 2012 -->
-            <circle stroke="#7A98B5" cx="2335" r="10"/>
-            <text x="2335" y="3" class="subversion">12.2</text>
-
-            <!-- V. 12.3: July 17, 2012 -->
-            <circle stroke="#7A98B5" cx="2345" r="10"/>
-            <text x="2345" y="3" class="subversion">12.3</text>
-
             <!-- V. 15.0: August 27, 2012 -->
             <circle stroke="#7A98B5" cx="2355" r="10"/>
             <text x="2355" y="5" class="version">15</text>
-
-            <!-- V. 15.1: September 17, 2012 -->
-            <circle stroke="#7A98B5" cx="2365" r="10"/>
-            <text x="2365" y="3" class="subversion">15.1</text>
-
-            <!-- V. 15.2: October 10, 2012 -->
-            <circle stroke="#7A98B5" cx="2375" r="10"/>
-            <text x="2375" y="3" class="subversion">15.2</text>
-
-            <!-- V. 15.3: November 13, 2012 -->
-            <circle stroke="#7A98B5" cx="2385" r="10"/>
-            <text x="2385" y="3" class="subversion">15.3</text>
-
-            <!-- V. 15.4: January 16, 2013 -->
-            <circle stroke="#7A98B5" cx="2405" r="10"/>
-            <text x="2405" y="3" class="subversion">15.4</text>
 
             <!-- V. 19.0: February 22, 2013 -->
             <circle stroke="#7A98B5" cx="2415" r="10"/>
             <text x="2415" y="5" class="version">19</text>
 
             <!-- V. 20.0: April 11, 2013 -->
-            <circle stroke="#7A98B5" cx="2435" r="10"/>
+            <use xlink:href="#longver" x="2435" stroke="#7A98B5"/>
             <text x="2435" y="5" class="version">20</text>
 
-            <!-- V. 20.1: May 23, 2013 -->
-            <circle stroke="#7A98B5" cx="2445" r="10"/>
-            <text x="2445" y="3" class="subversion">20.1</text>
-
-            <!-- V. 20.2: July 1, 2013 -->
-            <circle stroke="#7A98B5" cx="2465" r="10"/>
-            <text x="2465" y="3" class="subversion">20.2</text>
-
-            <!-- V. 20.3: August 13, 2013 -->
-            <circle stroke="#7A98B5" cx="2475" r="10"/>
-            <text x="2475" y="3" class="subversion">20.3</text>
-
             <!-- V. 24.0: September 13, 2013 -->
-            <circle stroke="#7A98B5" cx="2485" r="10"/>
+            <use xlink:href="#longver" x="2485" stroke="#7A98B5"/>
             <text x="2485" y="5" class="version">24</text>
 
-            <!-- V. 24.1: November 4, 2013 -->
-
-            <!-- V. 24.2: November 24, 2013 -->
-            <circle stroke="#7A98B5" cx="2505" r="10"/>
-            <text x="2505" y="3" class="subversion">24.2</text>
-
-            <!-- V. 24.3: January 28, 2014 -->
-            <circle stroke="#7A98B5" cx="2525" r="10"/>
-            <text x="2525" y="3" class="subversion">24.3</text>
-
-            <!-- V. 24.4: March 10, 2014 -->
-            <circle stroke="#7A98B5" cx="2545" r="10"/>
-            <text x="2545" y="3" class="subversion">24.4</text>
-
-            <!-- V. 24.5: April 25, 2014 -->
-            <circle stroke="#7A98B5" cx="2555" r="10"/>
-            <text x="2555" y="3" class="subversion">24.5</text>
-
-            <!-- V. 24.6: June 6, 2014 -->
-            <circle stroke="#7A98B5" cx="2575" r="10"/>
-            <text x="2575" y="3" class="subversion">24.6</text>
-
-            <!-- V. 24.7: July 29, 2014 -->
-            <circle stroke="#7A98B5" cx="2585" r="10"/>
-            <text x="2585" y="3" class="subversion">24.7</text>
-
             <!-- V. 25.0: October 10, 2014 -->
-            <circle stroke="#7A98B5" cx="2615" r="10"/>
+            <use xlink:href="#longver" x="2615" stroke="#7A98B5"/>
             <text x="2615" y="5" class="version">25</text>
 
-            <!-- V. 25.1: November 14, 2014 -->
-            <circle stroke="#7A98B5" cx="2625" r="10"/>
-            <text x="2625" y="3" class="subversion">25.1</text>
-
-            <!-- V. 25.2: January 15, 2015 -->
-            <circle stroke="#7A98B5" cx="2645" r="10"/>
-            <text x="2645" y="3" class="subversion">25.2</text>
-
-            <!-- V. 25.3: March 13, 2015 -->
-            <circle stroke="#7A98B5" cx="2665" r="10"/>
-            <text x="2665" y="3" class="subversion">25.3</text>
-
-            <!-- V. 25.4: May 8, 2015 -->
-            <circle stroke="#7A98B5" cx="2685" r="10"/>
-            <text x="2685" y="3" class="subversion">25.4</text>
-
-            <!-- V. 25.5: June 10, 2015 -->
-            <circle stroke="#7A98B5" cx="2695" r="10"/>
-            <text x="2695" y="3" class="subversion">25.5</text>
-
-            <!-- V. 25.6: July 27, 2015 -->
-            <circle stroke="#7A98B5" cx="2705" r="10"/>
-            <text x="2705" y="3" class="subversion">25.6</text>
-
-            <!-- V. 25.7: August 26, 2015 -->
-            <circle stroke="#7A98B5" cx="2715" r="10"/>
-            <text x="2715" y="3" class="subversion">25.7</text>
-
-            <!-- V. 25.8: November 17, 2015 -->
-            <circle stroke="#7A98B5" cx="2745" r="10"/>
-            <text x="2745" y="3" class="subversion">25.8</text>
-
             <!-- V. 26.0: January 26, 2016 -->
-            <circle stroke="#7A98B5" cx="2765" r="10"/>
+            <use xlink:href="#longver" x="2765" stroke="#7A98B5"/>
             <text x="2765" y="5" class="version">26</text>
 
-            <!-- V. 26.1: February 16, 2016 -->
-            <circle stroke="#7A98B5" cx="2775" r="10"/>
-            <text x="2775" y="3" class="subversion">26.1</text>
-
-            <!-- V. 26.2: April 5, 2016 -->
-            <circle stroke="#7A98B5" cx="2795" r="10"/>
-            <text x="2795" y="3" class="subversion">26.2</text>
-
-            <!-- V. 26.3: June 21, 2016 -->
-            <circle stroke="#7A98B5" cx="2815" r="10"/>
-            <text x="2815" y="3" class="subversion">26.3</text>
-
-            <!-- V. 26.4: August 27, 2016 -->
-            <circle stroke="#7A98B5" cx="2835" r="10"/>
-            <text x="2835" y="3" class="subversion">26.4</text>
-
-            <!-- V. 26.5: September 28, 2016 -->
-            <circle stroke="#7A98B5" cx="2845" r="10"/>
-            <text x="2845" y="3" class="subversion">26.5</text>
-
             <!-- V. 27.0: November 22, 2016 -->
-            <circle stroke="#7A98B5" cx="2865" r="10"/>
+            <use xlink:href="#longver" x="2865" stroke="#7A98B5"/>
             <text x="2865" y="5" class="version">27</text>
 
-            <!-- V. 27.1: February 9, 2017 -->
-            <circle stroke="#7A98B5" cx="2895" r="10"/>
-            <text x="2895" y="3" class="subversion">27.1</text>
-
-            <!-- V. 27.2: March 18, 2017 -->
-            <circle stroke="#7A98B5" cx="2905" r="10"/>
-            <text x="2905" y="3" class="subversion">27.2</text>
-
-            <!-- V. 27.3: April 28, 2017 -->
-            <circle stroke="#7A98B5" cx="2915" r="10"/>
-            <text x="2915" y="3" class="subversion">27.3</text>
-
-            <!-- V. 27.4: July 12, 2017 -->
-            <circle stroke="#7A98B5" cx="2945" r="10"/>
-            <text x="2945" y="3" class="subversion">27.4</text>
-
-            <!-- V. 27.5: September 26, 2017 -->
-            <circle stroke="#7A98B5" cx="2965" r="10"/>
-            <text x="2965" y="3" class="subversion">27.5</text>
-
-            <!-- V. 27.6: November 7, 2017 -->
-            <circle stroke="#7A98B5" cx="2985" r="10"/>
-            <text x="2985" y="3" class="subversion">27.6</text>
-
-            <!-- V. 27.7: January 15, 2018 -->
-            <circle stroke="#7A98B5" cx="3005" r="10"/>
-            <text x="3005" y="3" class="subversion">27.7</text>
-
-            <!-- V. 27.8: March 2, 2018 -->
-            <circle stroke="#7A98B5" cx="3025" r="10"/>
-            <text x="3025" y="3" class="subversion">27.8</text>
-
-            <!-- V. 27.9: April 17, 2018 -->
-            <circle stroke="#7A98B5" cx="3035" r="10"/>
-            <text x="3035" y="3" class="subversion">27.9</text>
-
             <!-- V. 28.0: August 16, 2018 -->
-            <circle stroke="#7A98B5" cx="3075" r="10"/>
+            <use xlink:href="#longver" x="3075" stroke="#7A98B5"/>
             <text x="3075" y="5" class="version">28</text>
 
-            <!-- V. 28.1: September 20, 2018 -->
-            <circle stroke="#7A98B5" cx="3085" r="10"/>
-            <text x="3085" y="3" class="subversion">28.1</text>
-
-            <!-- V. 28.2: November 13, 2018 -->
-            <circle stroke="#7A98B5" cx="3105" r="10"/>
-            <text x="3105" y="3" class="subversion">28.2</text>
-
-            <!-- V. 28.3: January 15, 2019 -->
-            <circle stroke="#7A98B5" cx="3125" r="10"/>
-            <text x="3125" y="3" class="subversion">28.3</text>
-
-            <!-- V. 28.4: February 19, 2019 -->
-            <circle stroke="#7A98B5" cx="3135" r="10"/>
-            <text x="3135" y="3" class="subversion">28.4</text>
-
-            <!-- V. 28.5: April 30, 2019 -->
-            <circle stroke="#7A98B5" cx="3155" r="10"/>
-            <text x="3155" y="3" class="subversion">28.5</text>
-
-            <!-- V. 28.6: July 2, 2019 -->
-            <circle stroke="#7A98B5" cx="3185" r="10"/>
-            <text x="3185" y="3" class="subversion">28.6</text>
-
-            <!-- V. 28.7: August 29, 2019 -->
-            <circle stroke="#7A98B5" cx="3195" r="10"/>
-            <text x="3195" y="3" class="subversion">28.7</text>
+            <!-- V. 29.0: February 2, 2021 -->
+            <use xlink:href="#longver" x="3375" stroke="#7A98B5"/>
+            <text x="3375" y="5" class="version">29</text>
         </g>
 
         <g id="basilisk">
@@ -2891,7 +2879,7 @@ Tips for adding branches:
 
             <!-- Started November 17, 2017 -->
             <line stroke="#3E9776" x1="2985" y1="50" x2="2985"/>
-            <line stroke="#3E9776" x1="2985" x2="3235"/>
+            <line stroke="#3E9776" x1="2985" x2="3595"/>
 
             <!-- V. 2018.01.05 -->
             <circle stroke="#7A98B5" cx="3005" r="10"/>
@@ -2900,6 +2888,14 @@ Tips for adding branches:
             <!-- V. 2019.02.11 -->
             <circle stroke="#7A98B5" cx="3135" r="10"/>
             <text x="3135" y="5" class="version">19</text>
+
+            <!-- V. 2020.01.12 -->
+            <use x="3245" stroke="#7A98B5" xlink:href="#longver"/>
+            <text x="3245" y="5" class="version">20</text>
+
+            <!-- V. 2021.01.05 -->
+            <use x="3365" stroke="#7A98B5" xlink:href="#longver"/>
+            <text x="3365" y="5" class="version">21</text>
         </g>
 
         <g id="firefox">
@@ -2909,7 +2905,7 @@ Tips for adding branches:
 
             <!-- Started September 2002 -->
             <line stroke="orange" x1="1165" y1="50" x2="1165"/>
-            <line stroke="orange" x1="1165" x2="3235"/>
+            <line stroke="orange" x1="1165" x2="3595"/>
 
             <!-- V. 0.1: September 23, 2002 -->
             <circle stroke="orange" cx="1165" r="10"/>
@@ -3002,248 +2998,40 @@ Tips for adding branches:
             <text x="2275" y="5" class="version">9</text>
 
             <!-- V. 10.0: January 31, 2012 -->
-            <circle stroke="orange" cx="2285" r="10"/>
-            <text x="2285" y="5" class="version">10</text>
-
-            <!-- V. 11: March 14, 2012 -->
-            <circle stroke="orange" cx="2305" r="10"/>
-            <text x="2305" y="5" class="version">11</text>
-
-            <!-- V. 12: April 24, 2012 -->
-            <circle stroke="orange" cx="2315" r="10"/>
-            <text x="2315" y="5" class="version">12</text>
-
-            <!-- V. 13: June 15, 2012 -->
-            <circle stroke="orange" cx="2335" r="10"/>
-            <text x="2335" y="5" class="version">13</text>
-
-            <!-- V. 14.0.1: July 17, 2012 -->
-            <circle stroke="orange" cx="2345" r="10"/>
-            <text x="2345" y="5" class="version">14</text>
-
-            <!-- V. 15.0: August 28, 2012 -->
-            <circle stroke="orange" cx="2355" r="10"/>
-            <text x="2355" y="5" class="version">15</text>
-
-            <!-- V. 16.0: October 9, 2012 -->
-            <circle stroke="orange" cx="2375" r="10"/>
-            <text x="2375" y="5" class="version">16</text>
-
-            <!-- V. 17.0: November 30, 2012 -->
-            <circle stroke="orange" cx="2385" r="10"/>
-            <text x="2385" y="5" class="version">17</text>
-
-            <!-- V. 18.0: January 8, 2013 -->
-            <circle stroke="orange" cx="2405" r="10"/>
-            <text x="2405" y="5" class="version">18</text>
-
-            <!-- V. 19.0: February 19, 2013 -->
-            <circle stroke="orange" cx="2415" r="10"/>
-            <text x="2415" y="5" class="version">19</text>
+            <use x="2285" stroke="orange" xlink:href="#longver"/>
+            <text x="2285" y="5" class="version">10+</text>
 
             <!-- V. 20.0: April 2, 2013 -->
-            <circle stroke="orange" cx="2435" r="10"/>
-            <text x="2435" y="5" class="version">20</text>
-
-            <!-- V. 21.0: May 14, 2013 -->
-            <circle stroke="orange" cx="2445" r="10"/>
-            <text x="2445" y="5" class="version">21</text>
-
-            <!-- V. 22.0: June 25, 2013 -->
-            <circle stroke="orange" cx="2455" r="10"/>
-            <text x="2455" y="5" class="version">22</text>
-
-            <!-- V. 23.0: August 6, 2013 -->
-            <circle stroke="orange" cx="2475" r="10"/>
-            <text x="2475" y="5" class="version">23</text>
-
-            <!-- V. 24.0: September 17, 2013 -->
-            <circle stroke="orange" cx="2485" r="10"/>
-            <text x="2485" y="5" class="version">24</text>
-
-            <!-- V. 25.0: November 15, 2013 -->
-            <circle stroke="orange" cx="2505" r="10"/>
-            <text x="2505" y="5" class="version">25</text>
-
-            <!-- V. 26.0: December 10, 2013 -->
-            <circle stroke="orange" cx="2515" r="10"/>
-            <text x="2515" y="5" class="version">26</text>
-
-            <!-- V. 27.0: February 4, 2014 -->
-            <circle stroke="orange" cx="2535" r="10"/>
-            <text x="2535" y="5" class="version">27</text>
-
-            <!-- V. 28.0: March 18, 2014 -->
-            <circle stroke="orange" cx="2545" r="10"/>
-            <text x="2545" y="5" class="version">28</text>
-
-            <!-- V. 29.0: April 29, 2014 -->
-            <circle stroke="orange" cx="2555" r="10"/>
-            <text x="2555" y="5" class="version">29</text>
+            <use x="2435" stroke="orange" xlink:href="#longver"/>
+            <text x="2435" y="5" class="version">20+</text>
 
             <!-- V. 30.0: June 10, 2014 -->
-            <circle stroke="orange" cx="2575" r="10"/>
-            <text x="2575" y="5" class="version">30</text>
-
-            <!-- V. 31.0: July 22, 2014 -->
-            <circle stroke="orange" cx="2585" r="10"/>
-            <text x="2585" y="5" class="version">31</text>
-
-            <!-- V. 32.0: September 2, 2014 -->
-            <circle stroke="orange" cx="2605" r="10"/>
-            <text x="2605" y="5" class="version">32</text>
-
-            <!-- V. 33.0: October 14, 2014 -->
-            <circle stroke="orange" cx="2615" r="10"/>
-            <text x="2615" y="5" class="version">33</text>
-
-            <!-- V. 34.0: December 1, 2014 -->
-            <circle stroke="orange" cx="2635" r="10"/>
-            <text x="2635" y="5" class="version">34</text>
-
-            <!-- V. 35.0: January 26, 2015 -->
-            <circle stroke="orange" cx="2645" r="10"/>
-            <text x="2645" y="5" class="version">35</text>
-
-            <!-- V. 36.0: February 24, 2015 -->
-            <circle stroke="orange" cx="2655" r="10"/>
-            <text x="2655" y="5" class="version">36</text>
-
-            <!-- V. 37.0: March 31, 2015 -->
-            <circle stroke="orange" cx="2665" r="10"/>
-            <text x="2665" y="5" class="version">37</text>
-
-            <!-- V. 38.0: May 12, 2015 -->
-            <circle stroke="orange" cx="2685" r="10"/>
-            <text x="2685" y="5" class="version">38</text>
-
-            <!-- V. 39.0: July 2, 2015 -->
-            <circle stroke="orange" cx="2705" r="10"/>
-            <text x="2705" y="5" class="version">39</text>
+            <use x="2575" stroke="orange" xlink:href="#longver"/>
+            <text x="2575" y="5" class="version">30+</text>
 
             <!-- V. 40.0: August 11, 2015 -->
-            <circle stroke="orange" cx="2715" r="10"/>
-            <text x="2715" y="5" class="version">40</text>
-
-            <!-- V. 41.0: September 22, 2015 -->
-            <circle stroke="orange" cx="2725" r="10"/>
-            <text x="2725" y="5" class="version">41</text>
-
-            <!-- V. 42.0: November 3, 2015 -->
-            <circle stroke="orange" cx="2745" r="10"/>
-            <text x="2745" y="5" class="version">42</text>
-
-            <!-- V. 43.0: December 15, 2015 -->
-            <circle stroke="orange" cx="2755" r="10"/>
-            <text x="2755" y="5" class="version">43</text>
-
-            <!-- V. 44.0: January 26, 2016 -->
-            <circle stroke="orange" cx="2765" r="10"/>
-            <text x="2765" y="5" class="version">44</text>
-
-            <!-- V. 45.0: March 8, 2016 -->
-            <circle stroke="orange" cx="2785" r="10"/>
-            <text x="2785" y="5" class="version">45</text>
-
-            <!-- V. 46.0: April 26, 2016 -->
-            <circle stroke="orange" cx="2795" r="10"/>
-            <text x="2795" y="5" class="version">46</text>
-
-            <!-- V. 47.0: June 7, 2016 -->
-            <circle stroke="orange" cx="2815" r="10"/>
-            <text x="2815" y="5" class="version">47</text>
-
-            <!-- V. 48.0: August 2, 2016 -->
-            <circle stroke="orange" cx="2835" r="10"/>
-            <text x="2835" y="5" class="version">48</text>
-
-            <!-- V. 49.0: September 20, 2016 -->
-            <circle stroke="orange" cx="2845" r="10"/>
-            <text x="2845" y="5" class="version">49</text>
+            <use x="2715" stroke="orange" xlink:href="#longver"/>
+            <text x="2715" y="5" class="version">40+</text>
 
             <!-- V. 50.0: November 15, 2016 -->
-            <circle stroke="orange" cx="2865" r="10"/>
-            <text x="2865" y="5" class="version">50</text>
-
-            <!-- V. 50.1: December 13, 2016 -->
-            <circle stroke="orange" cx="2875" r="10"/>
-            <text x="2875" y="3" class="subversion">50.1</text>
-
-            <!-- V. 51.0: January 24, 2017 -->
-            <circle stroke="orange" cx="2885" r="10"/>
-            <text x="2885" y="5" class="version">51</text>
-
-            <!-- V. 52.0: March 7, 2017 -->
-            <circle stroke="orange" cx="2905" r="10"/>
-            <text x="2905" y="5" class="version">52</text>
-
-            <!-- V. 53.0: April 19, 2017 -->
-            <circle stroke="orange" cx="2915" r="10"/>
-            <text x="2915" y="5" class="version">53</text>
-
-            <!-- V. 54.0: June 13, 2017 -->
-            <circle stroke="orange" cx="2935" r="10"/>
-            <text x="2935" y="5" class="version">54</text>
-
-            <!-- V. 55.0: August 8, 2017 -->
-            <circle stroke="orange" cx="2955" r="10"/>
-            <text x="2955" y="5" class="version">55</text>
-
-            <!-- V. 56.0: September 28, 2017 -->
-            <circle stroke="orange" cx="2965" r="10"/>
-            <text x="2965" y="5" class="version">56</text>
-
-            <!-- V. 57.0: November 14, 2017 -->
-            <circle stroke="orange" cx="2985" r="10"/>
-            <text x="2985" y="5" class="version">57</text>
-
-            <!-- V. 58.0: January 23, 2018 -->
-            <circle stroke="orange" cx="3005" r="10"/>
-            <text x="3005" y="5" class="version">58</text>
-
-            <!-- V. 59.0: March 13, 2018 -->
-            <circle stroke="orange" cx="3025" r="10"/>
-            <text x="3025" y="5" class="version">59</text>
+            <use x="2865" stroke="orange" xlink:href="#longver"/>
+            <text x="2865" y="5" class="version">50+</text>
 
             <!-- V. 60.0: May 9, 2018 -->
-            <circle stroke="orange" cx="3045" r="10"/>
-            <text x="3045" y="5" class="version">60</text>
+            <use x="3045" stroke="orange" xlink:href="#longver"/>
+            <text x="3045" y="5" class="version">60+</text>
 
-            <!-- V. 61.0: June 25, 2018 -->
-            <circle stroke="orange" cx="3055" r="10"/>
-            <text x="3055" y="5" class="version">61</text>
+            <!-- V. 70.0: October 22, 2019 -->
+            <use x="3215" stroke="orange" xlink:href="#longver"/>
+            <text x="3215" y="5" class="version">70+</text>
 
-            <!-- V. 62.0: September 5, 2018 -->
-            <circle stroke="orange" cx="3085" r="10"/>
-            <text x="3085" y="5" class="version">62</text>
+            <!-- V. 80.0: August 25, 2020 -->
+            <use x="3315" stroke="orange" xlink:href="#longver"/>
+            <text x="3315" y="5" class="version">80+</text>
 
-            <!-- V. 63.0: October 23, 2018 -->
-            <circle stroke="orange" cx="3095" r="10"/>
-            <text x="3095" y="5" class="version">63</text>
-
-            <!-- V. 64.0: December 11, 2018 -->
-            <circle stroke="orange" cx="3115" r="10"/>
-            <text x="3115" y="5" class="version">64</text>
-
-            <!-- V. 65.0: January 28, 2019 -->
-            <circle stroke="orange" cx="3125" r="10"/>
-            <text x="3125" y="5" class="version">65</text>
-
-            <!-- V. 66.0: March 19, 2019 -->
-            <circle stroke="orange" cx="3145" r="10"/>
-            <text x="3145" y="5" class="version">66</text>
-
-            <!-- V. 67.0: May 21, 2019 -->
-            <circle stroke="orange" cx="3165" r="10"/>
-            <text x="3165" y="5" class="version">67</text>
-
-            <!-- V. 68.0: July 9, 2019 -->
-            <circle stroke="orange" cx="3185" r="10"/>
-            <text x="3185" y="5" class="version">68</text>
-
-            <!-- V. 69.0: September 3, 2019 -->
-            <circle stroke="orange" cx="3205" r="10"/>
-            <text x="3205" y="5" class="version">69</text>
+            <!-- V. 90.0: July 13, 2021 -->
+            <use x="3425" stroke="orange" xlink:href="#longver"/>
+            <text x="3425" y="5" class="version">90+</text>
         </g>
 
         <g id="ie">
@@ -3252,7 +3040,7 @@ Tips for adding branches:
             </a>
 
             <line stroke="blue" x1="315" y1="300" x2="315"/>
-            <line stroke="blue" x1="315" x2="3235"/>
+            <line stroke="blue" x1="315" x2="3535"/>
 
             <!-- V. 1.0: August, 1995 -->
             <circle stroke="blue" cx="315" r="10"/>
@@ -3301,9 +3089,29 @@ Tips for adding branches:
             <!-- V. 11.0: 17th October 2013 -->
             <circle stroke="blue" cx="2495" r="10"/>
             <text x="2495" y="5" class="version">11</text>
+
+            <!-- V. 11.0 (Update 1803): 30th April 2018 -->
+            <use x="3035" stroke="blue" xlink:href="#longver"/>
+            <text x="3035" y="3" class="subversion">v1803</text>
+
+            <!-- V. 11.0 (Update 1803): 30th April 2018 -->
+            <use x="3035" stroke="blue" xlink:href="#longver"/>
+            <text x="3035" y="3" class="subversion">v1803</text>
+
+            <!-- V. 11.0 (Update 1903): 21st May 2019 -->
+            <use x="3165" stroke="blue" xlink:href="#longver"/>
+            <text x="3165" y="3" class="subversion">v1903</text>
+
+            <!-- V. 11.0 (Update 20H2): 20th October 2020 -->
+            <use x="3335" stroke="blue" xlink:href="#longver"/>
+            <text x="3335" y="3" class="subversion">v20H2</text>
+
+            <!-- Desktop application retired -->
+            <!-- 15th June 2022 -->
+            <line stroke="blue" x1="3535" y1="-10" x2="3535" y2="10"/>
         </g>
 
-        <g id="edge">
+        <g id="iemobile">
             <a xlink:href="http://en.wikipedia.org/wiki/Internet_Explorer_Mobile">
                 <text x="475" y="-15" class="browser">Pocket Internet Explorer</text>
             </a>
@@ -3350,7 +3158,7 @@ Tips for adding branches:
 
             <!-- V. 7.0: February, 2010 -->
             <line stroke="blue" x1="1925" y1="50" x2="1925"/><!-- This is the new fork from IE -->
-            <line stroke="blue" x1="1925" x2="2655"/><!-- This is IE Mobile from v7 and up -->
+            <line stroke="blue" x1="1925" x2="2555"/><!-- This is IE Mobile from v7 and up -->
             <path stroke="blue" stroke-width="3px" d="M2035,50 2035,7" marker-end="url(#Triangle)"/>
 
             <circle stroke="blue" cx="2055" r="10"/>
@@ -3369,63 +3177,77 @@ Tips for adding branches:
             <!-- V. 11.0: April 2, 2014 -->
             <circle stroke="blue" cx="2555" r="10"/>
             <text x="2555" y="5" class="version">11</text>
+        </g>
 
+        <g id="edge">
             <a xlink:href="http://en.wikipedia.org/wiki/Microsoft_Edge">
-                <text x="2655" y="-12" class="browser">Edge</text>
+                <text x="2665" y="-15" class="browser">Edge</text>
             </a>
 
-            <line stroke="deepskyblue" x1="2655" x2="3165"/><!-- March, 2015: IE Mobile becomes Edge -->
-            <path stroke="deepskyblue" stroke-width="3px" d="M2655,50 2655,7" marker-end="url(#Triangle)"/><!-- converting to Multi-Platform -->
+            <line stroke="deepskyblue" x1="2655" y1="-100" x2="2655"/>
+            <line stroke="deepskyblue" x1="2655" x2="3595"/>
 
             <!-- V. 20.0: 29th July 2015 -->
-            <circle stroke="deepskyblue" cx="2705" r="10"/>
+            <use x="2705" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2705" y="5" class="version">20</text>
 
             <!-- V. 23.10547: September 18, 2015 -->
-            <circle stroke="deepskyblue" cx="2725" r="10"/>
+            <use x="2725" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2725" y="5" class="version">23</text>
 
             <!-- V. 25.10572: October 20, 2015 -->
-            <circle stroke="deepskyblue" cx="2735" r="10"/>
+            <use x="2735" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2735" y="5" class="version">25</text>
 
             <!-- V. 27.11099: January 13, 2016 -->
 
             <!-- V. 28.11102: January 21, 2016 -->
-            <circle stroke="deepskyblue" cx="2765" r="10"/>
+            <use x="2765" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2765" y="5" class="version">28</text>
 
             <!-- V. 31.14267: February 18, 2016 -->
-            <circle stroke="deepskyblue" cx="2775" r="10"/>
+            <use x="2775" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2775" y="5" class="version">31</text>
 
             <!-- V. 34.14291: March 17, 2016 -->
-            <circle stroke="deepskyblue" cx="2785" r="10"/>
+            <use x="2785" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2785" y="5" class="version">34</text>
 
             <!-- V. 37.14316: April 6, 2016 -->
-            <circle stroke="deepskyblue" cx="2795" r="10"/>
+            <use x="2795" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2795" y="5" class="version">37</text>
 
             <!-- V. 38.14342: May 10, 2016 -->
-            <circle stroke="deepskyblue" cx="2805" r="10"/>
+            <use x="2805" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2805" y="5" class="version">38</text>
 
             <!-- V. 40.15063: April 11, 2017 -->
-            <circle stroke="deepskyblue" cx="2915" r="10"/>
+            <use x="2915" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2915" y="5" class="version">40</text>
 
             <!-- V. 41.16299: September 26, 2017 -->
-            <circle stroke="deepskyblue" cx="2965" r="10"/>
+            <use x="2965" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="2965" y="5" class="version">41</text>
 
             <!-- V. 42.17134: April 30, 2018 -->
-            <circle stroke="deepskyblue" cx="3035" r="10"/>
+            <use x="3035" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="3035" y="5" class="version">42</text>
 
             <!-- V. 44.17763: November 13, 2018 -->
-            <circle stroke="deepskyblue" cx="3105" r="10"/>
+            <use x="3105" stroke="deepskyblue" xlink:href="#longver"/>
             <text x="3105" y="5" class="version">44</text>
+
+            <!-- V. 79.0.309: January 15, 2020 -->
+            <use x="3235" stroke="deepskyblue" xlink:href="#longver"/>
+            <text x="3235" y="5" class="version">79</text>
+
+            <!-- V. 80.0.361: February 7, 2020 -->
+            <use x="3255" stroke="deepskyblue" xlink:href="#longver"/>
+            <text x="3255" y="5" class="version">80+</text>
+
+            <!-- V. 90.0.818: April 15, 2021 -->
+            <use x="3395" stroke="deepskyblue" xlink:href="#longver"/>
+            <text x="3395" y="5" class="version">90+</text>
         </g>
 
         <g id="iemac">
@@ -3435,7 +3257,7 @@ Tips for adding branches:
 
             <!-- Started: January, 1996 -->
             <!-- Source: Wikipedia article" -->
-            <line stroke="blue" x1="365" y1="200" x2="365"/>
+            <line stroke="blue" x1="365" y1="150" x2="365"/>
             <line stroke="blue" x1="365" x2="1555"/>
 
             <!-- V. 2.0: April, 1996 -->
@@ -3602,7 +3424,7 @@ Tips for adding branches:
             <!-- Source: http://www.maxthon.com -->
 
             <line stroke="navy" x1="900" y1="-50" x2="900"/>
-            <line stroke="navy" x1="900" x2="3235"/>
+            <line stroke="navy" x1="900" x2="3595"/>
 
             <!-- V0.3 beta: June 29, 2002 -->
             <!-- Source: http://groups.google.com/group/cn.comp.software.shareware/browse_thread/thread/9c1936adc9fb2c81/aaa8ec16da2ee8ab -->
@@ -3731,6 +3553,16 @@ Tips for adding branches:
             <!-- Source: http://www.maxthon.com/blog/ -->
             <circle stroke="navy" cx="3025" r="10"/>
             <text x="3025" y="3" class="subversion">5.2</text>
+
+            <!-- V5.3.8.2000: October 24, 2019 -->
+            <!-- Source: https://forum.maxthon.com/index.php?/release-notes5/ -->
+            <circle stroke="navy" cx="3215" r="10"/>
+            <text x="3215" y="3" class="subversion">5.3</text>
+
+            <!-- V6.1.0.2000: November 30, 2020	 -->
+            <!-- Source: http://www.maxthon.com/blog/ -->
+            <circle stroke="navy" cx="3345" r="10"/>
+            <text x="3345" y="5" class="version">6</text>
         </g>
 
         <g id="greenbrowser">
@@ -3933,67 +3765,6 @@ Tips for adding branches:
             <text x="2805" y="3" class="subversion">6.9</text>
         </g>
 
-        <g id="menubox">
-            <a xlink:href="https://en.wikipedia.org/wiki/MenuBox">
-                <text x="1125" y="-15" class="browser">MenuBox</text>
-            </a>
-            <!-- Source: http://www.menubox.com/ -->
-
-            <line stroke="#E9A54F" x1="1125" x2="2935"/>
-
-            <!-- V. 1.7.0.0: May 31, 2002 -->
-            <circle stroke="#E9A54F" cx="1125" r="10"/>
-            <text x="1125" y="3" class="subversion">1.7</text>
-
-            <!-- V. 2.0.0.0: September 22, 2002 -->
-            <circle stroke="#E9A54F" cx="1165" r="10"/>
-            <text x="1165" y="5" class="version">2</text>
-
-            <!-- V. 2.1.1.0: May 7, 2003 -->
-            <circle stroke="#E9A54F" cx="1245" r="10"/>
-            <text x="1245" y="3" class="subversion">2.1</text>
-
-            <!-- V. 2.2.0.0: August 20, 2003 -->
-            <circle stroke="#E9A54F" cx="1275" r="10"/>
-            <text x="1275" y="3" class="subversion">2.2</text>
-
-            <!-- V. 2.3.0.0: November 11, 2003 -->
-            <circle stroke="#E9A54F" cx="1305" r="10"/>
-            <text x="1305" y="3" class="subversion">2.3</text>
-
-            <!-- V. 3.0.1.0: October 29, 2004 -->
-            <circle stroke="#E9A54F" cx="1415" r="10"/>
-            <text x="1415" y="5" class="version">3</text>
-
-            <!-- V. 3.1.0.0: August 1, 2005 -->
-            <circle stroke="#E9A54F" cx="1515" r="10"/>
-            <text x="1515" y="3" class="subversion">3.1</text>
-
-            <!-- V. 3.2.0.0: September 21, 2005 -->
-            <circle stroke="#E9A54F" cx="1525" r="10"/>
-            <text x="1525" y="3" class="subversion">3.2</text>
-
-            <!-- V. 4.0.1.0: May 17, 2007 -->
-            <circle stroke="#E9A54F" cx="1725" r="10"/>
-            <text x="1725" y="5" class="version">4</text>
-
-            <!-- V. 5.0.0.0: August 8, 2008 -->
-            <circle stroke="#E9A54F" cx="1875" r="10"/>
-            <text x="1875" y="5" class="version">5</text>
-
-            <!-- V. 5.1.0.0: September 25, 2009 -->
-            <circle stroke="#E9A54F" cx="2005" r="10"/>
-            <text x="2005" y="3" class="subversion">5.1</text>
-
-            <!-- V. 5.2.0.0: October 21, 2010 -->
-            <circle stroke="#E9A54F" cx="2135" r="10"/>
-            <text x="2135" y="3" class="subversion">5.2</text>
-
-            <!-- V. 6.0.0.0: January 26, 2015 -->
-            <circle stroke="#E9A54F" cx="2645" r="10"/>
-            <text x="2645" y="5" class="version">6</text>
-        </g>
-
         <g id="deepnet">
             <a xlink:href="https://en.wikipedia.org/wiki/Deepnet_Explorer">
                 <text x="1335" y="23" class="browser">Deepnet Explorer</text>
@@ -4035,7 +3806,7 @@ Tips for adding branches:
 
             <!-- Started: between February and May 2002 -->
             <!-- Source: http://replay.waybackmachine.org/20020604181452/http://www.flashpeak.com/sbrowser/sbrowser.htm -->
-            <line stroke="purple" x1="1125" x2="3235"/>
+            <line stroke="purple" x1="1125" x2="3595"/>
 
             <!-- Versions to add:
 	 1.0,
@@ -4130,6 +3901,26 @@ Tips for adding branches:
             <!-- V10.0: August 16, 2019 -->
             <circle stroke="purple" cx="3195" r="10"/>
             <text x="3195" y="5" class="version">10</text>
+
+            <!-- V11.0: September 29, 2019 -->
+            <circle stroke="purple" cx="3205" r="10"/>
+            <text x="3205" y="5" class="version">11</text>
+
+            <!-- V12.0: January 8, 2020 -->
+            <circle stroke="purple" cx="3245" r="10"/>
+            <text x="3245" y="5" class="version">12</text>
+
+            <!-- V13.0: August 2, 2020 -->
+            <circle stroke="purple" cx="3315" r="10"/>
+            <text x="3315" y="5" class="version">13</text>
+
+            <!-- V14.0: September 9, 2020 -->
+            <circle stroke="purple" cx="3325" r="10"/>
+            <text x="3325" y="5" class="version">14</text>
+
+            <!-- V15.0: May 10, 2021 -->
+            <circle stroke="purple" cx="3405" r="10"/>
+            <text x="3405" y="5" class="version">15</text>
         </g>
 
         <g id="aol">
@@ -4157,7 +3948,7 @@ Tips for adding branches:
 
             <!-- http://web.archive.org/web/*/http://www.avantbrowser.com -->
             <!-- Source: http://www.50download.com/software/IE%20Opera.htm (earliest appearance found)-->
-            <line stroke="darkred" x1="1165" x2="3235"/>
+            <line stroke="darkred" x1="1165" x2="3385"/>
 
             <!-- V6.5: September 2002 -->
             <circle stroke="darkred" cx="1165" r="10"/>
@@ -4249,6 +4040,11 @@ Tips for adding branches:
             <!-- Source: http://www.avantbrowser.com/new.aspx -->
             <circle stroke="darkred" cx="3165" r="10"/>
             <text x="3165" y="5" class="version">19</text>
+
+            <!-- V20: March 17, 2020 -->
+            <!-- Source: http://www.avantbrowser.com/new.aspx -->
+            <use x="3265" stroke="darkred" xlink:href="#longver"/>
+            <text x="3265" y="5" class="version">20</text>
         </g>
 
         <g id="sleipnir">
@@ -4256,7 +4052,7 @@ Tips for adding branches:
                 <text x="1425" y="-12" class="browser">Sleipnir</text>
             </a>
 
-            <line stroke="royalblue" x1="1425" x2="3235"/>
+            <line stroke="royalblue" x1="1425" x2="3595"/>
 
             <!-- V. 2.00: October 12, 2005 -->
             <circle stroke="royalblue" cx="1535" r="10"/>
@@ -4356,7 +4152,7 @@ Tips for adding branches:
                 <text x="2505" y="23" class="browser">Sleipnir (blink-based)</text>
             </a>
 
-            <line stroke="royalblue" x1="2505" x2="3235"/>
+            <line stroke="royalblue" x1="2505" x2="3595"/>
 
             <!-- V. 5.0.0: November 21, 2013 -->
             <circle stroke="royalblue" cx="2505" r="10"/>
@@ -4396,7 +4192,8 @@ Tips for adding branches:
                 <text x="1065" y="-12" class="browser">Lunascape</text>
             </a>
 
-            <line stroke="dimgray" x1="1065" x2="3135"/>
+            <line stroke="dimgray" x1="1065" x2="3015"/>
+            <line stroke="dimgray" x1="3015" y1="" x2="3015"/>
 
             <!-- V. 3.0: September 2005 -->
             <circle stroke="dimgray" cx="1535" r="10"/>
@@ -4518,6 +4315,9 @@ Tips for adding branches:
             <!-- V. 6.15: November 28, 2016-->
             <use x="2865" stroke="dimgray" xlink:href="#longver"/>
             <text x="2865" y="3" class="subversion">6.15</text>
+
+            <!-- Last version: V. 6.15.2 -->
+            <line stroke="dimgray" x1="3015" y1="-10" x2="3015" y2="10"/>
         </g>
 
         <g id="gzilla">
@@ -4797,7 +4597,7 @@ Tips for adding branches:
             </a>
 
             <!-- Source: WP article "History of the Opera Internet suite" -->
-            <line stroke="#B00" x1="2445" x2="3235"/>
+            <line stroke="#B00" x1="2445" x2="3595"/>
 
             <!-- V. 15: July 2, 2013 -->
             <!-- Source: http://my.opera.com/desktopteam/blog/2013/07/02/opera-15 -->
@@ -4825,211 +4625,38 @@ Tips for adding branches:
 
             <!-- V. 20: March 4, 2014 -->
             <!-- Source: http://blogs.opera.com/desktop/2014/03/opera20fordesktop/ -->
-            <circle stroke="#B00" cx="2545" r="10"/>
-            <text x="2545" y="5" class="version">20</text>
-
-            <!-- V. 21: May 6, 2014 -->
-            <!-- Source: http://blogs.opera.com/desktop/2014/05/opera-21-desktop-released-aura-powered/ -->
-            <circle stroke="#B00" cx="2565" r="10"/>
-            <text x="2565" y="5" class="version">21</text>
-
-            <!-- V. 22: June 3, 2014 -->
-            <!-- Source: http://blogs.opera.com/desktop/2014/06/opera-22-windows-mac-released-today-new-themes-silent-updates/ -->
-            <circle stroke="#B00" cx="2575" r="10"/>
-            <text x="2575" y="5" class="version">22</text>
-
-            <!-- V. 23: July 22, 2014 -->
-            <!-- Source: http://blogs.opera.com/desktop/2014/07/heart-icon-opera-23-for-windows-and-mac/ -->
-            <circle stroke="#B00" cx="2585" r="10"/>
-            <text x="2585" y="5" class="version">23</text>
-
-            <!-- V. 24: September 2, 2014 -->
-            <!-- Source: http://blogs.opera.com/desktop/2014/09/browse-faster-opera-24-desktop-with-tab-preview/ -->
-            <circle stroke="#B00" cx="2605" r="10"/>
-            <text x="2605" y="5" class="version">24</text>
-
-            <!-- V. 25: October 15, 2014 -->
-            <!-- Source: http://blogs.opera.com/desktop/2014/10/visual-bookmarks-opera-for-computers/ -->
-            <circle stroke="#B00" cx="2615" r="10"/>
-            <text x="2615" y="5" class="version">25</text>
-
-            <!-- V. 26: December 3, 2014 -->
-            <!-- Source: http://blogs.opera.com/desktop/2014/12/share-bookmarks-opera-computers/ -->
-            <circle stroke="#B00" cx="2635" r="10"/>
-            <text x="2635" y="5" class="version">26</text>
-
-            <!-- V. 27: January 27, 2015 -->
-            <!-- Source: http://blogs.opera.com/desktop/2015/01/opera-27-computers-bookmarks-tabs-navigation-bar/ -->
-            <circle stroke="#B00" cx="2645" r="10"/>
-            <text x="2645" y="5" class="version">27</text>
-
-            <!-- V. 28.0: March 10, 2015 -->
-            <!-- Source: http://blogs.opera.com/desktop/2015/03/bookmarks-syncing-opera-28/ -->
-            <circle stroke="#B00" cx="2665" r="10"/>
-            <text x="2665" y="5" class="version">28</text>
-
-            <!-- V. 29.0: April 28, 2015 -->
-            <!-- Source: http://blogs.opera.com/desktop/2015/04/access-the-same-tabs-from-your-computer-and-your-android-phone/ -->
-            <circle stroke="#B00" cx="2675" r="10"/>
-            <text x="2675" y="5" class="version">29</text>
+            <use x="2545" stroke="#B00" xlink:href="#longver"/>
+            <text x="2545" y="5" class="version">20+</text>
 
             <!-- V. 30.0: June 9, 2015 -->
             <!-- Source: http://blogs.opera.com/desktop/2015/06/view-tabs-easier-get-sidebar-extensions-opera-30/ -->
-            <circle stroke="#B00" cx="2695" r="10"/>
-            <text x="2695" y="5" class="version">30</text>
-
-            <!-- V. 31.0: August 04, 2015 -->
-            <!-- Source: http://blogs.opera.com/desktop/2015/08/opera-31-speeds-up/ -->
-            <circle stroke="#B00" cx="2715" r="10"/>
-            <text x="2715" y="5" class="version">31</text>
-
-            <!-- V. 32.0: September 15, 2015 -->
-            <!-- Source: http://blogs.opera.com/desktop/2015/09/opera-32-privacy-is-a-universal-right-2/ -->
-            <circle stroke="#B00" cx="2725" r="10"/>
-            <text x="2725" y="5" class="version">32</text>
-
-            <!-- V. 33.0: October 27, 2015 -->
-            <!-- Source: http://blogs.opera.com/desktop/2015/10/opera-33-our-contribution-to-chromium/ -->
-            <circle stroke="#B00" cx="2735" r="10"/>
-            <text x="2735" y="5" class="version">33</text>
-
-            <!-- V. 34.0: December 8, 2015 -->
-            <!-- Source: http://www.opera.com/blogs/desktop/2015/12/opera-34-technology-help/ -->
-            <circle stroke="#B00" cx="2755" r="10"/>
-            <text x="2755" y="5" class="version">34</text>
-
-            <!-- V. 35.0: February 2, 2016 -->
-            <!-- Source: http://www.opera.com/blogs/desktop/2016/02/better-downloads-and-quieter-tabs-in-opera-35-for-computers/ -->
-            <circle stroke="#B00" cx="2775" r="10"/>
-            <text x="2775" y="5" class="version">35</text>
-
-            <!-- V. 36.0: March 15, 2016 -->
-            <!-- Source: http://www.opera.com/blogs/desktop/2016/03/best-browser-windows-10/ -->
-            <circle stroke="#B00" cx="2785" r="10"/>
-            <text x="2785" y="5" class="version">36</text>
-
-            <!-- V. 37.0: May 4, 2016 -->
-            <!-- Source: http://www.opera.com/blogs/desktop/2016/05/ad-blocker-opera-for-windows-mac-free/ -->
-            <circle stroke="#B00" cx="2805" r="10"/>
-            <text x="2805" y="5" class="version">37</text>
-
-            <!-- V. 38.0: June 2, 2016 -->
-            <!-- Source: https://www.opera.com/blogs/desktop/2016/06/opera-stable-38-0-2220-31-update/ -->
-            <circle stroke="#B00" cx="2815" r="10"/>
-            <text x="2815" y="5" class="version">38</text>
-
-            <!-- V. 39.0: September 6, 2016 -->
-            <!-- Source: https://www.opera.com/blogs/desktop/2016/09/opera-stable-39-0-2256-71-update/ -->
-            <circle stroke="#B00" cx="2845" r="10"/>
-            <text x="2845" y="5" class="version">39</text>
+            <use x="2695" stroke="#B00" xlink:href="#longver"/>
+            <text x="2695" y="5" class="version">30+</text>
 
             <!-- V. 40.0: October 4, 2016 -->
             <!-- Source: https://www.opera.com/blogs/desktop/2016/10/opera-stable-40-0-2308-81-update/ -->
-
-            <!-- V. 41.0: October 25, 2016 -->
-            <!-- Source: https://www.opera.com/blogs/desktop/2016/10/86-percent-faster-opera-41-for-computers/ -->
-            <circle stroke="#B00" cx="2855" r="10"/>
-            <text x="2855" y="5" class="version">41</text>
-
-            <!-- V. 42.0: December 13, 2016 -->
-            <!-- Source: https://www.opera.com/blogs/desktop/2016/12/20-year-edition-opera-42-ships-new-gifts/ -->
-            <circle stroke="#B00" cx="2875" r="10"/>
-            <text x="2875" y="5" class="version">42</text>
-
-            <!-- V. 43.0: February 7, 2017 -->
-            <!-- Source: http://www.opera.com/blogs/desktop/2017/02/opera-43-squeezes-page-loading-time-limits/ -->
-            <circle stroke="#B00" cx="2895" r="10"/>
-            <text x="2895" y="5" class="version">43</text>
-
-            <!-- V. 44.0: March 21, 2017 -->
-            <!-- Source: http://www.opera.com/blogs/desktop/2017/03/opera-44-goes-final-support-apples-new-touch-bar/ -->
-            <circle stroke="#B00" cx="2905" r="10"/>
-            <text x="2905" y="5" class="version">44</text>
-
-            <!-- V. 45.0: May 10, 2017 -->
-            <!-- Source: https://blogs.opera.com/desktop/2017/05/opera-is-reborn/ -->
-            <circle stroke="#B00" cx="2925" r="10"/>
-            <text x="2925" y="5" class="version">45</text>
-
-            <!-- V. 46.0: June 22, 2017 -->
-            <!-- Source: https://blogs.opera.com/desktop/2017/06/opera-46-goes-final-more-quality-and-operas-first-tv-ad/ -->
-            <circle stroke="#B00" cx="2935" r="10"/>
-            <text x="2935" y="5" class="version">46</text>
-
-            <!-- V. 47.0: August 9, 2017 -->
-            <!-- Source: https://blogs.opera.com/desktop/2017/08/exportable-bookmarks-smoother-videos-design-improvements-opera-47/ -->
-            <circle stroke="#B00" cx="2955" r="10"/>
-            <text x="2955" y="5" class="version">47</text>
-
-            <!-- V. 48.0: September 27, 2017 -->
-            <!-- Source: https://blogs.opera.com/desktop/2017/09/convert-measurements-currencies-time-zones-opera-48/ -->
-            <circle stroke="#B00" cx="2965" r="10"/>
-            <text x="2965" y="5" class="version">48</text>
-
-            <!-- V. 49.0: November 8, 2017 -->
-            <!-- Source: https://blogs.opera.com/desktop/2017/11/opera-49-adds-snapshot-tool-editing-tools/ -->
-            <circle stroke="#B00" cx="2985" r="10"/>
-            <text x="2985" y="5" class="version">49</text>
+            <use x="2855" stroke="#B00" xlink:href="#longver"/>
+            <text x="2855" y="5" class="version">40+</text>
 
             <!-- V. 50.0: January 4, 2018 -->
             <!-- Source: https://blogs.opera.com/desktop/2018/01/opera-50-introduces-anti-bitcoin-mining-tool/ -->
-            <circle stroke="#B00" cx="3005" r="10"/>
-            <text x="3005" y="5" class="version">50</text>
-
-            <!-- V. 51.0: February 7, 2018 -->
-            <!-- Source: https://blogs.opera.com/desktop/2018/02/opera-51/ -->
-            <circle stroke="#B00" cx="3015" r="10"/>
-            <text x="3015" y="5" class="version">51</text>
-
-            <!-- V. 52.0: March 22, 2018 -->
-            <!-- Source: https://blogs.opera.com/desktop/2018/03/opera-52-offers-faster-ad-blocking-and-cool-new-animations/ -->
-            <circle stroke="#B00" cx="3025" r="10"/>
-            <text x="3025" y="5" class="version">52</text>
-
-            <!-- V. 53.0: May 10, 2018 -->
-            <!-- Source: https://blogs.opera.com/desktop/2018/05/opera-53-stable/ -->
-            <circle stroke="#B00" cx="3045" r="10"/>
-            <text x="3045" y="5" class="version">53</text>
-
-            <!-- V. 54.0: June 28, 2018 -->
-            <!-- Source: https://blogs.opera.com/desktop/2018/06/opera-54-introduces-news-articles-on-speed-dial-and-a-simplified-browser-restoration-page/ -->
-            <circle stroke="#B00" cx="3055" r="10"/>
-            <text x="3055" y="5" class="version">54</text>
-
-            <!-- V. 55.0: August 16, 2018 -->
-            <!-- Source: https://blogs.opera.com/desktop/2018/08/opera-55-offers-better-control-web-pages-accessible-bookmarks/ -->
-            <circle stroke="#B00" cx="3075" r="10"/>
-            <text x="3075" y="5" class="version">55</text>
-
-            <!-- V. 56.0: September 25, 2018 -->
-            <!-- Source: https://blogs.opera.com/desktop/2018/09/opera-56-stable/ -->
-            <circle stroke="#B00" cx="3085" r="10"/>
-            <text x="3085" y="5" class="version">56</text>
-
-            <!-- V. 57.0: November 28, 2018 -->
-            <!-- Source: https://blogs.opera.com/desktop/2018/11/opera-57-stable/ -->
-            <circle stroke="#B00" cx="3105" r="10"/>
-            <text x="3105" y="5" class="version">57</text>
-
-            <!-- V. 58.0: January 23, 2019 -->
-            <!-- Source: https://blogs.opera.com/desktop/2019/01/opera-58-stable/ -->
-            <circle stroke="#B00" cx="3125" r="10"/>
-            <text x="3125" y="5" class="version">58</text>
+            <use x="3005" stroke="#B00" xlink:href="#longver"/>
+            <text x="3005" y="5" class="version">50+</text>
 
             <!-- V. 60.0: April 9, 2019 -->
             <!-- Source: https://blogs.opera.com/desktop/2019/04/opera-60-reborn-3-web-3-0-vpn-ad-blocker/ -->
-            <circle stroke="#B00" cx="3155" r="10"/>
-            <text x="3155" y="5" class="version">60</text>
+            <use x="3155" stroke="#B00" xlink:href="#longver"/>
+            <text x="3155" y="5" class="version">60+</text>
 
-            <!-- V. 62.0: June 27, 2019 -->
-            <!-- Source: https://blogs.opera.com/desktop/2019/06/opera-62-comes-with-design-updates-to-reborn-3/ -->
-            <circle stroke="#B00" cx="3175" r="10"/>
-            <text x="3175" y="5" class="version">62</text>
+            <!-- V. 70.0: July 28, 2020 -->
+            <!-- Source: https://blogs.opera.com/desktop/2020/07/opera-70-comes-with-easier-access-to-closed-tabs-simpler-searches-and-new-workspace-icons/ -->
+            <use x="3305" stroke="#B00" xlink:href="#longver"/>
+            <text x="3305" y="5" class="version">70+</text>
 
-            <!-- V. 63.0: August 20, 2019 -->
-            <!-- Source: https://blogs.opera.com/desktop/2019/08/opera-63-initial-release/ -->
-            <circle stroke="#B00" cx="3195" r="10"/>
-            <text x="3195" y="5" class="version">63</text>
+            <!-- V. 80.0: October 5, 2021 -->
+            <!-- Source: https://blogs.opera.com/desktop/2021/10/opera-80-stable/ -->
+            <use x="3455" stroke="#B00" xlink:href="#longver"/>
+            <text x="3455" y="5" class="version">80+</text>
         </g>
 
         <g id="operamini">
@@ -5039,7 +4666,7 @@ Tips for adding branches:
 
             <!-- Started: January, 2003 -->
             <line stroke="#B00" x1="1500" y1="50" x2="1500"/>
-            <line stroke="#B00" x1="1500" x2="3235"/>
+            <line stroke="#B00" x1="1500" x2="3595"/>
 
             <!-- V. 1.0: August 10, 2005 -->
             <circle stroke="#B00" cx="1515" r="10"/>
@@ -5155,130 +4782,24 @@ Tips for adding branches:
             <text x="2855" y="5" class="version">19</text>
 
             <!-- V. 20.0 (Android): November 1, 2016 -->
-            <circle stroke="#B00" cx="2865" r="10"/>
-            <text x="2865" y="5" class="version">20</text>
-
-            <!-- V. 21.0 (Android): December 21, 2016 -->
-            <circle stroke="#B00" cx="2875" r="10"/>
-            <text x="2875" y="5" class="version">21</text>
-
-            <!-- V. 22.0 (Android): February 1, 2017 -->
-            <circle stroke="#B00" cx="2895" r="10"/>
-            <text x="2895" y="5" class="version">22</text>
-
-            <!-- V. 23.0 (Android): March 24, 2017 -->
-            <circle stroke="#B00" cx="2905" r="10"/>
-            <text x="2905" y="5" class="version">23</text>
-
-            <!-- V. 24.0 (Android): April 2, 2017 -->
-            <circle stroke="#B00" cx="2915" r="10"/>
-            <text x="2915" y="5" class="version">24</text>
-
-            <!-- V. 25.0 (Android): May 9, 2017 -->
-
-            <!-- V. 26.0 (Android): May 26, 2017 -->
-            <circle stroke="#B00" cx="2925" r="10"/>
-            <text x="2925" y="5" class="version">26</text>
-
-            <!-- V. 27.0 (Android): June 29, 2017 -->
-            <circle stroke="#B00" cx="2935" r="10"/>
-            <text x="2935" y="5" class="version">27</text>
-
-            <!-- V. 28.0 (Android): July 14, 2017 -->
-            <circle stroke="#B00" cx="2945" r="10"/>
-            <text x="2945" y="5" class="version">28</text>
-
-            <!-- V. 29.0 (Android): August 20, 2017 -->
-            <circle stroke="#B00" cx="2955" r="10"/>
-            <text x="2955" y="5" class="version">29</text>
+            <use x="2865" stroke="#B00" xlink:href="#longver"/>
+            <text x="2865" y="5" class="version">20+</text>
 
             <!-- V. 30.0 (Android): September 14, 2017 -->
-            <circle stroke="#B00" cx="2965" r="10"/>
-            <text x="2965" y="5" class="version">30</text>
-
-            <!-- V. 31.0 (Android): October 26, 2017 -->
-            <circle stroke="#B00" cx="2975" r="10"/>
-            <text x="2975" y="5" class="version">31</text>
-
-            <!-- V. 32.0 (Android): December 1, 2017 -->
-            <circle stroke="#B00" cx="2995" r="10"/>
-            <text x="2995" y="5" class="version">32</text>
-
-            <!-- V. 33.0 (Android): March 9, 2018 -->
-            <circle stroke="#B00" cx="3025" r="10"/>
-            <text x="3025" y="5" class="version">33</text>
-
-            <!-- V. 35.0 (Android): May 24, 2018 -->
-            <circle stroke="#B00" cx="3045" r="10"/>
-            <text x="3045" y="5" class="version">35</text>
-
-            <!-- V. 35.1 (Android): June 19, 2018 -->
-            <circle stroke="#B00" cx="3055" r="10"/>
-            <text x="3055" y="3" class="subversion">35.1</text>
-
-            <!-- V. 35.2 (Android): July 14, 2018 -->
-
-            <!-- V. 35.3 (Android): July 17, 2018 -->
-            <circle stroke="#B00" cx="3065" r="10"/>
-            <text x="3065" y="3" class="subversion">35.3</text>
-
-            <!-- V. 36.0 (Android): August 11, 2018 -->
-            <circle stroke="#B00" cx="3075" r="10"/>
-            <text x="3075" y="5" class="version">36</text>
-
-            <!-- V. 36.1 (Android): August 17, 2018 -->
-
-            <!-- V. 36.2 (Android): August 30, 2018 -->
-
-            <!-- V. 37.0 (Android): October 23, 2018 -->
-            <circle stroke="#B00" cx="3095" r="10"/>
-            <text x="3095" y="5" class="version">37</text>
-
-            <!-- V. 37.1 (Android): October 27, 2018 -->
-
-            <!-- V. 37.2 (Android): November 20, 2018 -->
-
-            <!-- V. 37.3 (Android): November 21, 2018 -->
-            <circle stroke="#B00" cx="3105" r="10"/>
-            <text x="3105" y="3" class="subversion">37.3</text>
-
-            <!-- V. 37.4 (Android): December 6, 2018 -->
-
-            <!-- V. 37.5 (Android): December 10, 2018 -->
-
-            <!-- V. 37.6 (Android): December 18, 2018 -->
-
-            <!-- V. 38.0 (Android): December 26, 2018 -->
-            <circle stroke="#B00" cx="3115" r="10"/>
-            <text x="3115" y="5" class="version">38</text>
-
-            <!-- V. 38.1 (Android): January 29, 2019 -->
-            <circle stroke="#B00" cx="3125" r="10"/>
-            <text x="3125" y="3" class="subversion">38.1</text>
-
-            <!-- V. 39.1 (Android): February 28, 2019 -->
-            <circle stroke="#B00" cx="3135" r="10"/>
-            <text x="3135" y="3" class="subversion">39.1</text>
+            <use x="2965" stroke="#B00" xlink:href="#longver"/>
+            <text x="2965" y="5" class="version">30+</text>
 
             <!-- V. 40.1 (Android): April 12, 2019 -->
-            <circle stroke="#B00" cx="3155" r="10"/>
-            <text x="3155" y="3" class="subversion">40.1</text>
+            <use x="3155" stroke="#B00" xlink:href="#longver"/>
+            <text x="3155" y="5" class="version">40+</text>
 
-            <!-- V. 41.0 (Android): May 8, 2019 -->
+            <!-- V. 50.0 (Android): May 23, 2020 -->
+            <use x="3285" stroke="#B00" xlink:href="#longver"/>
+            <text x="3285" y="5" class="version">50+</text>
 
-            <!-- V. 42.0 (Android): May 10, 2019 -->
-            <circle stroke="#B00" cx="3165" r="10"/>
-            <text x="3165" y="5" class="version">42</text>
-
-            <!-- V. 43.1 (Android): June 6, 2019 -->
-
-            <!-- V. 43.2 (Android): June 13, 2019 -->
-            <circle stroke="#B00" cx="3175" r="10"/>
-            <text x="3175" y="3" class="subversion">43.2</text>
-
-            <!-- V. 43.3 (Android): July 24, 2019 -->
-            <circle stroke="#B00" cx="3185" r="10"/>
-            <text x="3185" y="3" class="subversion">43.3</text>
+            <!-- V. 60.0 (Android): September 20, 2021 -->
+            <use x="3445" stroke="#B00" xlink:href="#longver"/>
+            <text x="3445" y="5" class="version">60+</text>
         </g>
 
         <g id="oldoperamobile">
@@ -5368,7 +4889,7 @@ Tips for adding branches:
                 <text x="2445" y="-15" class="browser">Opera Mobile (blink-based)</text>
             </a>
 
-            <line stroke="#B00" x1="2445" x2="3235"/>
+            <line stroke="#B00" x1="2445" x2="3595"/>
 
             <!-- V. 14.0: May 21, 2013 -->
             <!-- Source: http://my.opera.com/ODIN/blog/opera-14-for-android-is-out -->
@@ -5397,213 +4918,25 @@ Tips for adding branches:
             <text x="2525" y="5" class="version">19</text>
 
             <!-- V. 20.0: March 6, 2014 -->
-            <circle stroke="#B00" cx="2545" r="10"/>
-            <text x="2545" y="5" class="version">20</text>
-
-            <!-- V. 21.0: May 6, 2014 -->
-            <!-- Release date not 100% sure -->
-            <circle stroke="#B00" cx="2565" r="10"/>
-            <text x="2565" y="5" class="version">21</text>
-
-            <!-- V. 22.0: June 3, 2014 -->
-            <!-- Release date not 100% sure -->
-            <circle stroke="#B00" cx="2575" r="10"/>
-            <text x="2575" y="5" class="version">22</text>
-
-            <!-- V. 23.0: July 22, 2014 -->
-            <!-- Release date not 100% sure -->
-            <circle stroke="#B00" cx="2585" r="10"/>
-            <text x="2585" y="5" class="version">23</text>
-
-            <!-- V. 24.0: September 2, 2014 -->
-            <!-- Release date not 100% sure -->
-            <circle stroke="#B00" cx="2605" r="10"/>
-            <text x="2605" y="5" class="version">24</text>
-
-            <!-- V. 25.0: October 15, 2014 -->
-            <!-- Release date not 100% sure -->
-            <circle stroke="#B00" cx="2615" r="10"/>
-            <text x="2615" y="5" class="version">25</text>
-
-            <!-- V. 26.0: December 3, 2014 -->
-            <!-- Release date not 100% sure -->
-            <circle stroke="#B00" cx="2635" r="10"/>
-            <text x="2635" y="5" class="version">26</text>
-
-            <!-- V. 27.0: January 27, 2015 -->
-            <!-- Release date not 100% sure -->
-            <circle stroke="#B00" cx="2645" r="10"/>
-            <text x="2645" y="5" class="version">27</text>
-
-            <!-- V. 28.0: March 10, 2015 -->
-            <!-- Source: http://blogs.opera.com/mobile/2015/03/bookmarks-sync-opera-android-ios/ -->
-            <circle stroke="#B00" cx="2665" r="10"/>
-            <text x="2665" y="5" class="version">28</text>
-
-            <!-- V. 29.0: April 28, 2015 -->
-            <!-- Source: http://betanews.com/2015/04/28/opera-29-gains-tab-sync-across-devices-customizable-keyboard-shortcuts/ -->
-            <circle stroke="#B00" cx="2675" r="10"/>
-            <text x="2675" y="5" class="version">29</text>
+            <use x="2545" stroke="#B00" xlink:href="#longver"/>
+            <text x="2545" y="5" class="version">20+</text>
 
             <!-- V. 30.0: June 10, 2015 -->
             <!-- Source: http://blogs.opera.com/mobile/2015/06/opera-30-android-sync-speeddials/ -->
-            <circle stroke="#B00" cx="2695" r="10"/>
-            <text x="2695" y="5" class="version">30</text>
-
-            <!-- V. 32.0: September 23, 2015 -->
-            <!-- Source: http://blogs.opera.com/mobile/2015/09/opera-32-add-to-home-screen/ -->
-            <circle stroke="#B00" cx="2725" r="10"/>
-            <text x="2725" y="5" class="version">32</text>
-
-            <!-- V. 33.0: November 3, 2015 -->
-            <circle stroke="#B00" cx="2745" r="10"/>
-            <text x="2745" y="5" class="version">33</text>
-
-            <!-- V. 34.0: December 15, 2015 -->
-            <circle stroke="#B00" cx="2755" r="10"/>
-            <text x="2755" y="5" class="version">34</text>
-
-            <!-- V. 35.0: February 2, 2016 -->
-            <circle stroke="#B00" cx="2775" r="10"/>
-            <text x="2775" y="5" class="version">35</text>
-
-            <!-- V. 36.0: March 15, 2016 -->
-            <circle stroke="#B00" cx="2785" r="10"/>
-            <text x="2785" y="5" class="version">36</text>
-
-            <!-- V. 37.0: May 4, 2016 -->
-            <circle stroke="#B00" cx="2805" r="10"/>
-            <text x="2805" y="5" class="version">37</text>
-
-            <!-- V. 37.1: September 22, 2016 -->
-            <circle stroke="#B00" cx="2845" r="10"/>
-            <text x="2845" y="3" class="subversion">37.1</text>
-
-            <!-- V. 37.2: October 5, 2016 -->
-            <circle stroke="#B00" cx="2855" r="10"/>
-            <text x="2855" y="3" class="subversion">37.2</text>
+            <use x="2695" stroke="#B00" xlink:href="#longver"/>
+            <text x="2695" y="5" class="version">30+</text>
 
             <!-- V. 41.1: December 22, 2016 -->
-
-            <!-- V. 41.2: December 29, 2016 -->
-            <circle stroke="#B00" cx="2875" r="10"/>
-            <text x="2875" y="3" class="subversion">41.2</text>
-
-            <!-- V. 41.3: January 18, 2017 -->
-
-            <!-- V. 42.0: January 24, 2017 -->
-            <circle stroke="#B00" cx="2885" r="10"/>
-            <text x="2885" y="5" class="version">42</text>
-
-            <!-- V. 42.4: February 21, 2017 -->
-            <circle stroke="#B00" cx="2895" r="10"/>
-            <text x="2895" y="3" class="subversion">42.4</text>
-
-            <!-- V. 42.7: March 27, 2017 -->
-            <circle stroke="#B00" cx="2905" r="10"/>
-            <text x="2905" y="3" class="subversion">42.7</text>
-
-            <!-- V. 42.8: June 19, 2017 -->
-            <circle stroke="#B00" cx="2935" r="10"/>
-            <text x="2935" y="3" class="subversion">42.8</text>
-
-            <!-- V. 42.9: August 14, 2017 -->
-            <circle stroke="#B00" cx="2955" r="10"/>
-            <text x="2955" y="3" class="subversion">42.9</text>
-
-            <!-- V. 43.0: September 22, 2017 -->
-            <circle stroke="#B00" cx="2965" r="10"/>
-            <text x="2965" y="5" class="version">43</text>
-
-            <!-- V. 44.0: December 2, 2017 -->
-            <circle stroke="#B00" cx="2995" r="10"/>
-            <text x="2995" y="5" class="version">44</text>
-
-            <!-- V. 44.1: December 11, 2017 -->
-
-            <!-- V. 45.0: February 12, 2018 -->
-            <circle stroke="#B00" cx="3015" r="10"/>
-            <text x="3015" y="5" class="version">45</text>
-
-            <!-- V. 45.1: March 8, 2018 -->
-            <circle stroke="#B00" cx="3025" r="10"/>
-            <text x="3025" y="3" class="subversion">45.1</text>
-
-            <!-- V. 46.1: May 18, 2018 -->
-            <circle stroke="#B00" cx="3045" r="10"/>
-            <text x="3045" y="3" class="subversion">46.1</text>
-
-            <!-- V. 46.3: June 1, 2018 -->
-            <circle stroke="#B00" cx="3055" r="10"/>
-            <text x="3055" y="3" class="subversion">46.3</text>
-
-            <!-- V. 47.0: July 12, 2018 -->
-            <circle stroke="#B00" cx="3065" r="10"/>
-            <text x="3065" y="5" class="version">47</text>
-
-            <!-- V. 47.1: July 31, 2018 -->
-
-            <!-- V. 47.2: August 27, 2018 -->
-            <circle stroke="#B00" cx="3075" r="10"/>
-            <text x="3075" y="3" class="subversion">47.2</text>
-
-            <!-- V. 47.3: September 13, 2018 -->
-            <circle stroke="#B00" cx="3085" r="10"/>
-            <text x="3085" y="3" class="subversion">47.3</text>
-
-            <!-- V. 48.0: November 1, 2018 -->
-            <circle stroke="#B00" cx="3105" r="10"/>
-            <text x="3105" y="5" class="version">48</text>
-
-            <!-- V. 48.1: November 7, 2018 -->
-
-            <!-- V. 48.2: November 20, 2018 -->
-
-            <!-- V. 49.0: December 4, 2018 -->
-            <circle stroke="#B00" cx="3115" r="10"/>
-            <text x="3115" y="5" class="version">49</text>
-
-            <!-- V. 49.1: December 14, 2018 -->
-
-            <!-- V. 49.2: December 20, 2018 -->
+            <use x="2875" stroke="#B00" xlink:href="#longver"/>
+            <text x="2875" y="5" class="version">41+</text>
 
             <!-- V. 50.0-1: February 14, 2019 -->
-            <circle stroke="#B00" cx="3135" r="10"/>
-            <text x="3135" y="5" class="version">50</text>
+            <use x="3135" stroke="#B00" xlink:href="#longver"/>
+            <text x="3135" y="5" class="version">50+</text>
 
-            <!-- V. 50.2: February 21, 2019 -->
-
-            <!-- V. 50.3: March 7, 2019 -->
-
-            <!-- V. 51.0: March 23, 2019 -->
-            <circle stroke="#B00" cx="3145" r="10"/>
-            <text x="3145" y="5" class="version">51</text>
-
-            <!-- V. 51.1: March 23, 2019 -->
-
-            <!-- V. 51.2: March 29, 2019 -->
-
-            <!-- V. 51.3: April 21, 2019 -->
-            <circle stroke="#B00" cx="3155" r="10"/>
-            <text x="3155" y="3" class="subversion">51.3</text>
-
-            <!-- V. 52.0: May 16, 2019 -->
-            <circle stroke="#B00" cx="3165" r="10"/>
-            <text x="3165" y="5" class="version">52</text>
-
-            <!-- V. 52.1: May 18, 2019 -->
-
-            <!-- V. 52.2: May 30, 2019 -->
-
-            <!-- V. 52.3: June 20, 2019 -->
-
-            <!-- V. 52.4: June 28, 2019 -->
-            <circle stroke="#B00" cx="3175" r="10"/>
-            <text x="3175" y="3" class="subversion">52.4</text>
-
-            <!-- V. 53.0: July 8, 2019 -->
-            <circle stroke="#B00" cx="3185" r="10"/>
-            <text x="3185" y="5" class="version">53</text>
+            <!-- V. 60.0: September 21, 2020 -->
+            <use x="3305" stroke="#B00" xlink:href="#longver"/>
+            <text x="3305" y="5" class="version">60+</text>
         </g>
 
         <g id="kazehakase">
@@ -5643,7 +4976,7 @@ Tips for adding branches:
                 <text x="945" y="-12" class="browser">Konqueror</text>
             </a>
 
-            <line stroke="#3E71C6" x1="935" x2="3175"/>
+            <line stroke="#3E71C6" x1="935" x2="3595"/>
 
             <!-- V. 2.0 (tied to KDE releases): October, 2000 -->
             <circle stroke="#3E71C6" cx="935" r="10"/>
@@ -5730,9 +5063,97 @@ Tips for adding branches:
             <use x="2595" stroke="#3E71C6" xlink:href="#longver"/>
             <text x="2595" y="3" class="subversion">4.14</text>
 
-            <!-- V. 5.0: December 15, 2016 -->
-            <circle stroke="#3E71C6" cx="2875" r="10"/>
-            <text x="2875" y="5" class="version">5</text>
+            <!-- V. 14.12: December 10, 2014 -->
+            <use x="2635" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2635" y="3" class="subversion">14.12</text>
+
+            <!-- V. 15.04: April 8, 2015 -->
+            <use x="2675" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2675" y="3" class="subversion">15.04</text>
+
+            <!-- V. 15.08: August 12, 2015 -->
+            <use x="2715" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2715" y="3" class="subversion">15.08</text>
+
+            <!-- V. 15.12: December 8, 2015 -->
+            <use x="2755" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2755" y="3" class="subversion">15.12</text>
+
+            <!-- V. 16.04: March 25, 2016 -->
+            <use x="2785" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2785" y="3" class="subversion">16.04</text>
+
+            <!-- V. 16.08: August 8, 2016 -->
+            <use x="2835" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2835" y="3" class="subversion">16.08</text>
+
+            <!-- V. 16.12: December 6, 2016 -->
+            <use x="2875" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2875" y="3" class="subversion">16.12</text>
+
+            <!-- V. 17.04: April 8, 2017 -->
+            <use x="2915" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2915" y="3" class="subversion">17.04</text>
+
+            <!-- V. 17.08: July 24, 2017 -->
+            <use x="2945" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2945" y="3" class="subversion">17.08</text>
+
+            <!-- V. 17.12: December 4, 2017 -->
+            <use x="2995" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2995" y="3" class="subversion">17.12</text>
+
+            <!-- V. 17.12: December 4, 2017 -->
+            <use x="2995" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="2995" y="3" class="subversion">17.12</text>
+
+            <!-- V. 18.04: April 3, 2018 -->
+            <use x="3035" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3035" y="3" class="subversion">18.04</text>
+
+            <!-- V. 18.08: July 30, 2018 -->
+            <use x="3065" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3065" y="3" class="subversion">18.08</text>
+
+            <!-- V. 18.12: November 20, 2018 -->
+            <use x="3105" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3105" y="3" class="subversion">18.12</text>
+
+            <!-- V. 19.04: March 8, 2018 -->
+            <use x="3145" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3145" y="3" class="subversion">19.04</text>
+
+            <!-- V. 19.08: August 7, 2018 -->
+            <use x="3195" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3195" y="3" class="subversion">19.08</text>
+
+            <!-- V. 19.12: November 24, 2018 -->
+            <use x="3225" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3225" y="3" class="subversion">19.12</text>
+
+            <!-- V. 20.04: April 16, 2018 -->
+            <use x="3275" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3275" y="3" class="subversion">20.04</text>
+
+            <!-- V. 20.08: August 6, 2018 -->
+            <use x="3315" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3315" y="3" class="subversion">20.08</text>
+
+            <!-- V. 20.12: December 2, 2018 -->
+            <use x="3355" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3355" y="3" class="subversion">20.12</text>
+
+            <!-- V. 21.04: April 14, 2018 -->
+            <use x="3395" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3395" y="3" class="subversion">21.04</text>
+
+            <!-- V. 21.08: August 4, 2018 -->
+            <use x="3435" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3435" y="3" class="subversion">21.08</text>
+
+            <!-- V. 21.12: December 2, 2018 -->
+            <use x="3475" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3475" y="3" class="subversion">21.12</text>
         </g>
 
         <g id="safari">
@@ -5743,7 +5164,7 @@ Tips for adding branches:
             <!-- Source dates from: http://en.wikipedia.org/wiki/Safari_(web_browser) -->
             <!-- Started: January, 2003 -->
             <line stroke="#888" x1="1205" y1="-50" x2="1205"/>
-            <line stroke="#888" x1="1205" x2="3235"/>
+            <line stroke="#888" x1="1205" x2="3595"/>
 
             <!-- V. 1.0: June 23, 2003 -->
             <circle stroke="#888" cx="1255" r="10"/>
@@ -5832,6 +5253,26 @@ Tips for adding branches:
             <!-- V. 12.1: March 25, 2019 -->
             <circle stroke="#888" cx="3145" r="10"/>
             <text x="3145" y="3" class="subversion">12.1</text>
+
+            <!-- V. 13.0: September 19, 2019 -->
+            <circle stroke="#888" cx="3205" r="10"/>
+            <text x="3205" y="5" class="version">13</text>
+
+            <!-- V. 13.1: March 24, 2020 -->
+            <circle stroke="#888" cx="3265" r="10"/>
+            <text x="3265" y="3" class="subversion">13.1</text>
+
+            <!-- V. 14.0: September 16, 2020 -->
+            <circle stroke="#888" cx="3325" r="10"/>
+            <text x="3325" y="5" class="version">14</text>
+
+            <!-- V. 14.1: April 26, 2021 -->
+            <circle stroke="#888" cx="3395" r="10"/>
+            <text x="3395" y="3" class="subversion">14.1</text>
+
+            <!-- V. 15.0: September 20, 2021 -->
+            <circle stroke="#888" cx="3445" r="10"/>
+            <text x="3445" y="5" class="version">15</text>
         </g>
 
         <g id="tkWWW">
@@ -5942,7 +5383,7 @@ Tips for adding branches:
                 <text x="2645" y="-12" class="browser">Vivaldi</text>
             </a>
 
-            <line stroke="#ec4947" x1="2645" x2="3235"/>
+            <line stroke="#ec4947" x1="2645" x2="3595"/>
 
             <!-- V. Beta 1: November 3, 2015 -->
             <use x="2745" stroke="#ec4947" xlink:href="#longver"/>
@@ -5952,105 +5393,25 @@ Tips for adding branches:
             <circle stroke="#ec4947" cx="2795" r="10"/>
             <text x="2795" y="5" class="version">1</text>
 
-            <!-- V1.1: April 26, 2016 -->
-            <!-- Source: https://vivaldi.net/en-US/teamblog/110-vivaldi-1-1-is-here -->
-            <!-- Since 1.0 is the first stable version, that one is included instead of the later 1.1 -->
-
-            <!-- V1.2: June 2, 2016 -->
-            <circle stroke="#ec4947" cx="2815" r="10"/>
-            <text x="2815" y="3" class="subversion">1.2</text>
-
-            <!-- V1.3: August 11, 2016 -->
-            <circle stroke="#ec4947" cx="2835" r="10"/>
-            <text x="2835" y="3" class="subversion">1.3</text>
-
-            <!-- V1.4: September 8, 2016 -->
-            <circle stroke="#ec4947" cx="2845" r="10"/>
-            <text x="2845" y="3" class="subversion">1.4</text>
-
-            <!-- V1.5: November 22, 2016 -->
-            <circle stroke="#ec4947" cx="2865" r="10"/>
-            <text x="2865" y="3" class="subversion">1.5</text>
-
-            <!-- V1.6: December 14, 2016 -->
-            <circle stroke="#ec4947" cx="2875" r="10"/>
-            <text x="2875" y="3" class="subversion">1.6</text>
-
-            <!-- V1.7: February 8, 2017 -->
-            <circle stroke="#ec4947" cx="2895" r="10"/>
-            <text x="2895" y="3" class="subversion">1.7</text>
-
-            <!-- V1.8: March 29, 2017 -->
-            <circle stroke="#ec4947" cx="2905" r="10"/>
-            <text x="2905" y="3" class="subversion">1.8</text>
-
-            <!-- V1.9: April 27, 2017 -->
-            <circle stroke="#ec4947" cx="2915" r="10"/>
-            <text x="2915" y="3" class="subversion">1.9</text>
-
-            <!-- V1.10: June 15, 2017 -->
-            <circle stroke="#ec4947" cx="2935" r="10"/>
-            <text x="2935" y="3" class="subversion">1.10</text>
-
-            <!-- V1.11: August 10, 2017 -->
-            <circle stroke="#ec4947" cx="2955" r="10"/>
-            <text x="2955" y="3" class="subversion">1.11</text>
-
-            <!-- V1.12: September 20, 2017 -->
-            <circle stroke="#ec4947" cx="2965" r="10"/>
-            <text x="2965" y="3" class="subversion">1.12</text>
-
-            <!-- V1.13: November 22, 2017 -->
-            <circle stroke="#ec4947" cx="2985" r="10"/>
-            <text x="2985" y="3" class="subversion">1.13</text>
-
-            <!-- V1.14: January 31, 2018 -->
-            <circle stroke="#ec4947" cx="3005" r="10"/>
-            <text x="3005" y="3" class="subversion">1.14</text>
-
-            <!-- V1.15: April 25, 2018 -->
-            <circle stroke="#ec4947" cx="3035" r="10"/>
-            <text x="3035" y="3" class="subversion">1.15</text>
-
             <!-- V2.0: September 26, 2018 -->
             <!-- Source: https://vivaldi.com/blog/vivaldi-2-0-your-browser-matters/ -->
             <circle stroke="#ec4947" cx="3085" r="10"/>
             <text x="3085" y="5" class="version">2</text>
 
-            <!-- V2.1: October 25, 2018 -->
-            <!-- Source: https://vivaldi.com/blog/vivaldi-2-1-launches-with-improved-quick-commands/ -->
-            <circle stroke="#ec4947" cx="3095" r="10"/>
-            <text x="3095" y="3" class="subversion">2.1</text>
+            <!-- V3.0: April 22, 2020 -->
+            <!-- Source: https://vivaldi.com/blog/1-day-2-big-vivaldi-browser-releases/ -->
+            <circle stroke="#ec4947" cx="3275" r="10"/>
+            <text x="3275" y="5" class="version">3</text>
 
-            <!-- V2.2: December 13, 2018 -->
-            <!-- Source: https://vivaldi.com/blog/vivaldi-update-focus-on-details/ -->
-            <circle stroke="#ec4947" cx="3115" r="10"/>
-            <text x="3115" y="3" class="subversion">2.2</text>
+            <!-- V4.0: June 9, 2021 -->
+            <!-- Source: https://vivaldi.com/blog/vivaldi-4-0/ -->
+            <circle stroke="#ec4947" cx="3415" r="10"/>
+            <text x="3415" y="5" class="version">4</text>
 
-            <!-- V2.3: February 6, 2019 -->
-            <!-- Source: https://vivaldi.com/blog/auto-stacking-tabs/ -->
-            <circle stroke="#ec4947" cx="3135" r="10"/>
-            <text x="3135" y="3" class="subversion">2.3</text>
-
-            <!-- V2.4: March 27, 2019 -->
-            <!-- Source: https://vivaldi.com/blog/vivaldi-2-4-next-level-toolbar-customisation/ -->
-            <circle stroke="#ec4947" cx="3145" r="10"/>
-            <text x="3145" y="3" class="subversion">2.4</text>
-
-            <!-- V2.5: May 8, 2019 -->
-            <!-- Source: https://vivaldi.com/blog/vivaldi-browser-enables-razer-chroma/ -->
-            <circle stroke="#ec4947" cx="3165" r="10"/>
-            <text x="3165" y="3" class="subversion">2.5</text>
-
-            <!-- V2.6: June 20, 2019 -->
-            <!-- Source: https://vivaldi.com/blog/vivaldi-browser-blocks-abusive-ads-improves-profile-management-and-more/ -->
-            <circle stroke="#ec4947" cx="3175" r="10"/>
-            <text x="3175" y="3" class="subversion">2.6</text>
-
-            <!-- V2.7: August 21, 2019 -->
-            <!-- Source: https://vivaldi.com/blog/vivaldi-2-7-bring-more-productivity-to-your-day/ -->
-            <circle stroke="#ec4947" cx="3195" r="10"/>
-            <text x="3195" y="3" class="subversion">2.7</text>
+            <!-- V5.0: June 9, 2021 -->
+            <!-- Source: https://vivaldi.com/blog/vivaldi-5-0-desktop-themes-translate-panel/ -->
+            <circle stroke="#ec4947" cx="3475" r="10"/>
+            <text x="3475" y="5" class="version">5</text>
         </g>
 
         <g id="webpositive">
@@ -6058,7 +5419,7 @@ Tips for adding branches:
                 <text x="2055" y="-15" class="browser">WebPositive</text>
             </a>
 
-            <line stroke="gold" x1="2055" x2="2505"/>
+            <line stroke="gold" x1="2055" x2="3595"/>
 
             <!-- V. r488 (Haiku R1/A2): May 10, 2010 -->
             <use x="2085" stroke="gold" xlink:href="#longver"/>
@@ -6083,6 +5444,14 @@ Tips for adding branches:
             <!-- V. 1.1-alpha: November 15, 2013 -->
             <circle stroke="gold" cx="2505" r="10"/>
             <text x="2505" y="3" class="subversion">1.1</text>
+
+            <!-- V. 1.2-alpha: May 28, 2020 -->
+            <circle stroke="gold" cx="3285" r="10"/>
+            <text x="3285" y="3" class="subversion">1.2</text>
+
+            <!-- V. 1.3-alpha: August 1, 2021 -->
+            <circle stroke="gold" cx="3435" r="10"/>
+            <text x="3435" y="3" class="subversion">1.3</text>
         </g>
 
         <g id="shiira">
@@ -6135,7 +5504,7 @@ Tips for adding branches:
             <line stroke="darkslategray" x1="2715" x2="3065" style="stroke-dasharray: 4,6"/>
 
             <!-- Rebooted in Vala-based core: https://github.com/midori-browser/core/releases -->
-            <line stroke="darkslategray" x1="3065" x2="3235"/>
+            <line stroke="darkslategray" x1="3065" x2="3305"/>
 
             <!-- V. 0.1: October 2008 -->
             <circle stroke="darkslategray" cx="1905" r="10"/>
@@ -6215,7 +5584,7 @@ Tips for adding branches:
                 <text x="1890" y="-15" class="browser">Chrome</text>
             </a>
 
-            <line stroke="#7d753d" x1="1885" x2="3235"/>
+            <line stroke="#7d753d" x1="1885" x2="3595"/>
 
             <!-- V0.2: September 2, 2008 -->
             <circle stroke="#7d753d" cx="1885" r="10"/>
@@ -6268,273 +5637,40 @@ Tips for adding branches:
             <text x="2175" y="5" class="version">9</text>
 
             <!-- V10.0: March 9, 2011 -->
-            <circle stroke="#7d753d" cx="2185" r="10"/>
-            <text x="2185" y="5" class="version">10</text>
-
-            <!-- V11.0: April 28, 2011 -->
-            <circle stroke="#7d753d" cx="2195" r="10"/>
-            <text x="2195" y="5" class="version">11</text>
-
-            <!-- V12.0: June 7, 2011 -->
-            <circle stroke="#7d753d" cx="2215" r="10"/>
-            <text x="2215" y="5" class="version">12</text>
-
-            <!-- V13.0: August 2, 2011 -->
-            <circle stroke="#7d753d" cx="2235" r="10"/>
-            <text x="2235" y="5" class="version">13</text>
-
-            <!-- V14.0: September, 2011 -->
-            <circle stroke="#7d753d" cx="2245" r="10"/>
-            <text x="2245" y="5" class="version">14</text>
-
-            <!-- V15.0: October 26, 2011 -->
-            <circle stroke="#7d753d" cx="2255" r="10"/>
-            <text x="2255" y="5" class="version">15</text>
-
-            <!-- V16.0: December 13, 2011 -->
-            <circle stroke="#7d753d" cx="2275" r="10"/>
-            <text x="2275" y="5" class="version">16</text>
-
-            <!-- V17.0: February 8, 2012 -->
-            <circle stroke="#7d753d" cx="2295" r="10"/>
-            <text x="2295" y="5" class="version">17</text>
-
-            <!-- V18.0: March 28, 2012 -->
-            <circle stroke="#7d753d" cx="2305" r="10"/>
-            <text x="2305" y="5" class="version">18</text>
-
-            <!-- V19.0: May 15, 2012 -->
-            <circle stroke="#7d753d" cx="2325" r="10"/>
-            <text x="2325" y="5" class="version">19</text>
+            <use x="2185" stroke="#7d753d" xlink:href="#longver"/>
+            <text x="2185" y="5" class="version">10+</text>
 
             <!-- V20.0: June 26, 2012 -->
-            <circle stroke="#7d753d" cx="2335" r="10"/>
-            <text x="2335" y="5" class="version">20</text>
-
-            <!-- V21.0: July 31, 2012 -->
-            <circle stroke="#7d753d" cx="2345" r="10"/>
-            <text x="2345" y="5" class="version">21</text>
-
-            <!-- V22.0: September 25, 2012 -->
-            <circle stroke="#7d753d" cx="2365" r="10"/>
-            <text x="2365" y="5" class="version">22</text>
-
-            <!-- V23.0: November 6, 2012 -->
-            <circle stroke="#7d753d" cx="2385" r="10"/>
-            <text x="2385" y="5" class="version">23</text>
-
-            <!-- V24.0: January 10, 2013 -->
-            <circle stroke="#7d753d" cx="2405" r="10"/>
-            <text x="2405" y="5" class="version">24</text>
-
-            <!-- V25.0: February 21, 2013 -->
-            <circle stroke="#7d753d" cx="2415" r="10"/>
-            <text x="2415" y="5" class="version">25</text>
-
-            <!-- V26.0: March 28, 2013 -->
-            <circle stroke="#7d753d" cx="2425" r="10"/>
-            <text x="2425" y="5" class="version">26</text>
-
-            <!-- V27.0: May 21, 2013 -->
-            <circle stroke="#7d753d" cx="2445" r="10"/>
-            <text x="2445" y="5" class="version">27</text>
-
-            <!-- V28.0: June 17, 2013 -->
-            <circle stroke="#7d753d" cx="2455" r="10"/>
-            <text x="2455" y="5" class="version">28</text>
-
-            <!-- V29.0: August 20, 2013 -->
-            <circle stroke="#7d753d" cx="2475" r="10"/>
-            <text x="2475" y="5" class="version">29</text>
+            <use x="2335" stroke="#7d753d" xlink:href="#longver"/>
+            <text x="2335" y="5" class="version">20+</text>
 
             <!-- V30.0: September 18, 2013 (iOS version) -->
-            <circle stroke="#7d753d" cx="2485" r="10"/>
-            <text x="2485" y="5" class="version">30</text>
-
-            <!-- V31.0: November 12, 2013 -->
-            <circle stroke="#7d753d" cx="2505" r="10"/>
-            <text x="2505" y="5" class="version">31</text>
-
-            <!-- V32.0: January 14, 2014 -->
-            <circle stroke="#7d753d" cx="2525" r="10"/>
-            <text x="2525" y="5" class="version">32</text>
-
-            <!-- V33.0: February 18, 2014 (iOS) -->
-            <circle stroke="#7d753d" cx="2535" r="10"/>
-            <text x="2535" y="5" class="version">33</text>
-
-            <!-- V34.0: April 2, 2014 (Android) -->
-            <circle stroke="#7d753d" cx="2555" r="10"/>
-            <text x="2555" y="5" class="version">34</text>
-
-            <!-- V35.0: May 20, 2014 -->
-            <circle stroke="#7d753d" cx="2565" r="10"/>
-            <text x="2565" y="5" class="version">35</text>
-
-            <!-- V36.0: July 15, 2014 -->
-            <circle stroke="#7d753d" cx="2585" r="10"/>
-            <text x="2585" y="5" class="version">36</text>
-
-            <!-- V37.0: August 26, 2014 -->
-            <circle stroke="#7d753d" cx="2595" r="10"/>
-            <text x="2595" y="5" class="version">37</text>
-
-            <!-- V38.0: October 10, 2014 -->
-            <circle stroke="#7d753d" cx="2615" r="10"/>
-            <text x="2615" y="5" class="version">38</text>
-
-            <!-- V39.0: November 12, 2014 -->
-            <circle stroke="#7d753d" cx="2625" r="10"/>
-            <text x="2625" y="5" class="version">39</text>
+            <use x="2485" stroke="#7d753d" xlink:href="#longver"/>
+            <text x="2485" y="5" class="version">30+</text>
 
             <!-- V40.0: January 20, 2015 (iOS) -->
-            <circle stroke="#7d753d" cx="2645" r="10"/>
-            <text x="2645" y="5" class="version">40</text>
-
-            <!-- V41.0: March 3, 2015 -->
-            <circle stroke="#7d753d" cx="2665" r="10"/>
-            <text x="2665" y="5" class="version">41</text>
-            <!-- V42.0: April 14, 2015 -->
-            <circle stroke="#7d753d" cx="2675" r="10"/>
-            <text x="2675" y="5" class="version">42</text>
-
-            <!-- V43.0: May 19, 2015 -->
-            <circle stroke="#7d753d" cx="2685" r="10"/>
-            <text x="2685" y="5" class="version">43</text>
-
-            <!-- V44.0: July 21, 2015 -->
-            <circle stroke="#7d753d" cx="2705" r="10"/>
-            <text x="2705" y="5" class="version">44</text>
-
-            <!-- V45.0: September 15, 2015 -->
-            <circle stroke="#7d753d" cx="2725" r="10"/>
-            <text x="2725" y="5" class="version">45</text>
-
-            <!-- V46.0: October 13, 2015 -->
-            <circle stroke="#7d753d" cx="2735" r="10"/>
-            <text x="2735" y="5" class="version">46</text>
-
-            <!-- V47.0: December 15, 2015 -->
-            <circle stroke="#7d753d" cx="2755" r="10"/>
-            <text x="2755" y="5" class="version">47</text>
-
-            <!-- V48.0: January 20, 2016 -->
-            <circle stroke="#7d753d" cx="2765" r="10"/>
-            <text x="2765" y="5" class="version">48</text>
-
-            <!-- V49.0: March 2, 2016 -->
-            <circle stroke="#7d753d" cx="2785" r="10"/>
-            <text x="2785" y="5" class="version">49</text>
+            <use x="2645" stroke="#7d753d" xlink:href="#longver"/>
+            <text x="2645" y="5" class="version">40+</text>
 
             <!-- V50.0: April 13, 2016 -->
-            <circle stroke="#7d753d" cx="2795" r="10"/>
-            <text x="2795" y="5" class="version">50</text>
-
-            <!-- V51.0: May 25, 2016 -->
-            <circle stroke="#7d753d" cx="2805" r="10"/>
-            <text x="2805" y="5" class="version">51</text>
-
-            <!-- V52.0: July 20, 2016 -->
-            <circle stroke="#7d753d" cx="2825" r="10"/>
-            <text x="2825" y="5" class="version">52</text>
-
-            <!-- V53.0: August 31, 2016 -->
-            <circle stroke="#7d753d" cx="2835" r="10"/>
-            <text x="2835" y="5" class="version">53</text>
-
-            <!-- V54.0: October 10, 2016 -->
-            <circle stroke="#7d753d" cx="2855" r="10"/>
-            <text x="2855" y="5" class="version">54</text>
-
-            <!-- V55.0: December 1, 2016 -->
-
-            <!-- V56.0: December 8, 2016 -->
-            <circle stroke="#7d753d" cx="2875" r="10"/>
-            <text x="2875" y="5" class="version">56</text>
-
-            <!-- V57.0: March 9, 2017 -->
-            <circle stroke="#7d753d" cx="2905" r="10"/>
-            <text x="2905" y="5" class="version">57</text>
-
-            <!-- V58.0: April 19, 2017 -->
-            <circle stroke="#7d753d" cx="2915" r="10"/>
-            <text x="2915" y="5" class="version">58</text>
-
-            <!-- V59.0: June 5, 2017 -->
-            <circle stroke="#7d753d" cx="2935" r="10"/>
-            <text x="2935" y="5" class="version">59</text>
+            <use x="2795" stroke="#7d753d" xlink:href="#longver"/>
+            <text x="2795" y="5" class="version">50+</text>
 
             <!-- V60.0: July 25, 2017 -->
-            <circle stroke="#7d753d" cx="2945" r="10"/>
-            <text x="2945" y="5" class="version">60</text>
-
-            <!-- V61.0: September 5, 2017 -->
-            <circle stroke="#7d753d" cx="2965" r="10"/>
-            <text x="2965" y="5" class="version">61</text>
-
-            <!-- V62.0: October 17, 2017 -->
-            <circle stroke="#7d753d" cx="2975" r="10"/>
-            <text x="2975" y="5" class="version">62</text>
-
-            <!-- V63.0: December 5, 2017 -->
-            <circle stroke="#7d753d" cx="2995" r="10"/>
-            <text x="2995" y="5" class="version">63</text>
-
-            <!-- V64.0: January 23, 2018 -->
-            <circle stroke="#7d753d" cx="3005" r="10"/>
-            <text x="3005" y="5" class="version">64</text>
-
-            <!-- V65.0: March 6, 2018 -->
-            <circle stroke="#7d753d" cx="3025" r="10"/>
-            <text x="3025" y="5" class="version">65</text>
-
-            <!-- V66.0: April 17, 2018 -->
-            <circle stroke="#7d753d" cx="3035" r="10"/>
-            <text x="3035" y="5" class="version">66</text>
-
-            <!-- V67.0: May 29, 2018 -->
-            <circle stroke="#7d753d" cx="3045" r="10"/>
-            <text x="3045" y="5" class="version">67</text>
-
-            <!-- V68.0: July 24, 2018 -->
-            <circle stroke="#7d753d" cx="3065" r="10"/>
-            <text x="3065" y="5" class="version">68</text>
-
-            <!-- V69.0: September 4, 2018 -->
-            <circle stroke="#7d753d" cx="3085" r="10"/>
-            <text x="3085" y="5" class="version">69</text>
+            <use x="2945" stroke="#7d753d" xlink:href="#longver"/>
+            <text x="2945" y="5" class="version">60+</text>
 
             <!-- V70.0: October 16, 2018 -->
-            <circle stroke="#7d753d" cx="3095" r="10"/>
-            <text x="3095" y="5" class="version">70</text>
+            <use x="3095" stroke="#7d753d" xlink:href="#longver"/>
+            <text x="3095" y="5" class="version">70+</text>
 
-            <!-- V71.0: December 4, 2018 -->
-            <circle stroke="#7d753d" cx="3115" r="10"/>
-            <text x="3115" y="5" class="version">71</text>
+            <!-- V80.0: February 4, 2020 -->
+            <use x="3255" stroke="#7d753d" xlink:href="#longver"/>
+            <text x="3255" y="5" class="version">80+</text>
 
-            <!-- V72.0: January 29, 2019 -->
-            <circle stroke="#7d753d" cx="3125" r="10"/>
-            <text x="3125" y="5" class="version">72</text>
-
-            <!-- V73.0: March 12, 2019 -->
-            <circle stroke="#7d753d" cx="3145" r="10"/>
-            <text x="3145" y="5" class="version">73</text>
-
-            <!-- V74.0: April 23, 2019 -->
-            <circle stroke="#7d753d" cx="3155" r="10"/>
-            <text x="3155" y="5" class="version">74</text>
-
-            <!-- V75.0: June 4, 2019 -->
-            <circle stroke="#7d753d" cx="3175" r="10"/>
-            <text x="3175" y="5" class="version">75</text>
-
-            <!-- V76.0: July 30, 2019 -->
-            <circle stroke="#7d753d" cx="3185" r="10"/>
-            <text x="3185" y="5" class="version">76</text>
-
-            <!-- V77.0: September 10, 2019 -->
-            <circle stroke="#7d753d" cx="3205" r="10"/>
-            <text x="3205" y="5" class="version">77</text>
+            <!-- V90.0: April 13, 2021 (Android version)-->
+            <use x="3395" stroke="#7d753d" xlink:href="#longver"/>
+            <text x="3395" y="5" class="version">90+</text>
         </g>
 
         <g id="dooble">
@@ -6542,7 +5678,7 @@ Tips for adding branches:
                 <text x="1915" y="-15" class="browser">Dooble</text>
             </a>
 
-            <line stroke="dodgerblue" x1="1915" x2="3235"/>
+            <line stroke="dodgerblue" x1="1915" x2="3595"/>
 
             <!-- V. 0.01: December 8, 2008 -->
             <circle stroke="dodgerblue" cx="1915" r="10"/>
@@ -6718,11 +5854,25 @@ Tips for adding branches:
             <circle stroke="dodgerblue" cx="2805" r="10"/>
             <text x="2805" y="3" class="subversion">1.56</text>
 
-            <!-- V. 2.0: November 5, 2017 -->
+            <!-- V. 2017.11.05: November 5, 2017 -->
             <circle stroke="dodgerblue" cx="2985" r="10"/>
-            <text x="2985" y="5" class="version">2</text>
+            <text x="2985" y="5" class="version">17</text>
 
-            <!-- V. 2.1: November 11, 2017 -->
+            <!-- V. 2018.01.01: January 1, 2018 -->
+            <circle stroke="dodgerblue" cx="3005" r="10"/>
+            <text x="3005" y="5" class="version">18</text>
+
+            <!-- V. 2019.01.20: January 20, 2019 -->
+            <circle stroke="dodgerblue" cx="3125" r="10"/>
+            <text x="3125" y="5" class="version">19</text>
+
+            <!-- V. 2020.01.20: January 20, 2020 -->
+            <use x="3245" stroke="dodgerblue" xlink:href="#longver"/>
+            <text x="3245" y="5" class="version">20</text>
+
+            <!-- V. 2021.01.10: January 10, 2020 -->
+            <use x="3365" stroke="dodgerblue" xlink:href="#longver"/>
+            <text x="3365" y="5" class="version">21</text>
         </g>
 
         <g id="uzbl">
@@ -6836,7 +5986,7 @@ Tips for adding branches:
             </a>
 
             <!-- Source: http://surf.suckless.org/ -->
-            <line stroke="#069" x1="1985" x2="3025"/>
+            <line stroke="#069" x1="1985" x2="3595"/>
 
             <!-- V. 0.1: September 10, 2009 -->
             <circle stroke="#069" cx="2005" r="10"/>
@@ -6875,6 +6025,10 @@ Tips for adding branches:
             <!-- V. 2.0: March 28, 2017 -->
             <circle stroke="#069" cx="2905" r="10"/>
             <text x="2905" y="5" class="version">2</text>
+
+            <!-- V. 2.1: May 8, 2021 -->
+            <circle stroke="#069" cx="3405" r="10"/>
+            <text x="3405" y="3" class="subversion">2.1</text>
         </g>
 
         <g id="icab">
@@ -6882,7 +6036,7 @@ Tips for adding branches:
                 <text x="745" y="-12" class="browser">iCab</text>
             </a>
 
-            <line stroke="#afa302" x1="735" x2="3235"/>
+            <line stroke="#afa302" x1="735" x2="3595"/>
 
             <!-- V. 1.0: February, 1999 -->
             <circle stroke="#afa302" cx="735" r="10"/>
@@ -6958,6 +6112,14 @@ Tips for adding branches:
             <!-- V. 5.8: February 25, 2017 -->
             <circle stroke="#afa302" cx="2895" r="10"/>
             <text x="2895" y="3" class="subversion">5.8</text>
+
+            <!-- V. 5.9: February 21, 2020 -->
+            <circle stroke="#afa302" cx="3255" r="10"/>
+            <text x="3255" y="3" class="subversion">5.9</text>
+
+            <!-- V. 6.0: September 28, 2020 -->
+            <circle stroke="#afa302" cx="3325" r="10"/>
+            <text x="3325" y="5" class="version">6</text>
         </g>
 
         <g id="icabmobile">
@@ -6968,7 +6130,7 @@ Tips for adding branches:
             <!-- Sources: http://www.icab-mobile.de/history.html -->
 
             <line stroke="#afa302" x1="1955" y1="-50" x2="1955"/>
-            <line stroke="#afa302" x1="1955" x2="3235"/>
+            <line stroke="#afa302" x1="1955" x2="3595"/>
 
             <!-- V. 1.0: April 21, 2009 -->
             <circle stroke="#afa302" cx="1955" r="10"/>
@@ -7191,6 +6353,42 @@ Tips for adding branches:
             <!-- V. 9.13: August 27, 2019 -->
             <circle stroke="#afa302" cx="3195" r="10"/>
             <text x="3195" y="3" class="subversion">9.13</text>
+
+            <!-- V. 9.14: September 18, 2019 -->
+            <circle stroke="#afa302" cx="3205" r="10"/>
+            <text x="3205" y="3" class="subversion">9.14</text>
+
+            <!-- V. 9.15: March 27, 2020 -->
+            <circle stroke="#afa302" cx="3265" r="10"/>
+            <text x="3265" y="3" class="subversion">9.15</text>
+
+            <!-- V. 9.16: June 19, 2020 -->
+            <circle stroke="#afa302" cx="3295" r="10"/>
+            <text x="3295" y="3" class="subversion">9.16</text>
+
+            <!-- V. 9.17: July 17, 2020 -->
+            <circle stroke="#afa302" cx="3305" r="10"/>
+            <text x="3305" y="3" class="subversion">9.17</text>
+
+            <!-- V. 10.0: September 28, 2020 -->
+            <circle stroke="#afa302" cx="3325" r="10"/>
+            <text x="3325" y="5" class="version">10</text>
+
+            <!-- V. 10.1: November 9, 2020 -->
+            <circle stroke="#afa302" cx="3345" r="10"/>
+            <text x="3345" y="3" class="subversion">10.1</text>
+
+            <!-- V. 10.2: March 10, 2021 -->
+            <circle stroke="#afa302" cx="3385" r="10"/>
+            <text x="3385" y="3" class="subversion">10.2</text>
+
+            <!-- V. 10.3: October 11, 2021 -->
+            <circle stroke="#afa302" cx="3455" r="10"/>
+            <text x="3455" y="3" class="subversion">10.3</text>
+
+            <!-- V. 10.4: December 11, 2021 -->
+            <circle stroke="#afa302" cx="3475" r="10"/>
+            <text x="3475" y="3" class="subversion">10.4</text>
         </g>
 
         <g id="iris">
@@ -7237,8 +6435,10 @@ Tips for adding branches:
             <!-- Arora discontinued July 2011 -->
             <line stroke="#5f9ea0" x1="2225" x2="2305" style="stroke-dasharray: 4,6"/>
             <!-- Arora forked as zBrowser March 2012 -->
-            <line stroke="#5f9ea0" x1="2305" x2="2425"/>
-            <line stroke="#5f9ea0" x1="2425" x2="2585"/>
+            <line stroke="#5f9ea0" x1="2305" x2="2455"/>
+            <line stroke="#5f9ea0" x1="2455" x2="3305" style="stroke-dasharray: 4,6"/>
+            <!-- Arora forked as Endorphin Browser July 2020 -->
+            <line stroke="#5f9ea0" x1="3305" x2="3435"/>
 
             <!-- V. 0.2: June 24, 2008 -->
             <circle stroke="#5f9ea0" cx="1855" r="10"/>
@@ -7341,6 +6541,15 @@ Tips for adding branches:
             <!-- V. 0.6: June 16, 2013 -->
             <circle stroke="#5f9ea0" cx="2455" r="10"/>
             <text x="2455" y="3" class="subversion">0.6</text>
+
+            <!-- Arora forked as Endorphin Browser -->
+            <a xlink:href="https://en.wikipedia.org/wiki/Arora_(web_browser)">
+                <text x="3305" y="-15" class="browser">Endorphin Browser</text>
+            </a>
+
+            <!-- V. 0.12: June 16, 2013 -->
+            <circle stroke="#5f9ea0" cx="3305" r="10"/>
+            <text x="3305" y="3" class="subversion">0.12</text>
         </g>
 
         <g id="rekonq">
@@ -7528,7 +6737,7 @@ Tips for adding branches:
 
             <!-- Source: https://download.kde.org/stable/falkon/ -->
             <line stroke="#ceacdc" x1="3015" y1="-40" x2="3015"/>
-            <line stroke="#ceacdc" x1="3015" x2="3235"/>
+            <line stroke="#ceacdc" x1="3015" x2="3265"/>
 
             <!-- V. 3.0.0: February 27, 2018 -->
             <circle stroke="#ceacdc" cx="3015" r="10"/>
@@ -7643,7 +6852,7 @@ Tips for adding branches:
                 <text x="1125" y="-12" class="browser">NetSurf</text>
             </a>
 
-            <line stroke="#7d753d" x1="1125" x2="3235"/>
+            <line stroke="#7d753d" x1="1125" x2="3385"/>
 
             <!-- V1.0: May 17 2007 -->
             <circle stroke="#7d753d" cx="1725" r="10"/>
@@ -7728,10 +6937,15 @@ Tips for adding branches:
             <circle stroke="#7d753d" cx="3075" r="10"/>
             <text x="3075" y="3" class="subversion">3.8</text>
 
-            <!-- V3.9: July 17, 2018 -->
+            <!-- V3.9: July 18, 2019 -->
             <!-- Source: http://www.netsurf-browser.org/about/news -->
             <circle stroke="#7d753d" cx="3185" r="10"/>
             <text x="3185" y="3" class="subversion">3.9</text>
+
+            <!-- V3.10: May 24, 2020 -->
+            <!-- Source: http://www.netsurf-browser.org/about/news -->
+            <circle stroke="#7d753d" cx="3285" r="10"/>
+            <text x="3285" y="3" class="subversion">3.10</text>
 
             <!-- Source: http://git.netsurf-browser.org/netsurf.git/log/ -->
         </g>
@@ -7740,65 +6954,65 @@ Tips for adding branches:
 
         <g id="mosaictree">
             <g id="tridenttree">
-                <polygon points="550,215 1120,215 1170,75 3240,75 3240,475 3165,475 3165,575 1600,575 1485,670 1375,575 750,575 550,515" fill="blue" opacity="0.12"/>
-                <polygon points="2140,365 3240,365 3240,475 2315,475 2315,422 2140,422" fill="green" opacity="0.13"/>
-                <polygon points="1515,427 2310,427 2310,485 1515,485" fill="red" opacity="0.12"/>
-                <text x="830" y="230" class="engine">
+                <polygon points="550,165 1090,165 1320,75 3600,75 3600,425 3165,425 3165,525 1600,525 1485,620 1375,525 750,525 550,465" fill="blue" opacity="0.12"/>
+                <polygon points="2140,315 3155,315 3155,275 3600,275 3600,425 2315,425 2315,372 2140,372" fill="green" opacity="0.13"/>
+                <polygon points="1515,377 2310,377 2310,435 1515,435" fill="red" opacity="0.12"/>
+                <text x="830" y="180" class="engine">
                     Based on Trident / EdgeHTML layout engines
                 </text>
-                <text x="2245" y="380" class="engine">
+                <text x="2245" y="330" class="engine">
                     + WebKit / Blink
                 </text>
-                <text x="1575" y="477" class="engine">
+                <text x="1575" y="427" class="engine">
                     + Gecko
                 </text>
 
                 <use y="50" xlink:href="#iemac"/>
                 <use y="100" xlink:href="#mme"/>
                 <use y="100" xlink:href="#deepnet"/>
-                <use y="150" xlink:href="#menubox"/>
-                <use y="200" xlink:href="#edge"/>
-                <use y="250" xlink:href="#ie"/>
-                <use y="350" xlink:href="#myie"/>
-                <use y="400" xlink:href="#maxthon"/>
-                <use y="450" xlink:href="#ieunix"/>
-                <use y="450" xlink:href="#sleipnir"/>
-                <use y="300" xlink:href="#greenbrowser"/>
-                <use y="500" xlink:href="#netcaptor"/>
-                <use y="500" xlink:href="#aol"/>
+                <use y="150" xlink:href="#iemobile"/>
+                <use y="200" xlink:href="#ie"/>
+                <use y="300" xlink:href="#myie"/>
+                <use y="300" xlink:href="#edge"/>
+                <use y="350" xlink:href="#maxthon"/>
+                <use y="400" xlink:href="#ieunix"/>
+                <use y="400" xlink:href="#sleipnir"/>
+                <use y="250" xlink:href="#greenbrowser"/>
+                <use y="450" xlink:href="#netcaptor"/>
+                <use y="450" xlink:href="#aol"/>
             </g>
 
             <g id="geckotree">
-                <polygon points="605,625 3170,625 3170,525 3240,525 3240,972 2105,972 2105,1022 1970,1022 1970,1125 2020,1125 2020,1175 1190,1175 1180,1125 860,1125 605,925" fill="red" opacity="0.12"/>
-                <text x="870" y="750" class="engine">
+                <polygon points="605,575 3170,575 3170,475 3600,475 3600,922 2105,922 2105,972 1970,972 1970,1075 2020,1075 2020,1125 1190,1125 1180,1075 860,1075 605,875" fill="red" opacity="0.12"/>
+                <text x="870" y="700" class="engine">
                     Based on Gecko / Goanna layout engines
                 </text>
 
-                <use y="550" xlink:href="#slimbrowser"/>
-                <use y="650" xlink:href="#geckonetscape"/>
-                <use y="650" xlink:href="#classilla"/>
-                <use y="700" xlink:href="#kmeleon"/>
-                <use y="750" xlink:href="#camino"/>
-                <use y="750" xlink:href="#basilisk"/>
-                <use y="800" xlink:href="#ghostzilla"/>
-                <use y="800" xlink:href="#palemoon"/>
-                <use y="850" xlink:href="#firefox"/>
-                <use y="900" xlink:href="#mozilla"/>
-                <use y="900" xlink:href="#ibmlotus"/>
-                <use y="950" xlink:href="#seamonkey"/>
-                <use y="950" xlink:href="#beonex"/>
-                <use y="1100" xlink:href="#galeon"/>
+                <use y="500" xlink:href="#slimbrowser"/>
+                <use y="600" xlink:href="#geckonetscape"/>
+                <use y="600" xlink:href="#classilla"/>
+                <use y="650" xlink:href="#kmeleon"/>
+                <use y="700" xlink:href="#camino"/>
+                <use y="700" xlink:href="#basilisk"/>
+                <use y="750" xlink:href="#ghostzilla"/>
+                <use y="750" xlink:href="#palemoon"/>
+                <use y="800" xlink:href="#firefox"/>
+                <use y="850" xlink:href="#mozilla"/>
+                <use y="850" xlink:href="#ibmlotus"/>
+                <use y="900" xlink:href="#seamonkey"/>
+                <use y="900" xlink:href="#beonex"/>
+                <use y="1050" xlink:href="#galeon"/>
             </g>
 
             <use y="0" xlink:href="#amosaic"/>
-            <use y="550" xlink:href="#spyglass"/>
-            <use y="600" xlink:href="#oldnetscape"/>
-            <use y="650" xlink:href="#ncsamosaic"/>
-            <use y="700" xlink:href="#ibmweb"/>
+            <use y="500" xlink:href="#spyglass"/>
+            <use y="550" xlink:href="#oldnetscape"/>
+            <use y="600" xlink:href="#ncsamosaic"/>
+            <use y="650" xlink:href="#ibmweb"/>
         </g>
 
         <g id="webkittree">
-            <polygon points="910,220 1180,220 1190,175 1975,175 1975,77 2110,77 2110,27 3240,27 3240,1075 2700,1075 2700,1022 1900,1022 1790,625 1750,425 1250,425 1250,375 910,375" fill="green" opacity="0.12"/>
+            <polygon points="910,220 1180,220 1190,175 1975,175 1975,77 2110,77 2110,27 3600,27 3600,1075 2700,1075 2700,1022 2400,1022 2340,975 1890,975 1790,675 1750,425 1250,425 1250,375 910,375" fill="green" opacity="0.12"/>
             <text x="1200" y="330" class="engine">
                 Based on KHTML / WebKit / Blink layout engines
             </text>
@@ -7806,10 +7020,9 @@ Tips for adding branches:
             <use y="50" xlink:href="#flock"/>
             <use y="50" xlink:href="#sleipnirblink"/>
             <use y="100" xlink:href="#gnomeweb"/>
-            <use y="150" xlink:href="#qupzilla"/>
+            <use y="150" xlink:href="#xombrero"/>
             <use y="200" xlink:href="#kazehakase"/>
             <use y="200" xlink:href="#webpositive"/>
-            <use y="200" xlink:href="#falkon"/>
             <use y="250" xlink:href="#konqueror"/>
             <use y="300" xlink:href="#safari"/>
             <use y="350" xlink:href="#shiira"/>
@@ -7821,21 +7034,22 @@ Tips for adding branches:
             <use y="500" xlink:href="#icab"/>
             <use y="550" xlink:href="#icabmobile"/>
             <use y="600" xlink:href="#iris"/>
-            <use y="600" xlink:href="#xombrero"/>
-            <use y="650" xlink:href="#arora"/>
-            <use y="700" xlink:href="#rekonq"/>
-            <use y="700" xlink:href="#vivaldi"/>
-            <use y="750" xlink:href="#chrome"/>
-            <use y="800" xlink:href="#dooble"/>
+            <use y="600" xlink:href="#qupzilla"/>
+            <use y="650" xlink:href="#uzbl"/>
+            <use y="650" xlink:href="#falkon"/>
+            <use y="700" xlink:href="#arora"/>
+            <use y="750" xlink:href="#rekonq"/>
+            <use y="750" xlink:href="#vivaldi"/>
+            <use y="800" xlink:href="#chrome"/>
+            <use y="850" xlink:href="#dooble"/>
             <use y="900" xlink:href="#surf"/>
             <use y="950" xlink:href="#steel"/>
-            <use y="850" xlink:href="#uzbl"/>
             <use y="950" xlink:href="#opera"/>
             <use y="1000" xlink:href="#operamobile"/>
         </g>
 
         <g id="prestotree">
-            <polygon points="1175,65 1450,65 1500,27 3240,27 3240,172 1650,172 1650,125 1175,125" transform="translate(0,0)" fill="purple" opacity="0.13"/>
+            <polygon points="1175,65 1450,65 1500,27 3600,27 3600,172 1650,172 1650,125 1175,125" transform="translate(0,0)" fill="purple" opacity="0.13"/>
             <text x="1370" y="80" class="engine">
                 Based on Presto layout engine
             </text>
@@ -7846,9 +7060,9 @@ Tips for adding branches:
         </g>
 
         <g id="tripletree">
-            <polygon points="890,27 3240,27 3240,125 890,125" fill="blue" opacity="0.12"/>
-            <polygon points="1440,75 2235,75 2235,27 3240,27 3240,125 1440,125" fill="red" opacity="0.12"/>
-            <polygon points="1865,75 2315,75 2315,27 3240,27 3240,125 1865,125" fill="green" opacity="0.13"/>
+            <polygon points="890,27 3600,27 3600,125 890,125" fill="blue" opacity="0.12"/>
+            <polygon points="1440,75 2235,75 2235,27 3600,27 3600,125 1440,125" fill="red" opacity="0.12"/>
+            <polygon points="1865,75 2315,75 2315,27 3600,27 3600,125 1865,125" fill="green" opacity="0.13"/>
             <text x="1140" y="50" class="engine">
                 Based on Trident - Gecko - WebKit / Blink
             </text>
@@ -7865,29 +7079,29 @@ Tips for adding branches:
             <use y="100" xlink:href="#LMB"/>
             <use y="150" xlink:href="#MacWWW"/>
             <use y="150" xlink:href="#mosaictree"/>
-            <use y="1100" xlink:href="#webkittree"/>
-            <use y="2100" xlink:href="#prestotree"/>
-            <use y="2250" xlink:href="#tripletree"/>
-            <use y="900" xlink:href="#www"/>
-            <use y="1000" xlink:href="#violawww"/>
-            <use y="1100" xlink:href="#tkWWW"/>
-            <use y="1200" xlink:href="#midaswww"/>
-            <use y="1300" xlink:href="#cello"/>
-            <use y="1400" xlink:href="#Arena"/>
-            <use y="1650" xlink:href="#slipknot"/>
-            <use y="1750" xlink:href="#hotjava"/>
-            <use y="1850" xlink:href="#UdiWWW"/>
-            <use y="1950" xlink:href="#aweb"/>
-            <use y="2050" xlink:href="#cyberdog"/>
-            <use y="2400" xlink:href="#w3m"/>
-            <use y="2450" xlink:href="#amaya"/>
-            <use y="2500" xlink:href="#arachne"/>
-            <use y="2550" xlink:href="#links"/>
-            <use y="2600" xlink:href="#elinks"/>
-            <use y="2600" xlink:href="#gzilla"/>
-            <use y="2650" xlink:href="#dillo"/>
-            <use y="2700" xlink:href="#netsurf"/>
-            <use y="2750" xlink:href="#contiki"/>
+            <use y="1050" xlink:href="#webkittree"/>
+            <use y="2050" xlink:href="#prestotree"/>
+            <use y="2200" xlink:href="#tripletree"/>
+            <use y="850" xlink:href="#www"/>
+            <use y="950" xlink:href="#violawww"/>
+            <use y="1050" xlink:href="#tkWWW"/>
+            <use y="1150" xlink:href="#midaswww"/>
+            <use y="1250" xlink:href="#cello"/>
+            <use y="1350" xlink:href="#Arena"/>
+            <use y="1550" xlink:href="#slipknot"/>
+            <use y="1650" xlink:href="#hotjava"/>
+            <use y="1750" xlink:href="#UdiWWW"/>
+            <use y="1850" xlink:href="#aweb"/>
+            <use y="1950" xlink:href="#cyberdog"/>
+            <use y="2050" xlink:href="#amaya"/>
+            <use y="2350" xlink:href="#w3m"/>
+            <use y="2400" xlink:href="#arachne"/>
+            <use y="2450" xlink:href="#links"/>
+            <use y="2500" xlink:href="#elinks"/>
+            <use y="2500" xlink:href="#gzilla"/>
+            <use y="2550" xlink:href="#dillo"/>
+            <use y="2600" xlink:href="#netsurf"/>
+            <use y="2650" xlink:href="#contiki"/>
         </g>
     </defs>
 

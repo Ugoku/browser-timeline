@@ -59,7 +59,7 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 
 Not yet released
 - Added 2023, 2024 columns
-- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23
+- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -2755,7 +2755,7 @@ Tips for adding branches:
 
             <!-- Started October 2009 -->
             <line stroke="#7A98B5" x1="2015" y1="50" x2="2015"/>
-            <line stroke="#7A98B5" x1="2015" x2="3595"/>
+            <line stroke="#7A98B5" x1="2015" x2="3605"/>
 
             <!-- V. 3.6: February 2010 -->
             <circle stroke="#7A98B5" cx="2055" r="10"/>
@@ -2828,6 +2828,18 @@ Tips for adding branches:
             <!-- V. 29.0: February 2, 2021 -->
             <use xlink:href="#longver" x="3375" stroke="#7A98B5"/>
             <text x="3375" y="5" class="version">29</text>
+
+            <!-- V. 30: March 17, 2022 -->
+            <use xlink:href="#longver" x="3505" stroke="#7A98B5"/>
+            <text x="3505" y="5" class="version">30</text>
+
+            <!-- V. 31: May 10, 2022 -->
+            <use xlink:href="#longver" x="3525" stroke="#7A98B5"/>
+            <text x="3525" y="5" class="version">31</text>
+
+            <!-- V. 32: January 24, 2023 -->
+            <use xlink:href="#longver" x="3605" stroke="#7A98B5"/>
+            <text x="3605" y="5" class="version">32</text>
         </g>
 
         <g id="basilisk">
@@ -6988,7 +7000,7 @@ Tips for adding branches:
             </g>
 
             <g id="geckotree">
-                <polygon points="605,575 3170,575 3170,475 3600,475 3600,922 2105,922 2105,972 1970,972 1970,1075 2020,1075 2020,1125 1190,1125 1180,1075 860,1075 605,875" fill="red" opacity="0.12"/>
+                <polygon points="605,575 3170,575 3170,475 3840,475 3840,922 2105,922 2105,972 1970,972 1970,1075 2020,1075 2020,1125 1190,1125 1180,1075 860,1075 605,875" fill="red" opacity="0.12"/>
                 <text x="870" y="700" class="engine">
                     Based on Gecko / Goanna layout engines
                 </text>

@@ -59,7 +59,7 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 
 Not yet released
 - Added 2023, 2024 columns
-- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7, Falkon 3.2-23.08, Vivaldi 5.1-6.5, Chrome 100-110, Dooble 22-23, recent Opera, Links 2.26-2.29
+- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7, Falkon 3.2-23.08, Vivaldi 5.1-6.5, Chrome 100-110, Dooble 22-23, recent Opera, Links 2.26-2.29, Contiki 4.8-4.9
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -570,7 +570,7 @@ Tips for adding branches:
 		http://www.sics.se/contiki/perspective/the-history-of-contiki.html
 		http://www.sics.se/contiki/news/
 	-->
-            <line stroke="purple" x1="1175" x2="3595"/>
+            <line stroke="purple" x1="1175" x2="3665"/>
 
             <!-- V 1.0 March 10, 2003 -->
             <circle stroke="purple" cx="1225" r="10"/>
@@ -662,10 +662,17 @@ Tips for adding branches:
             <circle stroke="purple" cx="3355" r="10"/>
             <text x="3355" y="3" class="subversion">4.6</text>
 
-            <!-- V 4.7: July 8, 2020 -->
+            <!-- V 4.7: July 8, 2021 -->
             <circle stroke="purple" cx="3425" r="10"/>
             <text x="3425" y="3" class="subversion">4.7</text>
 
+            <!-- July 14, 2022 -->
+            <circle stroke="purple" cx="3545" r="10"/>
+            <text x="3545" y="3" class="subversion">4.8</text>
+
+            <!-- July 17, 2023 -->
+            <circle stroke="purple" cx="3665" r="10"/>
+            <text x="3665" y="3" class="subversion">4.9</text>
         </g>
 
         <g id="links">
@@ -7147,7 +7154,7 @@ Tips for adding branches:
                 <text x="1125" y="-12" class="browser">NetSurf</text>
             </a>
 
-            <line stroke="#7d753d" x1="1125" x2="3385"/>
+            <line stroke="#7d753d" x1="1125" x2="3715"/>
 
             <!-- V1.0: May 17 2007 -->
             <circle stroke="#7d753d" cx="1725" r="10"/>
@@ -7241,6 +7248,11 @@ Tips for adding branches:
             <!-- Source: http://www.netsurf-browser.org/about/news -->
             <circle stroke="#7d753d" cx="3285" r="10"/>
             <text x="3285" y="3" class="subversion">3.10</text>
+
+            <!-- December 28, 2023 -->
+            <!-- Source: http://www.netsurf-browser.org/about/news -->
+            <circle stroke="#7d753d" cx="3715" r="10"/>
+            <text x="3715" y="3" class="subversion">3.11</text>
 
             <!-- Source: http://git.netsurf-browser.org/netsurf.git/log/ -->
         </g>

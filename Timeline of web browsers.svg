@@ -59,7 +59,7 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 
 Not yet released
 - Added 2023, 2024 columns
-- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7, Falkon 3.2-23.08, Vivaldi 5.1-6.5, Chrome 100-110, Dooble 22-23, recent Opera
+- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7, Falkon 3.2-23.08, Vivaldi 5.1-6.5, Chrome 100-110, Dooble 22-23, recent Opera, Links 2.26-2.29
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -673,7 +673,7 @@ Tips for adding branches:
                 <text x="835" y="-15" class="browser">Links</text>
             </a>
 
-            <line stroke="black" x1="825" x2="3595"/>
+            <line stroke="black" x1="825" x2="3625"/>
 
             <!-- V. 0.8 Nov 24, 1999 -->
             <circle stroke="black" cx="825" r="10"/>
@@ -809,6 +809,23 @@ Tips for adding branches:
             <!-- Source: http://links.twibright.com/download/ -->
             <use xlink:href="#longver" x="3455" stroke="black"/>
             <text x="3455" y="3" class="subversion">2.25</text>
+
+            <!-- April 6, 2022 -->
+            <!-- Source: http://links.twibright.com/download/ChangeLog -->
+            <use xlink:href="#longver" x="3515" stroke="black"/>
+            <text x="3515" y="3" class="subversion">2.26</text>
+
+            <!-- May 27, 2022. Placed in June -->
+            <use xlink:href="#longver" x="3535" stroke="black"/>
+            <text x="3535" y="3" class="subversion">2.27</text>
+
+            <!-- September 17, 2022 -->
+            <use xlink:href="#longver" x="3565" stroke="black"/>
+            <text x="3565" y="3" class="subversion">2.28</text>
+
+            <!-- March 9, 2023 -->
+            <use xlink:href="#longver" x="3625" stroke="black"/>
+            <text x="3625" y="3" class="subversion">2.29</text>
         </g>
 
         <g id="elinks">

@@ -7339,9 +7339,9 @@ Tips for adding branches:
         </g>
 
         <g id="tripletree">
-            <polygon points="890,27 3600,27 3600,125 890,125" fill="blue" opacity="0.12"/>
-            <polygon points="1440,75 2235,75 2235,27 3600,27 3600,125 1440,125" fill="red" opacity="0.12"/>
-            <polygon points="1865,75 2315,75 2315,27 3600,27 3600,125 1865,125" fill="green" opacity="0.13"/>
+            <polygon points="890,27 3480,27 3480,125 890,125" fill="blue" opacity="0.12"/>
+            <polygon points="1440,75 2235,75 2235,27 3480,27 3480,125 1440,125" fill="red" opacity="0.12"/>
+            <polygon points="1865,75 2315,75 2315,27 3480,27 3480,125 1865,125" fill="green" opacity="0.13"/>
             <text x="1140" y="50" class="engine">
                 Based on Trident - Gecko - WebKit / Blink
             </text>

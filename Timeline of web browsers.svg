@@ -59,7 +59,7 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 
 Not yet released
 - Added 2023, 2024 columns
-- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2
+- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -6196,7 +6196,7 @@ Tips for adding branches:
                 <text x="745" y="-12" class="browser">iCab</text>
             </a>
 
-            <line stroke="#afa302" x1="735" x2="3595"/>
+            <line stroke="#afa302" x1="735" x2="3675"/>
 
             <!-- V. 1.0: February, 1999 -->
             <circle stroke="#afa302" cx="735" r="10"/>
@@ -6280,6 +6280,15 @@ Tips for adding branches:
             <!-- V. 6.0: September 28, 2020 -->
             <circle stroke="#afa302" cx="3325" r="10"/>
             <text x="3325" y="5" class="version">6</text>
+
+            <!-- When was 6.1.0 released? -->
+            <!-- V. 6.1.4: August 1, 2022 -->
+            <circle stroke="#afa302" cx="3585" r="10"/>
+            <text x="3585" y="3" class="subversion">6.1</text>
+
+            <!-- 6.2.0 does not exist. 6.2.1: May 5, 2023 -->
+            <circle stroke="#afa302" cx="3675" r="10"/>
+            <text x="3675" y="3" class="subversion">6.2</text>
         </g>
 
         <g id="icabmobile">
@@ -6290,7 +6299,7 @@ Tips for adding branches:
             <!-- Sources: http://www.icab-mobile.de/history.html -->
 
             <line stroke="#afa302" x1="1955" y1="-50" x2="1955"/>
-            <line stroke="#afa302" x1="1955" x2="3595"/>
+            <line stroke="#afa302" x1="1955" x2="3615"/>
 
             <!-- V. 1.0: April 21, 2009 -->
             <circle stroke="#afa302" cx="1955" r="10"/>
@@ -6549,6 +6558,18 @@ Tips for adding branches:
             <!-- V. 10.4: December 11, 2021 -->
             <circle stroke="#afa302" cx="3475" r="10"/>
             <text x="3475" y="3" class="subversion">10.4</text>
+
+            <!-- February 23, 2022 -->
+            <circle stroke="#afa302" cx="3495" r="10"/>
+            <text x="3495" y="3" class="subversion">10.5</text>
+
+            <!-- April 13, 2022 -->
+            <circle stroke="#afa302" cx="3515" r="10"/>
+            <text x="3515" y="3" class="subversion">10.6</text>
+
+            <!-- February 28, 2023 -->
+            <circle stroke="#afa302" cx="3615" r="10"/>
+            <text x="3615" y="3" class="subversion">10.7</text>
         </g>
 
         <g id="iris">
@@ -7172,7 +7193,7 @@ Tips for adding branches:
         </g>
 
         <g id="webkittree">
-            <polygon points="910,220 1180,220 1190,175 1975,175 1975,77 2110,77 2110,27 3600,27 3600,1075 2700,1075 2700,1022 2400,1022 2340,975 1890,975 1790,675 1750,425 1250,425 1250,375 910,375" fill="green" opacity="0.12"/>
+            <polygon points="910,220 1180,220 1190,175 1975,175 1975,77 2110,77 2110,27 3840,27 3840,1075 2700,1075 2700,1022 2400,1022 2340,975 1890,975 1790,675 1750,425 1250,425 1250,375 910,375" fill="green" opacity="0.12"/>
             <text x="1200" y="330" class="engine">
                 Based on KHTML / WebKit / Blink layout engines
             </text>

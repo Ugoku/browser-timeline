@@ -59,7 +59,7 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 
 Not yet released
 - Added 2023, 2024 columns
-- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7, Falkon 3.2-23.08, Vivaldi 5.1-6.5, Chrome 100-110, Dooble 22-23
+- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7, Falkon 3.2-23.08, Vivaldi 5.1-6.5, Chrome 100-110, Dooble 22-23, recent Opera
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -4660,7 +4660,7 @@ Tips for adding branches:
             </a>
 
             <!-- Source: WP article "History of the Opera Internet suite" -->
-            <line stroke="#B00" x1="2445" x2="3595"/>
+            <line stroke="#B00" x1="2445" x2="3715"/>
 
             <!-- V. 15: July 2, 2013 -->
             <!-- Source: http://my.opera.com/desktopteam/blog/2013/07/02/opera-15 -->
@@ -4720,6 +4720,16 @@ Tips for adding branches:
             <!-- Source: https://blogs.opera.com/desktop/2021/10/opera-80-stable/ -->
             <use x="3455" stroke="#B00" xlink:href="#longver"/>
             <text x="3455" y="5" class="version">80+</text>
+
+            <!-- V. 90.0: August 18, 2022 -->
+            <!-- Source: https://blogs.opera.com/desktop/2022/08/opera-90-stable/ -->
+            <use x="3555" stroke="#B00" xlink:href="#longver"/>
+            <text x="3555" y="5" class="version">90+</text>
+
+            <!-- V. 100.0: June 28, 2023 -->
+            <!-- Source: https://blogs.opera.com/desktop/2023/06/opera-100-0-4815-30-stable-update/ -->
+            <use x="3655" stroke="#B00" xlink:href="#verylongver"/>
+            <text x="3655" y="5" class="version">100+</text>
         </g>
 
         <g id="operamini">
@@ -4729,7 +4739,7 @@ Tips for adding branches:
 
             <!-- Started: January, 2003 -->
             <line stroke="#B00" x1="1500" y1="50" x2="1500"/>
-            <line stroke="#B00" x1="1500" x2="3595"/>
+            <line stroke="#B00" x1="1500" x2="3715"/>
 
             <!-- V. 1.0: August 10, 2005 -->
             <circle stroke="#B00" cx="1515" r="10"/>
@@ -4863,6 +4873,10 @@ Tips for adding branches:
             <!-- V. 60.0 (Android): September 20, 2021 -->
             <use x="3445" stroke="#B00" xlink:href="#longver"/>
             <text x="3445" y="5" class="version">60+</text>
+
+            <!-- V. 70.0: May, 2023? -->
+            <use x="3645" stroke="#B00" xlink:href="#longver"/>
+            <text x="3645" y="5" class="version">70+</text>
         </g>
 
         <g id="oldoperamobile">
@@ -4952,7 +4966,7 @@ Tips for adding branches:
                 <text x="2445" y="-15" class="browser">Opera Mobile (blink-based)</text>
             </a>
 
-            <line stroke="#B00" x1="2445" x2="3595"/>
+            <line stroke="#B00" x1="2445" x2="3715"/>
 
             <!-- V. 14.0: May 21, 2013 -->
             <!-- Source: http://my.opera.com/ODIN/blog/opera-14-for-android-is-out -->
@@ -5000,6 +5014,10 @@ Tips for adding branches:
             <!-- V. 60.0: September 21, 2020 -->
             <use x="3305" stroke="#B00" xlink:href="#longver"/>
             <text x="3305" y="5" class="version">60+</text>
+
+            <!-- V. 70.0: between May and September, 2022 -->
+            <use x="3545" stroke="#B00" xlink:href="#longver"/>
+            <text x="3545" y="5" class="version">70+</text>
         </g>
 
         <g id="kazehakase">
@@ -7310,7 +7328,7 @@ Tips for adding branches:
         </g>
 
         <g id="prestotree">
-            <polygon points="1175,65 1450,65 1500,27 3600,27 3600,172 1650,172 1650,125 1175,125" transform="translate(0,0)" fill="purple" opacity="0.13"/>
+            <polygon points="1175,65 1450,65 1500,27 3840,27 3840,172 1650,172 1650,125 1175,125" transform="translate(0,0)" fill="purple" opacity="0.13"/>
             <text x="1370" y="80" class="engine">
                 Based on Presto layout engine
             </text>

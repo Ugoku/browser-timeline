@@ -59,7 +59,7 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 
 Not yet released
 - Added 2023, 2024 columns
-- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7, Falkon 3.2-23.08, Vivaldi 5.1-6.5, Chrome 100-110
+- Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7, Falkon 3.2-23.08, Vivaldi 5.1-6.5, Chrome 100-110, Dooble 22-23
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -5897,7 +5897,7 @@ Tips for adding branches:
                 <text x="1915" y="-15" class="browser">Dooble</text>
             </a>
 
-            <line stroke="dodgerblue" x1="1915" x2="3595"/>
+            <line stroke="dodgerblue" x1="1915" x2="3715"/>
 
             <!-- V. 0.01: December 8, 2008 -->
             <circle stroke="dodgerblue" cx="1915" r="10"/>
@@ -6089,9 +6089,17 @@ Tips for adding branches:
             <use x="3245" stroke="dodgerblue" xlink:href="#longver"/>
             <text x="3245" y="5" class="version">20</text>
 
-            <!-- V. 2021.01.10: January 10, 2020 -->
+            <!-- V. 2021.01.10: January 10, 2021 -->
             <use x="3365" stroke="dodgerblue" xlink:href="#longver"/>
             <text x="3365" y="5" class="version">21</text>
+
+            <!-- V. 2022.01.15: January 15, 2022 -->
+            <use x="3485" stroke="dodgerblue" xlink:href="#longver"/>
+            <text x="3485" y="5" class="version">22</text>
+
+            <!-- V. 2023.01.13: January 13, 2023 -->
+            <use x="3605" stroke="dodgerblue" xlink:href="#longver"/>
+            <text x="3605" y="5" class="version">23</text>
         </g>
 
         <g id="uzbl">

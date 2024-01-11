@@ -6213,7 +6213,8 @@ Tips for adding branches:
             </a>
 
             <!-- Source: http://surf.suckless.org/ -->
-            <line stroke="#069" x1="1985" x2="3595"/>
+            <!-- Still in development as of November 18, 2023 -->
+            <line stroke="#069" x1="1985" x2="3695"/>
 
             <!-- V. 0.1: September 10, 2009 -->
             <circle stroke="#069" cx="2005" r="10"/>

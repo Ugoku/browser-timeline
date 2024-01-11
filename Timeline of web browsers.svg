@@ -1481,9 +1481,8 @@ Tips for adding branches:
             <!-- Initial release: December 22, 1996 -->
             <line stroke="gray" x1="475" x2="2415"/>
 
-            <!-- Project suspended for 9 years -->
+            <!-- Project suspended for 9 years. No releases since -->
             <line stroke="gray" x1="2415" x2="3475" style="stroke-dasharray: 4,6"/>
-            <line stroke="gray" x1="3475" x2="3595"/>
 
             <!-- V. 1.0b2 December 22, 1996 -->
             <circle stroke="gray" cx="475" r="10"/>

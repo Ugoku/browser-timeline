@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4205" height="2740">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4445" height="2740">
     <title>Timeline of Web Browsers</title>
     <desc>
         This timeline displays the releases of major versions of web browsers.
@@ -60,6 +60,10 @@ V 14.4 (15th January 2022 - by CortoFrancese)
 V 15.0 (January 11, 2024 - by Spinal83)
 - Added 2023, 2024 columns
 - Added IBrowse 3, Edge 100/110/120, Maxthon 7, Slimbrowser 16-18, Basilisk 22/23, Pale Moon 30-32, Firefox 100-120, Web 42-45, Konqueror 22-24, Safari 15.2-17.2, qutebrowser 2.5-3.1, Midori 11-11.2, iCab 6.1-6.2, iCab Mobile 10.5-10.7, Falkon 3.2-23.08, Vivaldi 5.1-6.5, Chrome 100-110, Dooble 22-23, recent Opera, Links 2.26-2.29, Contiki 4.8-4.9
+
+V 16.0 (December XX, 2025 - by Spinal83)
+- Added 2025, 2026 columns
+- Added a bunch of new browser versions
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Tips for adding version markers:
@@ -180,6 +184,8 @@ Tips for adding branches:
             <text x="3480">2022</text>
             <text x="3600">2023</text>
             <text x="3720">2024</text>
+            <text x="3840">2025</text>
+            <text x="3960">2026</text>
         </g>
 
         <g id="www">
@@ -680,7 +686,7 @@ Tips for adding branches:
                 <text x="835" y="-15" class="browser">Links</text>
             </a>
 
-            <line stroke="black" x1="825" x2="3625"/>
+            <line stroke="black" x1="825" x2="3785"/>
 
             <!-- V. 0.8 Nov 24, 1999 -->
             <circle stroke="black" cx="825" r="10"/>
@@ -833,6 +839,10 @@ Tips for adding branches:
             <!-- March 9, 2023 -->
             <use xlink:href="#longver" x="3625" stroke="black"/>
             <text x="3625" y="3" class="subversion">2.29</text>
+
+            <!-- July 21, 2024 -->
+            <use xlink:href="#longver" x="3785" stroke="black"/>
+            <text x="3785" y="3" class="subversion">2.30</text>
         </g>
 
         <g id="elinks">
@@ -1896,7 +1906,7 @@ Tips for adding branches:
 
             <!-- Started with Emacs 24.4: September 16, 1994 -->
             <!-- Source: https://qutebrowser.org/doc/changelog.html -->
-            <line stroke="#1E89C6" x1="2635" x2="3715"/>
+            <line stroke="#1E89C6" x1="2635" x2="3935"/>
 
             <!-- V. 0.1: December 14, 2014 -->
             <circle stroke="#1E89C6" cx="2635" r="10"/>
@@ -2032,6 +2042,31 @@ Tips for adding branches:
             <!-- Source: https://github.com/qutebrowser/qutebrowser/releases -->
             <circle stroke="#1E89C6" cx="3715" r="10"/>
             <text x="3715" y="3" class="subversion">3.1</text>
+
+            <!-- June 3, 2024 -->
+            <!-- Source: https://github.com/qutebrowser/qutebrowser/releases -->
+            <circle stroke="#1E89C6" cx="3775" r="10"/>
+            <text x="3775" y="3" class="subversion">3.2</text>
+
+            <!-- October 12, 2024 -->
+            <!-- Source: https://github.com/qutebrowser/qutebrowser/releases -->
+            <circle stroke="#1E89C6" cx="3815" r="10"/>
+            <text x="3815" y="3" class="subversion">3.3</text>
+
+            <!-- December 14, 2024 -->
+            <!-- Source: https://github.com/qutebrowser/qutebrowser/releases -->
+            <circle stroke="#1E89C6" cx="3835" r="10"/>
+            <text x="3835" y="3" class="subversion">3.4</text>
+
+            <!-- April 12, 2025 -->
+            <!-- Source: https://github.com/qutebrowser/qutebrowser/releases -->
+            <circle stroke="#1E89C6" cx="3875" r="10"/>
+            <text x="3875" y="3" class="subversion">3.5</text>
+
+            <!-- October 24, 2025 -->
+            <!-- Source: https://github.com/qutebrowser/qutebrowser/releases -->
+            <circle stroke="#1E89C6" cx="3935" r="10"/>
+            <text x="3935" y="3" class="subversion">3.6</text>
         </g>
 
         <g id="galeon">
@@ -2087,8 +2122,8 @@ Tips for adding branches:
                 <text x="2515" y="-15" class="browser">Otter Browser</text>
             </a>
 
-            <!-- still in development as of January 11, 2024 -->
-            <line stroke="#c30" x1="2515" x2="3725"/>
+            <!-- still in development as of December 9, 2025 -->
+            <line stroke="#c30" x1="2515" x2="3955"/>
 
             <!-- V. Alpha 1: January 1, 2014 -->
             <circle stroke="#c30" cx="2525" r="10"/>
@@ -2219,7 +2254,7 @@ Tips for adding branches:
             <!-- From Galeon -->
             <!-- Started: November 2002 -->
             <line stroke="#207C00" x1="1185" y1="50" x2="1185"/>
-            <line stroke="#207C00" x1="1185" x2="3725"/>
+            <line stroke="#207C00" x1="1185" x2="3955"/>
 
             <!-- Source for releases: http://ftp.gnome.org/pub/GNOME/sources/epiphany/ -->
 
@@ -2486,6 +2521,26 @@ Tips for adding branches:
             <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/releases/45.0 -->
             <use xlink:href="#longver" x="3685" stroke="#207C00"/>
             <text x="3685" y="5" class="version">45</text>
+
+            <!-- V. 46.0: March 15, 2024 -->
+            <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/releases/46.0 -->
+            <use xlink:href="#longver" x="3745" stroke="#207C00"/>
+            <text x="3745" y="5" class="version">46</text>
+
+            <!-- V. 47.0: September 12, 2024 -->
+            <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/releases/47.0 -->
+            <use xlink:href="#longver" x="3805" stroke="#207C00"/>
+            <text x="3805" y="5" class="version">47</text>
+
+            <!-- V. 48.0: March 13, 2025 -->
+            <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/releases/48.0 -->
+            <use xlink:href="#longver" x="3865" stroke="#207C00"/>
+            <text x="3865" y="5" class="version">48</text>
+
+            <!-- V. 49.0: September 11, 2025 -->
+            <!-- Source: https://gitlab.gnome.org/GNOME/epiphany/-/releases/48.0 -->
+            <use xlink:href="#longver" x="3925" stroke="#207C00"/>
+            <text x="3925" y="5" class="version">49</text>
         </g>
 
         <g id="kmeleon">
@@ -2543,7 +2598,7 @@ Tips for adding branches:
             </a>
 
             <line stroke="maroon" x1="1565" y1="-50" x2="1565"/>
-            <line stroke="maroon" x1="1565" x2="3715"/>
+            <line stroke="maroon" x1="1565" x2="3945"/>
 
             <!-- V. 1.0: 30th January 2006 -->
             <circle stroke="maroon" cx="1565" r="10"/>
@@ -2906,7 +2961,7 @@ Tips for adding branches:
 
             <!-- Started November 17, 2017 -->
             <line stroke="#3E9776" x1="2985" y1="50" x2="2985"/>
-            <line stroke="#3E9776" x1="2985" x2="3715"/>
+            <line stroke="#3E9776" x1="2985" x2="3935"/>
 
             <!-- V. 2018.01.05 -->
             <circle stroke="#3E9776" cx="3005" r="10"/>
@@ -2931,6 +2986,14 @@ Tips for adding branches:
             <!-- V. 2023.01.27 -->
             <use x="3605" stroke="#3E9776" xlink:href="#longver"/>
             <text x="3605" y="5" class="version">23</text>
+
+            <!-- V. 2024.02.03 -->
+            <use x="3735" stroke="#3E9776" xlink:href="#longver"/>
+            <text x="3735" y="5" class="version">24</text>
+
+            <!-- V. 2025.01.04 -->
+            <use x="3845" stroke="#3E9776" xlink:href="#longver"/>
+            <text x="3845" y="5" class="version">25</text>
         </g>
 
         <g id="firefox">
@@ -2940,7 +3003,7 @@ Tips for adding branches:
 
             <!-- Started September 2002 -->
             <line stroke="orange" x1="1165" y1="50" x2="1165"/>
-            <line stroke="orange" x1="1165" x2="3705"/>
+            <line stroke="orange" x1="1165" x2="4080"/>
 
             <!-- V. 0.1: September 23, 2002 -->
             <circle stroke="orange" cx="1165" r="10"/>
@@ -3079,6 +3142,16 @@ Tips for adding branches:
             <!-- V. 120.0: November 21, 2023 -->
             <use x="3705" stroke="orange" xlink:href="#verylongver"/>
             <text x="3705" y="5" class="version">120+</text>
+
+            <!-- V. 130.0: September 3, 2024 -->
+            <!-- https://www.firefox.com/en-US/firefox/130.0/releasenotes/ -->
+            <use x="3805" stroke="orange" xlink:href="#verylongver"/>
+            <text x="3805" y="5" class="version">130+</text>
+
+            <!-- V. 140.0: June 25, 2025 -->
+            <!-- https://www.firefox.com/en-US/firefox/140.0/releasenotes/ -->
+            <use x="3895" stroke="orange" xlink:href="#verylongver"/>
+            <text x="3895" y="5" class="version">140+</text>
         </g>
 
         <g id="ie">
@@ -3232,7 +3305,7 @@ Tips for adding branches:
             </a>
 
             <line stroke="deepskyblue" x1="2655" y1="-100" x2="2655"/>
-            <line stroke="deepskyblue" x1="2655" x2="3715"/>
+            <line stroke="deepskyblue" x1="2655" x2="4080"/>
 
             <!-- V. 20.0: 29th July 2015 -->
             <use x="2705" stroke="deepskyblue" xlink:href="#longver"/>
@@ -3307,6 +3380,16 @@ Tips for adding branches:
             <!-- V. 120.0.2210.61: December 7, 2023 -->
             <use x="3715" stroke="deepskyblue" xlink:href="#verylongver"/>
             <text x="3715" y="5" class="version">120+</text>
+
+            <!-- V. 130.0.2849.46: October 17, 2024 -->
+            <use x="3815" stroke="deepskyblue" xlink:href="#verylongver"/>
+            <text x="3815" y="5" class="version">130+</text>
+
+            <!-- V. 140.0.3485.54: September 5, 2025 -->
+            <use x="3925" stroke="deepskyblue" xlink:href="#verylongver"/>
+            <text x="3925" y="5" class="version">140+</text>
+
+            <!-- Sources: https://learn.microsoft.com/en-us/deployedge/microsoft-edge-release-schedule -->
         </g>
 
         <g id="iemac">
@@ -3483,7 +3566,7 @@ Tips for adding branches:
             <!-- Source: http://www.maxthon.com -->
 
             <line stroke="navy" x1="900" y1="-50" x2="900"/>
-            <line stroke="navy" x1="900" x2="3725"/>
+            <line stroke="navy" x1="900" x2="3945"/>
 
             <!-- V0.3 beta: June 29, 2002 -->
             <!-- Source: http://groups.google.com/group/cn.comp.software.shareware/browse_thread/thread/9c1936adc9fb2c81/aaa8ec16da2ee8ab -->
@@ -3623,10 +3706,10 @@ Tips for adding branches:
             <circle stroke="navy" cx="3345" r="10"/>
             <text x="3345" y="5" class="version">6</text>
 
-            <!-- V7.1.6.1200: August 7, 2023 -->
-            <!-- Source: https://forum.maxthon.com/index.php?/topic/27464-maxthon-release-notes/ -->
-            <circle stroke="navy" cx="3675" r="10"/>
-            <text x="3675" y="5" class="version">7</text>
+            <!-- V7.1.6.1000: July 27, 2023 -->
+            <!-- Source: https://www.maxthon.com/en/history -->
+            <circle stroke="navy" cx="3665" r="10"/>
+            <text x="3665" y="5" class="version">7</text>
         </g>
 
         <g id="greenbrowser">
@@ -4234,7 +4317,8 @@ Tips for adding branches:
                 <text x="2505" y="23" class="browser">Sleipnir (blink-based)</text>
             </a>
 
-            <line stroke="royalblue" x1="2505" x2="3715"/>
+            <!-- latest release 6.5.9 on December 9, 2024 -->
+            <line stroke="royalblue" x1="2505" x2="3835"/>
 
             <!-- V. 5.0.0: November 21, 2013 -->
             <circle stroke="royalblue" cx="2505" r="10"/>
@@ -4683,7 +4767,7 @@ Tips for adding branches:
             </a>
 
             <!-- Source: WP article "History of the Opera Internet suite" -->
-            <line stroke="#B00" x1="2445" x2="3715"/>
+            <line stroke="#B00" x1="2445" x2="3935"/>
 
             <!-- V. 15: July 2, 2013 -->
             <!-- Source: http://my.opera.com/desktopteam/blog/2013/07/02/opera-15 -->
@@ -4753,6 +4837,16 @@ Tips for adding branches:
             <!-- Source: https://blogs.opera.com/desktop/2023/06/opera-100-0-4815-30-stable-update/ -->
             <use x="3655" stroke="#B00" xlink:href="#verylongver"/>
             <text x="3655" y="5" class="version">100+</text>
+
+            <!-- V. May 14, 2024 -->
+            <!-- Source: https://blogs.opera.com/desktop/2024/05/opera-110/ -->
+            <use x="3765" stroke="#B00" xlink:href="#verylongver"/>
+            <text x="3765" y="5" class="version">110+</text>
+
+            <!-- V. July 2, 2025 -->
+            <!-- Source: https://blogs.opera.com/desktop/2025/07/opera-120/ -->
+            <use x="3905" stroke="#B00" xlink:href="#verylongver"/>
+            <text x="3905" y="5" class="version">120+</text>
         </g>
 
         <g id="operamini">
@@ -4762,7 +4856,7 @@ Tips for adding branches:
 
             <!-- Started: January, 2003 -->
             <line stroke="#B00" x1="1500" y1="50" x2="1500"/>
-            <line stroke="#B00" x1="1500" x2="3715"/>
+            <line stroke="#B00" x1="1500" x2="3935"/>
 
             <!-- V. 1.0: August 10, 2005 -->
             <circle stroke="#B00" cx="1515" r="10"/>
@@ -4897,9 +4991,20 @@ Tips for adding branches:
             <use x="3445" stroke="#B00" xlink:href="#longver"/>
             <text x="3445" y="5" class="version">60+</text>
 
-            <!-- V. 70.0: May, 2023? -->
-            <use x="3645" stroke="#B00" xlink:href="#longver"/>
-            <text x="3645" y="5" class="version">70+</text>
+            <!-- June, 2023 -->
+            <!-- https://ftp.opera.com/ftp/pub/opera/android/mini/70.0.2254.66376/ -->
+            <use x="3655" stroke="#B00" xlink:href="#longver"/>
+            <text x="3655" y="5" class="version">70+</text>
+
+            <!-- April, 2024 -->
+            <!-- https://ftp.opera.com/ftp/pub/opera/android/mini/80.0.2254.71401/ -->
+            <use x="3755" stroke="#B00" xlink:href="#longver"/>
+            <text x="3755" y="5" class="version">80+</text>
+
+            <!-- April, 2025 -->
+            <!-- https://ftp.opera.com/ftp/pub/opera/android/mini/90.0.2254.76931/ -->
+            <use x="3875" stroke="#B00" xlink:href="#longver"/>
+            <text x="3875" y="5" class="version">90+</text>
         </g>
 
         <g id="oldoperamobile">
@@ -4989,7 +5094,7 @@ Tips for adding branches:
                 <text x="2445" y="-15" class="browser">Opera Mobile (blink-based)</text>
             </a>
 
-            <line stroke="#B00" x1="2445" x2="3715"/>
+            <line stroke="#B00" x1="2445" x2="3655"/>
 
             <!-- V. 14.0: May 21, 2013 -->
             <!-- Source: http://my.opera.com/ODIN/blog/opera-14-for-android-is-out -->
@@ -5080,7 +5185,7 @@ Tips for adding branches:
                 <text x="945" y="-12" class="browser">Konqueror</text>
             </a>
 
-            <line stroke="#3E71C6" x1="935" x2="3725"/>
+            <line stroke="#3E71C6" x1="935" x2="3955"/>
 
             <!-- V. 2.0 (tied to KDE releases): October, 2000 -->
             <circle stroke="#3E71C6" cx="935" r="10"/>
@@ -5283,6 +5388,32 @@ Tips for adding branches:
             <!-- Source: https://invent.kde.org/network/konqueror/-/tags -->
             <use x="3705" stroke="#3E71C6" xlink:href="#longver"/>
             <text x="3705" y="3" class="subversion">24.01</text>
+
+            <!-- V. 24.02: February 28, 2024 -->
+            <use x="3735" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3735" y="3" class="subversion">24.02</text>
+
+            <!-- V. 24.05: May 23, 2024 -->
+            <use x="3765" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3765" y="3" class="subversion">24.05</text>
+
+            <!-- V. 24.08: August 22, 2024 -->
+            <use x="3795" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3795" y="3" class="subversion">24.08</text>
+
+            <!-- V. 24.12: December 12, 2024 -->
+            <use x="3835" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3835" y="3" class="subversion">24.12</text>
+
+            <!-- V. 25.04: April 17, 2025 -->
+            <!-- Source: https://apps.kde.org/nl/konqueror/ -->
+            <use x="3875" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3875" y="3" class="subversion">25.04</text>
+
+            <!-- V. 25.08: August 14, 2025 -->
+            <!-- Source: https://apps.kde.org/nl/konqueror/ -->
+            <use x="3915" stroke="#3E71C6" xlink:href="#longver"/>
+            <text x="3915" y="3" class="subversion">25.08</text>
         </g>
 
         <g id="safari">
@@ -5293,7 +5424,7 @@ Tips for adding branches:
             <!-- Source dates from: http://en.wikipedia.org/wiki/Safari_(web_browser) -->
             <!-- Started: January, 2003 -->
             <line stroke="#888" x1="1205" y1="-50" x2="1205"/>
-            <line stroke="#888" x1="1205" x2="3725"/>
+            <line stroke="#888" x1="1205" x2="4080"/>
 
             <!-- V. 1.0: June 23, 2003 -->
             <circle stroke="#888" cx="1255" r="10"/>
@@ -5459,6 +5590,71 @@ Tips for adding branches:
             <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
             <circle stroke="#888" cx="3715" r="10"/>
             <text x="3715" y="3" class="subversion">17.2</text>
+
+            <!-- January 22, 2024 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3725" r="10"/>
+            <text x="3725" y="3" class="subversion">17.3</text>
+
+            <!-- March 5, 2024 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3745" r="10"/>
+            <text x="3745" y="3" class="subversion">17.4</text>
+
+            <!-- May 13, 2024 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3765" r="10"/>
+            <text x="3765" y="3" class="subversion">17.5</text>
+
+            <!-- July 29, 2024 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3785" r="10"/>
+            <text x="3785" y="3" class="subversion">17.6</text>
+
+            <!-- September 16, 2024 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3805" r="10"/>
+            <text x="3805" y="5" class="version">18</text>
+
+            <!-- October 28, 2024 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3815" r="10"/>
+            <text x="3815" y="3" class="subversion">18.1</text>
+
+            <!-- December 11, 2024 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3835" r="10"/>
+            <text x="3835" y="3" class="subversion">18.2</text>
+
+            <!-- January 27, 2025 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3845" r="10"/>
+            <text x="3845" y="3" class="subversion">18.3</text>
+
+            <!-- March 31, 2025 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3865" r="10"/>
+            <text x="3865" y="3" class="subversion">18.4</text>
+
+            <!-- May 12, 2025 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3885" r="10"/>
+            <text x="3885" y="3" class="subversion">18.5</text>
+
+            <!-- July 29, 2025 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3905" r="10"/>
+            <text x="3905" y="3" class="subversion">18.6</text>
+
+            <!-- September 15, 2025 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3925" r="10"/>
+            <text x="3925" y="5" class="version">26</text>
+
+            <!-- November 3, 2025 -->
+            <!-- Source: https://developer.apple.com/documentation/safari-release-notes -->
+            <circle stroke="#888" cx="3945" r="10"/>
+            <text x="3945" y="3" class="subversion">26.1</text>
         </g>
 
         <g id="tkWWW">
@@ -5569,7 +5765,7 @@ Tips for adding branches:
                 <text x="2645" y="-12" class="browser">Vivaldi</text>
             </a>
 
-            <line stroke="#ec4947" x1="2645" x2="3725"/>
+            <line stroke="#ec4947" x1="2645" x2="3935"/>
 
             <!-- V. Beta 1: November 3, 2015 -->
             <use x="2745" stroke="#ec4947" xlink:href="#longver"/>
@@ -5649,6 +5845,47 @@ Tips for adding branches:
             <!-- December 1, 2023 -->
             <circle stroke="#ec4947" cx="3715" r="10"/>
             <text x="3715" y="3" class="subversion">6.5</text>
+
+            <!-- February 2024 -->
+            <circle stroke="#ec4947" cx="3735" r="10"/>
+            <text x="3735" y="3" class="subversion">6.6</text>
+
+            <!-- April 2024 -->
+            <circle stroke="#ec4947" cx="3755" r="10"/>
+            <text x="3755" y="3" class="subversion">6.7</text>
+
+            <!-- August 2024 -->
+            <circle stroke="#ec4947" cx="3795" r="10"/>
+            <text x="3795" y="3" class="subversion">6.8</text>
+
+            <!-- October 2024 -->
+            <circle stroke="#ec4947" cx="3815" r="10"/>
+            <text x="3815" y="5" class="version">7</text>
+
+            <!-- January 2025 -->
+            <circle stroke="#ec4947" cx="3845" r="10"/>
+            <text x="3845" y="3" class="subversion">7.1</text>
+
+            <!-- 7.2 was also released in March 2025 -->
+            <!-- March 2025 -->
+            <circle stroke="#ec4947" cx="3865" r="10"/>
+            <text x="3865" y="3" class="subversion">7.3</text>
+
+            <!-- May 2025 -->
+            <circle stroke="#ec4947" cx="3885" r="10"/>
+            <text x="3885" y="3" class="subversion">7.4</text>
+
+            <!-- July 2025 -->
+            <circle stroke="#ec4947" cx="3905" r="10"/>
+            <text x="3905" y="3" class="subversion">7.5</text>
+
+            <!-- September 2025 -->
+            <circle stroke="#ec4947" cx="3925" r="10"/>
+            <text x="3925" y="3" class="subversion">7.6</text>
+
+            <!-- November 2025 -->
+            <circle stroke="#ec4947" cx="3945" r="10"/>
+            <text x="3945" y="3" class="subversion">7.7</text>
         </g>
 
         <g id="webpositive">
@@ -5741,7 +5978,7 @@ Tips for adding branches:
             <line stroke="darkslategray" x1="2715" x2="3065" style="stroke-dasharray: 4,6"/>
 
             <!-- Rebooted in Vala-based core: https://github.com/midori-browser/core/releases -->
-            <line stroke="darkslategray" x1="3065" x2="3715"/>
+            <line stroke="darkslategray" x1="3065" x2="3935"/>
 
             <!-- V. 0.1: October 2008 -->
             <circle stroke="darkslategray" cx="1905" r="10"/>
@@ -5829,6 +6066,22 @@ Tips for adding branches:
             <!-- December 14, 2023 -->
             <circle stroke="darkslategray" cx="3715" r="10"/>
             <text x="3715" y="3" class="subversion">11.2</text>
+
+            <!-- April 2, 2024 -->
+            <circle stroke="darkslategray" cx="3755" r="10"/>
+            <text x="3755" y="3" class="subversion">11.3</text>
+
+            <!-- September 17, 2024 -->
+            <circle stroke="darkslategray" cx="3805" r="10"/>
+            <text x="3805" y="3" class="subversion">11.4</text>
+
+            <!-- December 21, 2024 -->
+            <circle stroke="darkslategray" cx="3835" r="10"/>
+            <text x="3835" y="3" class="subversion">11.5</text>
+
+            <!-- July 23, 2025 -->
+            <circle stroke="darkslategray" cx="3905" r="10"/>
+            <text x="3905" y="5" class="version">12</text>
         </g>
 
         <g id="chrome">
@@ -5836,7 +6089,7 @@ Tips for adding branches:
                 <text x="1890" y="-15" class="browser">Chrome</text>
             </a>
 
-            <line stroke="#7d753d" x1="1885" x2="3725"/>
+            <line stroke="#7d753d" x1="1885" x2="4080"/>
 
             <!-- V0.2: September 2, 2008 -->
             <circle stroke="#7d753d" cx="1885" r="10"/>
@@ -5931,6 +6184,21 @@ Tips for adding branches:
             <!-- February 1, 2023 -->
             <use x="3615" stroke="#7d753d" xlink:href="#verylongver"/>
             <text x="3615" y="5" class="version">110+</text>
+
+            <!-- December 5, 2023 -->
+            <!-- https://chromereleases.googleblog.com/2023/12/stable-channel-update-for-desktop.html-->
+            <use x="3715" stroke="#7d753d" xlink:href="#verylongver"/>
+            <text x="3715" y="5" class="version">120+</text>
+
+            <!-- October 15, 2024 -->
+            <!-- https://developer.chrome.com/release-notes/130 -->
+            <use x="3815" stroke="#7d753d" xlink:href="#verylongver"/>
+            <text x="3815" y="5" class="version">130+</text>
+
+            <!-- September 2, 2025 -->
+            <!-- https://developer.chrome.com/release-notes/140 -->
+            <use x="3925" stroke="#7d753d" xlink:href="#verylongver"/>
+            <text x="3925" y="5" class="version">140+</text>
         </g>
 
         <g id="dooble">
@@ -5938,7 +6206,7 @@ Tips for adding branches:
                 <text x="1915" y="-15" class="browser">Dooble</text>
             </a>
 
-            <line stroke="dodgerblue" x1="1915" x2="3715"/>
+            <line stroke="dodgerblue" x1="1915" x2="3935"/>
 
             <!-- V. 0.01: December 8, 2008 -->
             <circle stroke="dodgerblue" cx="1915" r="10"/>
@@ -6141,6 +6409,16 @@ Tips for adding branches:
             <!-- V. 2023.01.13: January 13, 2023 -->
             <use x="3605" stroke="dodgerblue" xlink:href="#longver"/>
             <text x="3605" y="5" class="version">23</text>
+
+            <!-- January 25, 2024 -->
+            <!-- https://github.com/textbrowser/dooble/releases/tag/2024.01.25 -->
+            <use x="3725" stroke="dodgerblue" xlink:href="#longver"/>
+            <text x="3725" y="5" class="version">24</text>
+
+            <!-- February 20, 2025 -->
+            <!-- https://github.com/textbrowser/dooble/releases/tag/2025.02.20 -->
+            <use x="3835" stroke="dodgerblue" xlink:href="#longver"/>
+            <text x="3835" y="5" class="version">25</text>
         </g>
 
         <g id="uzbl">
@@ -6254,8 +6532,8 @@ Tips for adding branches:
             </a>
 
             <!-- Source: http://surf.suckless.org/ -->
-            <!-- Still in development as of November 18, 2023 -->
-            <line stroke="#069" x1="1985" x2="3695"/>
+            <!-- Still in development as of December 9, 2025 -->
+            <line stroke="#069" x1="1985" x2="3935"/>
 
             <!-- V. 0.1: September 10, 2009 -->
             <circle stroke="#069" cx="2005" r="10"/>
@@ -6305,7 +6583,7 @@ Tips for adding branches:
                 <text x="745" y="-12" class="browser">iCab</text>
             </a>
 
-            <line stroke="#afa302" x1="735" x2="3675"/>
+            <line stroke="#afa302" x1="735" x2="3945"/>
 
             <!-- V. 1.0: February, 1999 -->
             <circle stroke="#afa302" cx="735" r="10"/>
@@ -6398,6 +6676,10 @@ Tips for adding branches:
             <!-- 6.2.0 does not exist. 6.2.1: May 5, 2023 -->
             <circle stroke="#afa302" cx="3675" r="10"/>
             <text x="3675" y="3" class="subversion">6.2</text>
+
+            <!-- February 27, 2025 -->
+            <circle stroke="#afa302" cx="3855" r="10"/>
+            <text x="3855" y="3" class="subversion">6.3</text>
         </g>
 
         <g id="icabmobile">
@@ -6408,7 +6690,7 @@ Tips for adding branches:
             <!-- Sources: http://www.icab-mobile.de/history.html -->
 
             <line stroke="#afa302" x1="1955" y1="-50" x2="1955"/>
-            <line stroke="#afa302" x1="1955" x2="3615"/>
+            <line stroke="#afa302" x1="1955" x2="3945"/>
 
             <!-- V. 1.0: April 21, 2009 -->
             <circle stroke="#afa302" cx="1955" r="10"/>
@@ -6679,6 +6961,18 @@ Tips for adding branches:
             <!-- February 28, 2023 -->
             <circle stroke="#afa302" cx="3615" r="10"/>
             <text x="3615" y="3" class="subversion">10.7</text>
+
+            <!-- December 20, 2024 -->
+            <circle stroke="#afa302" cx="3835" r="10"/>
+            <text x="3835" y="5" class="version">11</text>
+
+            <!-- September 15, 2025 -->
+            <circle stroke="#afa302" cx="3925" r="10"/>
+            <text x="3925" y="3" class="subversion">11.1</text>
+
+            <!-- October 2, 2025 -->
+            <circle stroke="#afa302" cx="3935" r="10"/>
+            <text x="3935" y="3" class="subversion">11.2</text>
         </g>
 
         <g id="iris">
@@ -7027,7 +7321,7 @@ Tips for adding branches:
 
             <!-- Source: https://download.kde.org/stable/falkon/ -->
             <line stroke="#ceacdc" x1="3015" y1="-40" x2="3015"/>
-            <line stroke="#ceacdc" x1="3015" x2="3705"/>
+            <line stroke="#ceacdc" x1="3015" x2="3965"/>
 
             <!-- V. 3.0.0: February 27, 2018 -->
             <circle stroke="#ceacdc" cx="3015" r="10"/>
@@ -7048,6 +7342,66 @@ Tips for adding branches:
             <!-- September 2, 2023 -->
             <use xlink:href="#longver" x="3705" stroke="#ceacdc"/>
             <text x="3705" y="3" class="subversion">23.08</text>
+
+            <!-- December 20, 2023 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3735" stroke="#ceacdc"/>
+            <text x="3735" y="3" class="subversion">24.01</text>
+
+            <!-- February 17, 2024 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3755" stroke="#ceacdc"/>
+            <text x="3755" y="3" class="subversion">24.02</text>
+
+            <!-- April 25, 2024 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3775" stroke="#ceacdc"/>
+            <text x="3775" y="3" class="subversion">24.04</text>
+
+            <!-- May 17, 2024 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3785" stroke="#ceacdc"/>
+            <text x="3785" y="3" class="subversion">24.05</text>
+
+            <!-- July 25, 2024 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3805" stroke="#ceacdc"/>
+            <text x="3805" y="3" class="subversion">24.07</text>
+
+            <!-- November 28, 2024 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3845" stroke="#ceacdc"/>
+            <text x="3845" y="3" class="subversion">24.11</text>
+
+            <!-- December 5, 2024 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3855" stroke="#ceacdc"/>
+            <text x="3855" y="3" class="subversion">24.12</text>
+
+            <!-- March 12, 2025 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3885" stroke="#ceacdc"/>
+            <text x="3885" y="3" class="subversion">25.03</text>
+
+            <!-- April 11, 2025 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3895" stroke="#ceacdc"/>
+            <text x="3895" y="3" class="subversion">25.04</text>
+
+            <!-- July 10, 2025 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3925" stroke="#ceacdc"/>
+            <text x="3925" y="3" class="subversion">25.07</text>
+
+            <!-- August 7, 2025 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3935" stroke="#ceacdc"/>
+            <text x="3935" y="3" class="subversion">25.08</text>
+
+            <!-- November 10, 2025 -->
+            <!-- https://invent.kde.org/network/falkon/-/tags -->
+            <use xlink:href="#longver" x="3965" stroke="#ceacdc"/>
+            <text x="3965" y="3" class="subversion">25.11</text>
         </g>
 
         <g id="xombrero">
@@ -7261,8 +7615,8 @@ Tips for adding branches:
 
         <g id="mosaictree">
             <g id="tridenttree">
-                <polygon points="550,165 1090,165 1320,75 1680,75 1900,125 2600,125 2700,175 3550,175 3550,225 3155,275 3155,315 3840,315 3840,425 3165,425 3165,525 1600,525 1485,620 1375,525 750,525 550,465" fill="blue" opacity="0.12"/>
-                <polygon points="2140,315 3155,315 3155,275 3840,275 3840,425 2315,425 2315,372 2140,372" fill="green" opacity="0.13"/>
+                <polygon points="550,165 1090,165 1320,75 1680,75 1900,125 2600,125 2700,175 3550,175 3550,225 3155,275 3155,315 4080,315 4080,425 3165,425 3165,525 1600,525 1485,620 1375,525 750,525 550,465" fill="blue" opacity="0.12"/>
+                <polygon points="2140,315 3155,315 3155,275 4080,275 4080,425 2315,425 2315,372 2140,372" fill="green" opacity="0.13"/>
                 <polygon points="1515,377 2310,377 2310,435 1515,435" fill="red" opacity="0.12"/>
                 <text x="830" y="180" class="engine">
                     Based on Trident / EdgeHTML layout engines
@@ -7290,7 +7644,7 @@ Tips for adding branches:
             </g>
 
             <g id="geckotree">
-                <polygon points="605,575 3170,575 3170,475 3840,475 3840,922 2105,922 2105,972 1970,972 1970,1075 2020,1075 2020,1125 1190,1125 1180,1075 860,1075 605,875" fill="red" opacity="0.12"/>
+                <polygon points="605,575 3170,575 3170,475 4080,475 4080,922 2105,922 2105,972 1970,972 1970,1075 2020,1075 2020,1125 1190,1125 1180,1075 860,1075 605,875" fill="red" opacity="0.12"/>
                 <text x="870" y="700" class="engine">
                     Based on Gecko / Goanna layout engines
                 </text>
@@ -7319,7 +7673,7 @@ Tips for adding branches:
         </g>
 
         <g id="webkittree">
-            <polygon points="910,220 1180,220 1190,175 1975,175 1975,77 2110,77 2110,27 3840,27 3840,1075 2700,1075 2700,1022 2400,1022 2340,975 1890,975 1790,675 1750,425 1250,425 1250,375 910,375" fill="green" opacity="0.12"/>
+            <polygon points="910,220 1180,220 1190,175 1975,175 1975,77 2110,77 2110,27 4080,27 4080,1075 2700,1075 2700,1022 2400,1022 2340,975 1890,975 1790,675 1750,425 1250,425 1250,375 910,375" fill="green" opacity="0.12"/>
             <text x="1200" y="330" class="engine">
                 Based on KHTML / WebKit / Blink layout engines
             </text>
@@ -7356,7 +7710,7 @@ Tips for adding branches:
         </g>
 
         <g id="prestotree">
-            <polygon points="1175,65 1450,65 1500,27 3840,27 3840,172 1650,172 1650,125 1175,125" transform="translate(0,0)" fill="purple" opacity="0.13"/>
+            <polygon points="1175,65 1450,65 1500,27 4080,27 4080,75 2800,75 2800,172 1650,172 1650,125 1175,125" transform="translate(0,0)" fill="purple" opacity="0.13"/>
             <text x="1370" y="80" class="engine">
                 Based on Presto layout engine
             </text>
